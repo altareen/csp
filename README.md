@@ -1,2 +1,2 @@
 # csp
-Course Website for AP CS Principles
+Course website for AP CS Principles

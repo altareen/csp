@@ -1,0 +1,4 @@
+site_name: CSP
+pages:
+    - Home: 'index.md'
+theme: mkdocs
