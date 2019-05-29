@@ -1,4 +1,22 @@
 site_name: CSP
-pages:
-    - Home: 'index.md'
-theme: mkdocs
+theme: cinder
+extra_css:
+    - css/tablefont.css
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+markdown_extensions:
+    - admonition
+    - pymdownx.arithmatex
+    - pymdownx.details
+nav:
+    - Home: index.md
+    - Course Notes: notes.md
+    - Problem Sets:
+        - 'Problem Set 1: HelloWorld': pset01.md
+        - 'Problem Set 2: Fahrenheit': pset02.md
+    - Labs: labs.md
+    - Quizzes: quizzes.md
+    - Tests: tests.md
+    - Reflections: reflections.md
+    - References: references.md
+    - Syllabus: syllabus.md
