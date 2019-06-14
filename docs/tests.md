@@ -7,6 +7,8 @@ of the upcoming exam.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-AP Computer Science Principles Semester 2 Exam, June 2018  | 129KB | [apCSPrinciplesSemester2Exam.pdf](/pdf/apCSPrinciplesSemester2Exam.pdf)
+AP CS Principles Semester 2 Exam, June 2018  | 129KB | [apCSPrinciplesSemester2Exam.pdf](/csp/pdf/apCSPrinciplesSemester2Exam.pdf)
+AP CS Principles Semester 2 Exam Solutions, June 2018  | 149KB | [apCSPrinciplesSemester2ExamSolutions.pdf](/csp/pdf/apCSPrinciplesSemester2ExamSolutions.pdf)
+
 
 

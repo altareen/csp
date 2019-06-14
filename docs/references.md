@@ -7,14 +7,14 @@
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-TODO: Installing PyCharm for `Python` development | MB | [installingPyCharm.pdf](/pdf/installingPyCharm.pdf)
-Setting up the `KeePass` password manager | 3.1KB | [keePassManager.pdf](/pdf/keePassManager.pdf)
+TODO: Installing PyCharm for `Python` development | MB | [installingPyCharm.pdf](/csp/pdf/installingPyCharm.pdf)
+Setting up the `KeePass` password manager | 3.1MB | [keePassManager.pdf](/csp/pdf/keePassManager.pdf)
 
 # Reference Material
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Python for Everybody | 2.3MB | [pythonForEverybody.pdf](/pdf/pythonForEverybody.pdf)
+Python for Everybody | 2.3MB | [pythonForEverybody.pdf](/csp/pdf/pythonForEverybody.pdf)
 Blown to Bits | 22MB | [blownToBits3e.pdf](http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf)
 
 
