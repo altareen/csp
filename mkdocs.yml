@@ -12,8 +12,8 @@ nav:
     - Home: index.md
     - Course Notes: notes.md
     - Problem Sets:
-        - 'Problem Set 1: HelloWorld': pset01.md
-        - 'Problem Set 2: Fahrenheit': pset02.md
+        - 'Problem Set 1: helloworld': pset01.md
+        - 'Problem Set 2: fahrenheit': pset02.md
     - Labs:
         - 'Lab 1: Digital Explosion': lab01.md
     - Quizzes: quizzes.md
