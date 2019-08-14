@@ -12,7 +12,7 @@ Blown to Bits, pages 1 to 9 | KB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBitsU
 ## Task Overview
 + Read through the provided section of the textbook, "Blown to Bits," and
 answer the following questions.
-+ Each of your answers should have a minimum of 100 words.
++ Each of your answers should have a **minimum** of 100 words.
 
 ## Reflections
 1. Consider the tragic case of Tanya Rider, who was involved in a serious car accident
@@ -24,11 +24,11 @@ digital communication was involved in the discovery and ultimate rescue of
 Tanya. Describe how these aspects were either helpful or not, in solving the
 case.
 
-2. On page 6, we are presented with **Koan 2**, which states that, "Perfection is
+2. On page 6, we are presented with *Koan 2*, which states that, "Perfection is
 normal." In other words, if a digital file is copied, then that copy will be an
 absolute perfect representation of the original, right down to the last bit.
 In the 1980's, when albums were distributed on cassette tapes, listeners had the
-ability to create copies of these tapes, using a technique called **dubbing**.
+ability to create copies of these tapes, using a technique called *dubbing*.
 However, the resulting sound quality from a copied tape was usually quite poor,
 so record companies permitted such duplications.
 Now that albums are released digitally, do you feel that listeners should
