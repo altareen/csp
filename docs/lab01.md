@@ -7,7 +7,7 @@
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Blown to Bits, pages 1 to 9 | KB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBitsUnit01.pdf)
+Blown to Bits, pages 1 to 9 | 1.3MB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBitsUnit01.pdf)
 
 ## Task Overview
 + Read through the provided section of the textbook, "Blown to Bits," and
