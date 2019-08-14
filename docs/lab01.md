@@ -24,11 +24,11 @@ digital communication was involved in the discovery and ultimate rescue of
 Tanya. Describe how these aspects were either helpful or not, in solving the
 case.
 
-2. On page 6, we are presented with *Koan 2*, which states that, "Perfection is
+2. On page 6, we are presented with **Koan 2**, which states that, "Perfection is
 normal." In other words, if a digital file is copied, then that copy will be an
 absolute perfect representation of the original, right down to the last bit.
 In the 1980's, when albums were distributed on cassette tapes, listeners had the
-ability to create copies of these tapes, using a technique called *dubbing*.
+ability to create copies of these tapes, using a technique called **dubbing**.
 However, the resulting sound quality from a copied tape was usually quite poor,
 so record companies permitted such duplications.
 Now that albums are released digitally, do you feel that listeners should
@@ -40,5 +40,5 @@ Explain.
 ## Submission
 + Write your composition on a sheet of paper, and hand it in to me at the end
 of class.
-+ Make sure to write your name on the top of the sheet in both *English* and
-*Pinyin*.
++ Make sure to write your name on the top of the sheet in both **English** and
+**Pinyin**.
