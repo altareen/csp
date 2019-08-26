@@ -7,12 +7,12 @@
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Blown to Bits, pages 1 to 9 | 1.3MB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBitsUnit01.pdf)
+Blown to Bits, pages 1 to 9 | 69KB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBitsUnit01.pdf)
 
 ## Task Overview
 + Read through the provided section of the textbook, "Blown to Bits," and
 answer the following questions.
-+ Each of your answers should have a **minimum** of 100 words.
++ You must answer each individual question with an essay that consists of a **minimum** of 100 words.
 
 ## Reflections
 1. Consider the tragic case of Tanya Rider, who was involved in a serious car accident
@@ -22,7 +22,7 @@ deep ravine. She was discovered several days later, as rescuers followed the
 electronic trail that she had left behind. List the several ways in which
 digital communication was involved in the discovery and ultimate rescue of
 Tanya. Describe how these aspects were either helpful or not, in solving the
-case.
+case. [100 words]
 
 2. On page 6, we are presented with *Koan 2*, which states that, "Perfection is
 normal." In other words, if a digital file is copied, then that copy will be an
@@ -34,8 +34,7 @@ so record companies permitted such duplications.
 Now that albums are released digitally, do you feel that listeners should
 uphold their duplication rights? Or, should there be an expectation for consumers
 of digital media to respect the intellectual property rights of content creators?
-Explain. 
-
+Explain. [100 words]
 
 ## Submission
 + Write your composition on a sheet of paper, and hand it in to me at the end
