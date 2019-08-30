@@ -1,7 +1,13 @@
 # AP Computer Science Principles
 
 !!! note ""
-    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Python` programs to this automated grading platform.
+    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Python` programs to this automated grading platform.<br>
+    [GitHub Code Repository:](https://github.com/altareen/csp) `Python` code examples covered in class.<br>
+    [AP Classroom:](https://myap.collegeboard.org/login) CollegeBoard's question bank and exam registration portal.
+
+## Announcements
+
++ Classes begin on Monday, September 2nd.
 
 ## Course Calendar: Semester One
 

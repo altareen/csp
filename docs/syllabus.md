@@ -9,7 +9,8 @@
 + **Instructor:** Mr. Alwin Tareen
 + **Course Website:** <https://altareen.github.io/csp>
 + **GitHub Code Repository:** <https://github.com/altareen/csp>
-+ **Engage Grading Website:** <http://www.engage.com>
++ **Engage Grading Website:** <http://engage.bnds.cn>
++ **AP Classroom:** <https://myap.collegeboard.org/login>
 
 ## Course Description
 + AP Computer Science Principles introduces you to the essential ideas of computer
@@ -108,8 +109,8 @@ code repository:
 
 + Grades, student score averages, and the results of homeworks,
 quizzes and tests will be available at the school's Engage grading website:
-<http://www.engage.com>
+<http://engage.bnds.cn>
 
-
-
++ An online question bank and AP exam registration is available at CollegeBoard's
+AP Classroom portal: <https://myap.collegeboard.org/login>
 
