@@ -15,5 +15,6 @@ Setting up the `KeePass` password manager | 3.1MB | [keePassManager.pdf](/csp/pd
 Description | File Size | File Name
 ----------- | --------- | ---------
 Python for Everybody | 2.3MB | [pythonForEverybody.pdf](/csp/pdf/pythonForEverybody.pdf)
+Exam Preparation Guide | 24MB | [fiveStepsAPCSPrinciples.pdf](/csp/pdf/fiveStepsAPCSPrinciples.pdf)
 Blown to Bits | 22MB | [blownToBits3e.pdf](http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf)
 
