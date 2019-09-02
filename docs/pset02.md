@@ -13,7 +13,7 @@ temperature conversion.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Python` Source Code for fahrenheit | 1.1KB | [pset02.zip](/csa/zip/pset02.zip)
+`Python` Source Code for fahrenheit | 1.1KB | [pset02.zip](/csp/zip/pset02.zip)
 
 **Contents of `pset02.zip`:**
 ```bash
