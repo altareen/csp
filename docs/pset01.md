@@ -13,7 +13,7 @@ cycle, with a very simple code framework.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Python` Source Code for helloworld | 1.1KB | [pset01.zip](/csa/zip/pset01.zip)
+`Python` Source Code for helloworld | 1.1KB | [pset01.zip](/csp/zip/pset01.zip)
 
 **Contents of `pset01.zip`:**
 ```bash
