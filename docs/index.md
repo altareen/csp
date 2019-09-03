@@ -19,7 +19,7 @@
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1 *Opening Ceremony* | 2 *First Day of School* | 3       | 4         | 5        | 6      | 7 
+1 *Opening Ceremony* | 2 *First Day of School* | 3       | 4         | 5        | 6 [**Lab 1 Due**](lab01.md) | 7 
 8      | 9 [**PSet 1 Due**](pset01.md) | 10 *Teachers' Day* | 11        | 12       | 13 *Mid-Autumn Holiday* | 14 
 15     | 16 [**PSet 2 Due**](pset02.md) | 17      | 18        | 19       | 20     | 21 
 22     | 23     | 24      | 25 *Senior Week* | 26 *Senior Week* | 27 *Senior Week* | 28 
