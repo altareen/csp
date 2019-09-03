@@ -1,5 +1,6 @@
 # Lab 1: Digital Explosion
 
++ This lab will be done in class.
 + **Due Date:** Friday, September 6, 2019
 + **Total Points:** 10
 
@@ -11,8 +12,8 @@ Blown to Bits, pages 1 to 9 | 69KB | [blownToBitsUnit01.pdf](/csp/pdf/blownToBit
 
 ## Task Overview
 + Read through the provided section of the textbook, "Blown to Bits," and
-answer the following questions.
-+ You must answer each individual question with an essay that consists of a **minimum** of 100 words.
+answer the following reflection questions.
++ You must answer each reflection question with an essay that consists of a **minimum** of 100 words.
 
 ## Reflections
 1. This question will be posted soon.

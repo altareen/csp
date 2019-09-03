@@ -7,7 +7,7 @@
 
 ## Announcements
 
-+ [Lab 1](lab01.md) is due on Friday, September 6th.
++ [Lab 1](lab01.md) is due on Friday, September 6th(This will be done in class).
 + [Problem Set 1](pset01.md) is due on Monday, September 9th.
 + [Problem Set 2](pset02.md) is due on Monday, September 16th.
 
