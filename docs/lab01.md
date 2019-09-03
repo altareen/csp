@@ -1,6 +1,6 @@
 # Lab 1: Digital Explosion
 
-+ **Due Date:** Monday, September 9, 2019
++ **Due Date:** Friday, September 6, 2019
 + **Total Points:** 10
 
 ## Reading Material
