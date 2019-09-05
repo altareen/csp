@@ -1,6 +1,7 @@
 # Lab 1: Digital Explosion
 
 + This lab will be done in class.
++ Be sure to read the following section from *Blown to Bits* beforehand.
 + **Due Date:** Friday, September 6, 2019
 + **Total Points:** 10
 
