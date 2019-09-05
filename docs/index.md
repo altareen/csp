@@ -7,7 +7,7 @@
 
 ## Announcements
 
-+ [Lab 1](lab01.md) is due on Friday, September 6th(This will be done in class).
++ [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, beforehand.
 + [Problem Set 1](pset01.md) is due on Monday, September 9th.
 + [Problem Set 2](pset02.md) is due on Monday, September 16th.
 
