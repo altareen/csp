@@ -1,7 +1,8 @@
 # Lab 1: Digital Explosion
 
-+ This lab will be done in class.
++ This lab will be performed in class.
 + Be sure to read the following section from *Blown to Bits* before Friday's class.
++ Note that **Koan 5** is not included.
 + **Due Date:** Friday, September 6, 2019
 + **Total Points:** 10
 
