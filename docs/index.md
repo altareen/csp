@@ -4,7 +4,7 @@
     [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Python` programs to this automated grading platform.<br>
     [GitHub Code Repository:](https://github.com/altareen/csp) `Python` code examples covered in class.<br>
     [AP Classroom:](https://myap.collegeboard.org/login) CollegeBoard's question bank and exam registration portal.<br>
-    [Sakai Learning Management System](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Administers online quizzes.
+    [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Administers online quizzes.
 
 ## Announcements
 
