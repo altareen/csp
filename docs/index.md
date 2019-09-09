@@ -8,9 +8,11 @@
 
 ## Announcements
 
-+ [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, before Friday's class. Note that **Koan 5** is not included.
-+ [Problem Set 1](pset01.md) is due on Monday, September 9th.
+<!-- + [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, before Friday's class. Note that **Koan 5** is not included. -->
+<!-- + [Problem Set 1](pset01.md) is due on Monday, September 9th. -->
++ [Lab 2](lab02.md) is due on Thursday, September 12th.
 + [Problem Set 2](pset02.md) is due on Monday, September 16th.
++ Quiz 1 is due on Tuesday, September 17th.
 
 ## Course Calendar: Semester One
 
@@ -22,8 +24,8 @@
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1 *Opening Ceremony* | 2 *First Day of School* | 3       | 4         | 5        | 6 [**Lab 1 Due**](lab01.md) | 7 
-8      | 9 [**PSet 1 Due**](pset01.md) | 10 *Teachers' Day* | 11        | 12       | 13 *Mid-Autumn Holiday* | 14 
-15     | 16 [**PSet 2 Due**](pset02.md) | 17      | 18        | 19       | 20     | 21 
+8      | 9 [**PSet 1 Due**](pset01.md) | 10 *Teachers' Day* | 11        | 12 [**Lab 2 Due**](lab02.md) | 13 *Mid-Autumn Holiday* | 14 
+15     | 16 [**PSet 2 Due**](pset02.md) | 17 **Quiz 1 Due** | 18        | 19       | 20     | 21 
 22     | 23     | 24      | 25 *Senior Week* | 26 *Senior Week* | 27 *Senior Week* | 28 
 29 *Make-up Day*<br>*Senior Week* | 30 *Senior Week* | | | | | 
 
