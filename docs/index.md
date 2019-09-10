@@ -10,7 +10,7 @@
 
 <!-- + [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, before Friday's class. Note that **Koan 5** is not included. -->
 <!-- + [Problem Set 1](pset01.md) is due on Monday, September 9th. -->
-+ [Lab 2](lab02.md) is due on Thursday, September 12th.
++ [Lab 2](lab02.md) is due on Thursday, September 12th. It is a programming lab, which will be done in class.
 + [Problem Set 2](pset02.md) is due on Monday, September 16th.
 + [Quiz 1](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Tuesday, September 17th.
 
