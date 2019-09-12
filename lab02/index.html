@@ -176,16 +176,90 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#lab-2-to-be-posted">Lab 2: To Be Posted</a></li>
+        <li class="first-level active"><a href="#lab-2-easter-sunday">Lab 2: Easter Sunday</a></li>
+            <li class="second-level"><a href="#background">Background</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="lab-2-to-be-posted">Lab 2: To Be Posted</h1>
+<h1 id="lab-2-easter-sunday">Lab 2: Easter Sunday</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="background">Background</h2>
 <ul>
-<li>This lab will be performed in class.</li>
 <li><strong>Due Date:</strong> Thursday, September 12, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
+<li>In this lab, you must write a <code>Python</code> program that determines which particular
+day and month that Easter Sunday appears.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Python</code> Source Code for Easter Sunday</td>
+<td>1.2KB</td>
+<td><a href="/csp/zip/lab02.zip">lab02.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contents of <code>lab02.zip</code>:</strong></p>
+<pre><code class="bash">Lab02EasterSunday/
+├── eastersunday.py
+└── testeastersunday.py
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Python</code> program in the file <code>eastersunday.py</code> that
+computes the date of Easter Sunday, given a particular year. Easter Sunday
+is a holiday which falls on the first Sunday after the first full moon of
+Spring. This algorithm was discovered by Carl Friedrich Gauss.</li>
+<li>The parameter <code>year</code> is the variable for the year in question.
+In the provided code, <code>year</code> takes on the value <code>2001</code>.</li>
+<li>Your program must perform the following calculations:</li>
+<li>Divide <code>year</code> by <code>19</code> and call the remainder <code>a</code>. Ignore the quotient. </li>
+<li>Divide <code>year</code> by <code>100</code> to get a quotient <code>b</code> and a remainder <code>c</code>. </li>
+<li>Divide <code>b</code> by <code>4</code> to get a quotient <code>d</code> and a remainder <code>e</code>. </li>
+<li>Divide <code>(8 * b + 13)</code> by <code>25</code> to get a quotient <code>g</code>. Ignore the remainder. </li>
+<li>Divide <code>(19 * a + b - d - g + 15)</code> by <code>30</code> to get a remainder <code>h</code>. Ignore the quotient.</li>
+<li>Divide <code>c</code> by <code>4</code> to get a quotient <code>j</code> and a remainder <code>k</code>.</li>
+<li>Divide <code>(a + 11 * h)</code> by <code>319</code> to get a quotient <code>m</code>. Ignore the remainder. </li>
+<li>Divide <code>(2 * e + 2 * j - k - h + m + 32)</code> by <code>7</code> to get a remainder <code>r</code>. Ignore the quotient.</li>
+<li>Divide <code>(h - m + r + 90)</code> by <code>25</code> to get a quotient <code>n</code>. Ignore the remainder. </li>
+<li>Divide <code>(h - m + r + n + 19)</code> by <code>32</code> to get a remainder <code>p</code>. Ignore the quotient.</li>
+<li>The result is that Easter Sunday falls on day: <code>p</code> of the month: <code>n</code>.</li>
+<li>For example, given the year <code>2001</code>, we find that the result is:
+<code>n = 4</code> and <code>p = 15</code>. This means that Easter Sunday was on April 15 in the year 2001.</li>
+<li>You will write your solution in a function called
+<code>retrievedate(year)</code>,
+right below the place where it says: <code>YOUR CODE HERE</code>.</li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Run the file <code>testeastersunday.py</code> to execute the <code>PyUnit</code> test bench.
+<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
+test with a <code>FAIL</code> output.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>eastersunday.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
