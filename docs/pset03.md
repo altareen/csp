@@ -8,6 +8,8 @@
 + **Total Points:** 10
 + Implement a `Python` program that calculates the frequency of a particular music
 note, given its octave and pitch class.
+
+## Theory
 + One of the oldest problems in music theory is how to map the notes of a musical
 piece to a set of audio frequencies. Your task is to write a `Python` program that
 performs a particular kind of mapping.
