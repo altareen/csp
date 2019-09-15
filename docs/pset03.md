@@ -3,13 +3,13 @@
 !!! note ""
     [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Python` programs to this automated grading platform.
 
-## Background
+## Task Outline
 + **Due Date:** Monday, September 23, 2019
 + **Total Points:** 10
 + Implement a `Python` program that calculates the frequency of a particular music
 note, given its octave and pitch class.
 
-## Theory
+## Background Theory
 + One of the oldest problems in music theory is how to map the notes of a musical
 piece to a set of audio frequencies. Your task is to write a `Python` program that
 performs a particular kind of mapping.
