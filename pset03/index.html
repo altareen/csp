@@ -182,107 +182,18 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-3-note-frequency">Problem Set 3: Note Frequency</a></li>
-            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
-                
-            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
-                
-            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
-                
-            <li class="second-level"><a href="#specification">Specification</a></li>
-                
-            <li class="second-level"><a href="#testing">Testing</a></li>
-                
-            <li class="second-level"><a href="#submission">Submission</a></li>
+        <li class="first-level active"><a href="#problem-set-3-to-be-posted">Problem Set 3: To Be Posted</a></li>
+            <li class="second-level"><a href="#background">Background</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-3-note-frequency">Problem Set 3: Note Frequency</h1>
-<div class="admonition note">
-<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
-</div>
-<h2 id="task-outline">Task Outline</h2>
+<h1 id="problem-set-3-to-be-posted">Problem Set 3: To Be Posted</h1>
+<h2 id="background">Background</h2>
 <ul>
 <li><strong>Due Date:</strong> Monday, September 23, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that calculates the frequency of a particular music
-note, given its octave and pitch class.</li>
-</ul>
-<h2 id="background-theory">Background Theory</h2>
-<ul>
-<li>One of the oldest problems in music theory is how to map the notes of a musical
-piece to a set of audio frequencies. Your task is to write a <code>Python</code> program that
-performs a particular kind of mapping.</li>
-<li>First, we must define a form of musical note notation. One common way of accomplishing
-this is to use the <em>octave pitch</em> notation. This notation represents each note as
-a number pair, where the first number indicates which <em>octave</em> the note belongs to, and
-the second number indicates which semitone the <em>pitch</em> corresponds to.</li>
-<li>There are 12 <strong>semitone notes</strong> within each octave on the keyboard, as in the
-following diagram:</li>
-</ul>
-<p><img alt="Semitone notes" src="/csp/img/semitones.png" title="Semitone notes" /></p>
-<ul>
-<li><em>octave pitch</em> representations are written in decimal format. For example, the
-5th octave and 9th semitone(corresponding to note A) would be written as: 5.9</li>
-<li>In order to map a sound frequency to this <em>octave pitch</em> representation, we must
-begin by selecting a reference note. In the Western musical scale, we assign the
-frequency 440Hz to the <em>octave pitch</em> reference note of 4.9. This corresponds to
-the 4th octave, 9th semitone, which is note A.</li>
-<li>Our mapping must ensure that the same note in the next higher octave has double
-the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
-220Hz. This mapping system assumes that each of the semitones within an octave is
-equally spaced, and this is known as a <strong>tempered scale.</strong></li>
-<li>The formula we use to calculate the frequency from a given <em>octave pitch</em> note is as follows:</li>
-</ul>
-<pre><code class="python">frequency = ref * 2 ** (oct + (sem/12.0))
-</code></pre>
-
-<ul>
-<li><code>frequency</code>: The result of the calculation, in Hertz.</li>
-<li><code>ref</code>: The frequency of the reference note, 440Hz.</li>
-<li><code>oct</code>: The <em>octave</em> note minus the reference note.</li>
-<li><code>sem</code>: The <em>pitch</em> semitone minus the reference semitone.</li>
-</ul>
-<h2 id="code-distribution">Code Distribution</h2>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>File Size</th>
-<th>File Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Python</code> Source Code for fahrenheit</td>
-<td>KB</td>
-<td><a href="/csp/zip/pset03.zip">pset03.zip</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Contents of <code>pset03.zip</code>:</strong></p>
-<pre><code class="bash"></code></pre>
-
-<h2 id="specification">Specification</h2>
-<ul>
-<li>Write a <code>Python</code> program in the file <code>notefrequency.py</code> that calculates the
-frequency of a particular musical note, given its <em>octave</em> and <em>pitch</em> class.</li>
-<li>You will write your solution in a function called <code>temperedscale(octave, pitch)</code>
-right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>temperedscale(0, 0)</code> is executed, the
-output of the program should be: <code>16.351597831287414</code></li>
-</ul>
-<h2 id="testing">Testing</h2>
-<ul>
-<li>Run the file <code>testnotefrequency.py</code> to execute the <code>PyUnit</code> test bench.
-<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
-test with a <code>FAIL</code> output.</li>
-</ul>
-<h2 id="submission">Submission</h2>
-<ul>
-<li>Upload the file <code>fahrenheit.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
