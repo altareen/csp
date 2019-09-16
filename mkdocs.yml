@@ -11,9 +11,9 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Problem Sets:
-    - 'Problem Set 1: helloworld': pset01.md
-    - 'Problem Set 2: fahrenheit': pset02.md
-    - 'Problem Set 3: To Be Posted': pset03.md
+    - 'Problem Set 1: Hello World': pset01.md
+    - 'Problem Set 2: Fahrenheit': pset02.md
+    - 'Problem Set 3: Note Frequency': pset03.md
 - Labs:
     - 'Lab 1: Digital Explosion': lab01.md
     - 'Lab 2: Easter Sunday': lab02.md
