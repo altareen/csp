@@ -27,21 +27,26 @@ Implement these in `Python` using an `if-elif-else` code structure.
     4. You are `moderately interested` in seeing any movie which costs between $5.00 and $11.99, as long as those movies received between 2 and 4 stars, inclusive.
     5. You dislike poorly rated movies. Any movie that has received less than 2 stars is one that you are `barely interested` in seeing, as long as it costs less than $5.00.
     6. If any movie falls outside of the previously mentioned criteria, then you are `completely uninterested` in seeing it.
++ Note that the function `selectfilm()` returns the variable `outcome`. You must assign
+the corresponding interest string to the variable `outcome`, before it is returned.
 
 ## Code Distribution
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Python` Source Code for Movie Critic | KB | [lab03.zip](/csp/zip/lab03.zip)
+`Python` Source Code for Movie Critic | 1.3KB | [lab03.zip](/csp/zip/lab03.zip)
 
 **Contents of `lab03.zip`:**
 ```bash
+Lab03MovieCritic/
+├── moviecritic.py
+└── testmoviecritic.py
 ```
 
 ## Specification
 + Write a `Python` program in the file `moviecritic.py` that produces an output which
 corresponds to your particular interest in a certain movie.
-+ You will write your solution in a function called `temperedscale(octave, pitch)`
++ You will write your solution in a function called `selectfilm(price, rating)`
 right below the place where it says: `YOUR CODE HERE`
 + When the function call `selectfilm(6.5, 3,5)` is executed, the
 output of the program should be: `moderately interested`
