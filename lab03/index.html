@@ -235,6 +235,8 @@ Implement these in <code>Python</code> using an <code>if-elif-else</code> code s
 <li>If any movie falls outside of the previously mentioned criteria, then you are <code>completely uninterested</code> in seeing it.</li>
 </ol>
 </li>
+<li>Note that the function <code>selectfilm()</code> returns the variable <code>outcome</code>. You must assign
+the corresponding interest string to the variable <code>outcome</code>, before it is returned.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -248,19 +250,22 @@ Implement these in <code>Python</code> using an <code>if-elif-else</code> code s
 <tbody>
 <tr>
 <td><code>Python</code> Source Code for Movie Critic</td>
-<td>KB</td>
+<td>1.3KB</td>
 <td><a href="/csp/zip/lab03.zip">lab03.zip</a></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Contents of <code>lab03.zip</code>:</strong></p>
-<pre><code class="bash"></code></pre>
+<pre><code class="bash">Lab03MovieCritic/
+├── moviecritic.py
+└── testmoviecritic.py
+</code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
 <li>Write a <code>Python</code> program in the file <code>moviecritic.py</code> that produces an output which
 corresponds to your particular interest in a certain movie.</li>
-<li>You will write your solution in a function called <code>temperedscale(octave, pitch)</code>
+<li>You will write your solution in a function called <code>selectfilm(price, rating)</code>
 right below the place where it says: <code>YOUR CODE HERE</code></li>
 <li>When the function call <code>selectfilm(6.5, 3,5)</code> is executed, the
 output of the program should be: <code>moderately interested</code></li>
