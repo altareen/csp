@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf75a72-7ccd-4b71-bec6-806a37b7e24b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03Functions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03Functions/builtin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03Functions/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9585488a-1dbf-4b88-9bcc-da9af02edf24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builtin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numfunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomdigits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomnumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02Conditionals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02Conditionals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/lab03.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/lab03.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,36 +20,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1102037965">
+    <session id="1062650479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="10" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3448" />
+          <entry key="py" value="2811" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3448" />
+          <entry key="Python" value="2811" />
         </counts>
       </usages-collector>
     </session>
@@ -51,91 +55,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boolean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ifstatement.py">
+        <entry file="file://$PROJECT_DIR$/builtin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <marker date="1568679492373" expanded="true" signature="23:28" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logical.py">
+        <entry file="file://$PROJECT_DIR$/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="2117">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <marker date="1568783171374" expanded="true" signature="45:50" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ifstructure.py">
+        <entry file="file://$PROJECT_DIR$/randomnumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="290">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather.py">
+        <entry file="file://$PROJECT_DIR$/numfunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adjectives.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1682">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extrapay.py">
+        <entry file="file://$PROJECT_DIR$/randomdigits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temperature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ordinal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overtime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="290">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -155,24 +119,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boolean.py" />
-        <option value="$PROJECT_DIR$/ifstatement.py" />
-        <option value="$PROJECT_DIR$/logical.py" />
-        <option value="$PROJECT_DIR$/ifstructure.py" />
-        <option value="$PROJECT_DIR$/temperature.py" />
-        <option value="$PROJECT_DIR$/ordinal.py" />
-        <option value="$PROJECT_DIR$/overtime.py" />
-        <option value="$PROJECT_DIR$/weather.py" />
-        <option value="$PROJECT_DIR$/adjectives.py" />
-        <option value="$PROJECT_DIR$/extrapay.py" />
+        <option value="$PROJECT_DIR$/builtin.py" />
+        <option value="$PROJECT_DIR$/function.py" />
+        <option value="$PROJECT_DIR$/randomnumbers.py" />
+        <option value="$PROJECT_DIR$/numfunctions.py" />
+        <option value="$PROJECT_DIR$/randomdigits.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="305" />
-    <option name="width" value="1391" />
-    <option name="height" value="719" />
+    <option name="x" value="170" />
+    <option name="y" value="245" />
+    <option name="width" value="1350" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,8 +146,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="02Conditionals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02Conditionals" type="462c0819:PsiDirectoryNode" />
+              <item name="03Functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,8 +156,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03Functions" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/apCSPrinciples/labs/lab03/Lab03Solution" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,9 +171,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extrapay">
-    <configuration name="adjectives" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02Conditionals" />
+  <component name="RunManager" selected="Python.randomdigits">
+    <configuration name="builtin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="03Functions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -225,7 +184,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adjectives.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/builtin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,8 +193,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extrapay" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02Conditionals" />
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="03Functions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -246,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extrapay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,8 +214,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ordinal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02Conditionals" />
+    <configuration name="numfunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="03Functions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -267,7 +226,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ordinal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numfunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,8 +235,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="overtime" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02Conditionals" />
+    <configuration name="randomdigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="03Functions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -288,7 +247,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/overtime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/randomdigits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,8 +256,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02Conditionals" />
+    <configuration name="randomnumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="03Functions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -309,7 +268,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/randomnumbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,19 +278,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ordinal" />
-      <item itemvalue="Python.overtime" />
-      <item itemvalue="Python.weather" />
-      <item itemvalue="Python.adjectives" />
-      <item itemvalue="Python.extrapay" />
+      <item itemvalue="Python.builtin" />
+      <item itemvalue="Python.function" />
+      <item itemvalue="Python.randomnumbers" />
+      <item itemvalue="Python.numfunctions" />
+      <item itemvalue="Python.randomdigits" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extrapay" />
-        <item itemvalue="Python.adjectives" />
-        <item itemvalue="Python.weather" />
-        <item itemvalue="Python.overtime" />
-        <item itemvalue="Python.ordinal" />
+        <item itemvalue="Python.randomdigits" />
+        <item itemvalue="Python.numfunctions" />
+        <item itemvalue="Python.randomnumbers" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.builtin" />
       </list>
     </recent_temporary>
   </component>
@@ -340,24 +299,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dbf75a72-7ccd-4b71-bec6-806a37b7e24b" name="Default Changelist" comment="" />
-      <created>1568177093352</created>
+      <changelist id="9585488a-1dbf-4b88-9bcc-da9af02edf24" name="Default Changelist" comment="" />
+      <created>1568679043735</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568177093352</updated>
+      <updated>1568679043735</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="305" width="1391" height="719" extended-state="0" />
+    <frame x="170" y="245" width="1350" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30600291" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2573585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4010067" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30388692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,73 +334,43 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boolean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ifstatement.py">
+    <entry file="file://$PROJECT_DIR$/builtin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <marker date="1568679492373" expanded="true" signature="23:28" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logical.py">
+    <entry file="file://$PROJECT_DIR$/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="2117">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <marker date="1568783171374" expanded="true" signature="45:50" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ifstructure.py">
+    <entry file="file://$PROJECT_DIR$/randomnumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather.py">
+    <entry file="file://$PROJECT_DIR$/numfunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1682">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adjectives.py">
+    <entry file="file://$PROJECT_DIR$/randomdigits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temperature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordinal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extrapay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
