@@ -229,31 +229,22 @@ at it than others. There is an equation which objectively evaluates how good a
 quarterback has performed during a particular game, based on a series of factors.</li>
 <li>This <strong>quarterback rating</strong> equation is based on the following four factors:
 completion percentage, yards per attempt, touchdowns per attempt, and interceptions
-per attempt. Each of those factors is scaled to a value between 0 and 2.375. A
+per attempt. Each of those factors is scaled to a value between <code>0</code> and <code>2.375</code>. A
 description of each of these factors is as follows:<ul>
-<li><strong>Completion Percentage:</strong> This reflects the quantity of successful passes that the quarterback has made, compared with the number of attempted passes.</li>
+<li><strong>Completion Percentage:</strong> This reflects the quantity of successful passes that the quarterback has made, compared with the number of attempted passes.
+<code>python
+a = (1.0*comps/attempts - 0.3) * 5</code></li>
+<li><strong>Yards Per Attempt:</strong> This indicates the number of yards that the quarterback has obtained by passing the football, compared with the number of attempted passes.
+<code>python
+b = (1.0*yards/attempts - 3) * 0.25</code></li>
+<li><strong>Touchdowns Per Attempt:</strong> This indicates the quantity of touchdowns that the quarterback has achieved, compared with the number of attempted passes.
+<code>python
+c = 20.0 * tdowns/attempts</code></li>
+<li><strong>Interceptions Per Attempt:</strong> This details the number of times that an opposing player has inadvertently caught the football, compared with the number of attempted passes. An interception is also known as a <strong>pick.</strong>
+<code>python
+d = 2.375 - (25.0 * picks/attempts)</code></li>
 </ul>
 </li>
-</ul>
-<pre><code class="python">a = (1.0*comps/attempts - 0.3) * 5
-</code></pre>
-
-<pre><code>+ **Yards Per Attempt:** This indicates the number of yards that the quarterback has obtained by passing the football, compared with the number of attempted passes.
-</code></pre>
-<pre><code class="python">b = (1.0*yards/attempts - 3) * 0.25
-</code></pre>
-
-<pre><code>+ **Touchdowns Per Attempt:** This indicates the quantity of touchdowns that the quarterback has achieved, compared with the number of attempted passes.
-</code></pre>
-<pre><code class="python">c = 20.0 * tdowns/attempts
-</code></pre>
-
-<pre><code>+ **Interceptions Per Attempt:** This details the number of times that an opposing player has inadvertently caught the football, compared with the number of attempted passes. An interception is also known as a **pick.**
-</code></pre>
-<pre><code class="python">d = 2.375 - (25.0 * picks/attempts)
-</code></pre>
-
-<ul>
 <li>The following is an explanation of the variables used in the above mentioned equations:<ul>
 <li><code>attempts</code>: The number of passing attempts.</li>
 <li><code>comps</code>: The number of completions, or successful passes.</li>
