@@ -8,13 +8,14 @@
 
 ## Announcements
 
-<!-- + [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, before Friday's class. Note that **Koan 5** is not included. -->
-<!-- + [Problem Set 1](pset01.md) is due on Monday, September 9th. -->
-<!-- + [Lab 2](lab02.md) is due on Thursday, September 12th. It is a programming lab, which will be done in class. -->
-<!-- + [Problem Set 2](pset02.md) is due on Monday, September 16th. -->
+<!-- + [Lab 1](lab01.md) is due on Friday, September 6th. This will be done in class. Make sure you have read *Blown to Bits*, pages 1 to 9, before Friday's class. Note that **Koan 5** is not included.
++ [Problem Set 1](pset01.md) is due on Monday, September 9th.
++ [Lab 2](lab02.md) is due on Thursday, September 12th. It is a programming lab, which will be done in class.
++ [Problem Set 2](pset02.md) is due on Monday, September 16th.
 + [Quiz 1](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Tuesday, September 17th.
 + [Lab 3](lab03.md) is due on Friday, September 20th. It is a programming lab, which will be done in class.
-+ [Problem Set 3](pset03.md) is due on Monday, September 23rd.
++ [Problem Set 3](pset03.md) is due on Monday, September 23rd. -->
++ [Problem Set 4](pset04.md) is due on Tuesday, October 8th.
 
 ## Course Calendar: Semester One
 
@@ -36,7 +37,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
-6      | 7 *National Day Holiday* | 8       | 9         | 10       | 11     | 12 *Make-up Day*<br>*Sport Events*
+6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11     | 12 *Make-up Day*<br>*Sport Events*
 13     | 14     | 15      | 16        | 17       | 18     | 19
 20     | 21     | 22      | 23        | 24       | 25 *Field Trip* | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
