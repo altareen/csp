@@ -21,24 +21,24 @@ at it than others. There is an equation which objectively evaluates how good a
 quarterback has performed during a particular game, based on a series of factors.
 + This **quarterback rating** equation is based on the following four factors:
 completion percentage, yards per attempt, touchdowns per attempt, and interceptions
-per attempt. Each of those factors is scaled to a value between 0 and 2.375. A
+per attempt. Each of those factors is scaled to a value between `0` and `2.375`. A
 description of each of these factors is as follows:
     + **Completion Percentage:** This reflects the quantity of successful passes that the quarterback has made, compared with the number of attempted passes.
-```python
-a = (1.0*comps/attempts - 0.3) * 5
-```
+    ```python
+    a = (1.0*comps/attempts - 0.3) * 5
+    ```
     + **Yards Per Attempt:** This indicates the number of yards that the quarterback has obtained by passing the football, compared with the number of attempted passes.
-```python
-b = (1.0*yards/attempts - 3) * 0.25
-```
+    ```python
+    b = (1.0*yards/attempts - 3) * 0.25
+    ```
     + **Touchdowns Per Attempt:** This indicates the quantity of touchdowns that the quarterback has achieved, compared with the number of attempted passes.
-```python
-c = 20.0 * tdowns/attempts
-```
+    ```python
+    c = 20.0 * tdowns/attempts
+    ```
     + **Interceptions Per Attempt:** This details the number of times that an opposing player has inadvertently caught the football, compared with the number of attempted passes. An interception is also known as a **pick.**
-```python
-d = 2.375 - (25.0 * picks/attempts)
-```
+    ```python
+    d = 2.375 - (25.0 * picks/attempts)
+    ```
 + The following is an explanation of the variables used in the above mentioned equations:
     + `attempts`: The number of passing attempts.
     + `comps`: The number of completions, or successful passes.
