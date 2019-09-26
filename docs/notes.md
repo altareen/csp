@@ -7,6 +7,7 @@ Description | File Size | File Name
 **`Python` Syntax:** An overview of variables, data types, and the kinds of mathematical operators that are present in `Python`. | 219KB | [cspNotes01PythonSyntax.pdf](/csp/pdf/cspNotes01PythonSyntax.pdf)
 **Conditional Execution:** Decision making with `if-else` statements. | 375KB | [cspNotes02Conditionals.pdf](/csp/pdf/cspNotes02Conditionals.pdf)
 **Functions:** Defining a sequence of statements for code reuse. | 227KB | [cspNotes03Functions.pdf](/csp/pdf/cspNotes03Functions.pdf)
+**Iteration:** Repeatedly executing a code block of statements. | 299KB | [cspNotes04Iteration.pdf](/csp/pdf/cspNotes04Iteration.pdf)
 
 <!--
 !!! note ""
