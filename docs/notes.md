@@ -12,6 +12,12 @@ Description | File Size | File Name
 **Lists:** A data structure consisting of a sequence of elements. | 213KB | [cspNotes06Lists.pdf](/csp/pdf/cspNotes06Lists.pdf)
 **Dictionaries, Tuples and Files:** Advanced data structures in `Python` | 232KB | [cspNotes07Dictionaries.pdf](/csp/pdf/cspNotes07Dictionaries.pdf)
 
+## Semester 2: Core Concepts
+
+Description | File Size | File Name
+----------- | --------- | ---------
+**Algorithms:** | KB | [](/csp/pdf/)
+
 <!--
 !!! note ""
     [GitHub Code Repository:](https://github.com/altareen/csp) Link to all of the `Python` code samples that are covered in this course.
