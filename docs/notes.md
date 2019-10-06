@@ -19,6 +19,7 @@ Description | File Size | File Name
 **Algorithms:** A precise sequence of instructions for problem solving. | 315KB | [cspNotes08Algorithms.pdf](/csp/pdf/cspNotes08Algorithms.pdf)
 **The Internet and Cybersecurity:** A system of interconnected networks. | 361KB | [cspNotes09TheInternet.pdf](/csp/pdf/cspNotes09TheInternet.pdf)
 **Global Impact:** The social aspects of technology. | 99KB | [cspNotes10GlobalImpact.pdf](/csp/pdf/cspNotes10GlobalImpact.pdf)
+**Compression:** Packing data into a smaller space. | 91KB | [cspNotes11Compression.pdf](/csp/pdf/cspNotes11Compression.pdf)
 
 <!--
 !!! note ""
