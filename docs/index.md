@@ -38,7 +38,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
-6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11     | 12 *Make-up Day*<br>*Sport Events*
+6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11 *Sport Events* | 12 *Make-up Day*
 13     | 14     | 15      | 16        | 17       | 18     | 19
 20     | 21     | 22      | 23        | 24       | 25 *Field Trip* | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 

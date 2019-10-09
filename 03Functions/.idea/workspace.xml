@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9585488a-1dbf-4b88-9bcc-da9af02edf24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/computegrade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradecompute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9585488a-1dbf-4b88-9bcc-da9af02edf24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +12,12 @@
     <session id="1062650479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,10 +48,9 @@
         <entry file="file://$PROJECT_DIR$/exercises.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <marker date="1569197836971" expanded="true" signature="42:43" ph="..." />
-                <marker date="1569197836971" expanded="true" signature="42:170" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,10 +60,9 @@
         <entry file="file://$PROJECT_DIR$/computegrade.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1569198860104" expanded="true" signature="122:127" ph="..." />
-                <marker date="1569198860104" expanded="true" signature="122:339" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/practice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <marker date="1569213974888" expanded="true" signature="28:45" ph="..." />
                 <marker date="1569213974888" expanded="true" signature="28:168" ph="..." />
@@ -92,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gradecompute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
               <folding>
                 <marker date="1569214515293" expanded="true" signature="23:28" ph="..." />
                 <marker date="1569214515293" expanded="true" signature="23:322" ph="..." />
@@ -134,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="32" />
+    <option name="x" value="265" />
+    <option name="y" value="58" />
     <option name="width" value="1249" />
     <option name="height" value="943" />
   </component>
@@ -147,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="32" width="1249" height="943" extended-state="0" />
+    <frame x="265" y="58" width="1249" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1764706" />
@@ -375,13 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <marker date="1568863809333" expanded="true" signature="39:44" ph="..." />
-            <marker date="1568863809333" expanded="true" signature="39:129" ph="..." />
-            <marker date="1568863809333" expanded="true" signature="213:218" ph="..." />
-            <marker date="1568863809333" expanded="true" signature="564:608" ph="..." />
-            <marker date="1568863809333" expanded="true" signature="700:705" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,9 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1568870212403" expanded="true" signature="39:44" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,10 +394,9 @@
     <entry file="file://$PROJECT_DIR$/exercises.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <marker date="1569197836971" expanded="true" signature="42:43" ph="..." />
-            <marker date="1569197836971" expanded="true" signature="42:170" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,10 +404,9 @@
     <entry file="file://$PROJECT_DIR$/computegrade.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <marker date="1569198860104" expanded="true" signature="122:127" ph="..." />
-            <marker date="1569198860104" expanded="true" signature="122:339" ph="..." />
           </folding>
         </state>
       </provider>
@@ -434,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <marker date="1569213974888" expanded="true" signature="28:45" ph="..." />
             <marker date="1569213974888" expanded="true" signature="28:168" ph="..." />
@@ -444,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradecompute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
           <folding>
             <marker date="1569214515293" expanded="true" signature="23:28" ph="..." />
             <marker date="1569214515293" expanded="true" signature="23:322" ph="..." />
