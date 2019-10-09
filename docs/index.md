@@ -16,7 +16,7 @@
 + [Lab 3](lab03.md) is due on Friday, September 20th. It is a programming lab, which will be done in class.
 + [Problem Set 3](pset03.md) is due on Monday, September 23rd.
 + [Problem Set 4](pset04.md) is due on Tuesday, October 8th. -->
-+ [Problem Set 5](pset05.md) is due on Wednesday, October 16th.
++ [Problem Set 5](pset05.md) is due on Wednesday, October 16th. **Note**: There is a bug in the source code.
 + [picoCTF 2019:](https://2019game.picoctf.com/#g=9473ed19fe1c472cbe3f128e681c8fb2) Use this link to register with my team, **Digital Dragons.** Note that you must use a VPN to overcome the reCAPTCHA.
 
 ## Course Calendar: Semester One
