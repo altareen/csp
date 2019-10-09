@@ -220,6 +220,9 @@ billing period.</li>
 has nine digits. However, note that the <strong>final digit</strong> in the dial records <strong>one-tenth of a gallon</strong>.</li>
 <li>In other words, if the water meter reads <code>923874345</code> then this corresponds to 92387434.5 gallons.</li>
 <li>The water meter is read once at the beginning of the billing period, and then once and the end. A customer's water consumption, in gallons, is computed from the difference in these two meter readings.</li>
+</ul>
+<hr />
+<ul>
 <li>There are three categories of customer: <strong>residential</strong>, <strong>commercial</strong>, and <strong>industrial</strong>.
 The following is the fee schedule for each of these categories:<ul>
 <li><strong>residential</strong>: $5.00 plus $0.0005 per gallon used.</li>
@@ -227,8 +230,8 @@ The following is the fee schedule for each of these categories:<ul>
 <li><strong>industrial</strong>: $1000.00 for 40000 gallons or less, and $2000.00 if usage exceeds 40000 gallons but does not exceed 80000 gallons, and $3000.00 plus $0.00025 for each additional gallon if usage exceeds 80000 gallons.</li>
 </ul>
 </li>
-<li>Note that the meter's dial has nine digits and records the tenths of a gallon. For example, if the beginning reading was 444400003 and the ending reading was 444400135, then the customer used 13.2 gallons of water during that billing period.</li>
-<li>We won't consider the case where the water meter "flips over" from 999999999 to 000000000.</li>
+<li>Note that the meter's dial has nine digits and records the tenths of a gallon. For example, if the beginning reading was <code>444400003</code> and the ending reading was <code>444400135</code>, then the customer used 13.2 gallons of water during that billing period.</li>
+<li>We won't consider the case where the water meter "flips over" from <code>999999999</code> to <code>000000000</code>.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
