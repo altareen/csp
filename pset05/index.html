@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="../img/favicon.ico">
+
+    
+    <title>Problem Set 5: Water Meter - CSP</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+    <link href="../css/highlight.min.css" rel="stylesheet">
+    <link href="../css/tablefont.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">CSP</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../pset01/">Problem Set 1: Hello World</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset02/">Problem Set 2: Fahrenheit</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset03/">Problem Set 3: Note Frequency</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset04/">Problem Set 4: Quarterback Rating</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../lab01/">Lab 1: Digital Explosion</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab02/">Lab 2: Easter Sunday</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab03/">Lab 3: Movie Critic</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../notes/">Course Notes</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../pastexams/">Past Exams</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../references/">References</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../syllabus/">Syllabus</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#problem-set-5-water-meter">Problem Set 5: Water Meter</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
+                
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="problem-set-5-water-meter">Problem Set 5: Water Meter</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="task-outline">Task Outline</h2>
+<ul>
+<li><strong>Due Date:</strong> Wednesday, October 16, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>Implement a <code>Python</code> program that calculates the amount of money that a customer
+will be billed, based on their water usage.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>A water utility is responsible for supplying clean, fresh water to its customers in a
+given geographical area.</li>
+<li>The water utility will typically charge different rates for each category of customer.
+Supplying water to individual households is relatively straightforward, so they are charged
+minimal rates. However, commercial and industrial factories may require massive amounts of
+water, so they are charged more for the necessary supporting infrastructure.</li>
+<li>A customer's water bill depends on how many gallons of water they consumed during a particular
+billing period.</li>
+<li>A water meter is used to determine a customer's water consumption. It consists of a dial that
+has nine digits. However, note that the <strong>final digit</strong> in the dial records <strong>one-tenth of a gallon</strong>.</li>
+<li>In other words, if the water meter reads <code>923874345</code> then this corresponds to 92387434.5 gallons.</li>
+<li>The water meter is read once at the beginning of the billing period, and then once and the end. A customer's water consumption, in gallons, is computed from the difference in these two meter readings.</li>
+<li>There are three categories of customer: <strong>residential</strong>, <strong>commercial</strong>, and <strong>industrial</strong>.
+The following is the fee schedule for each of these categories:<ul>
+<li><strong>residential</strong>: $5.00 plus $0.0005 per gallon used.</li>
+<li><strong>commercial</strong>: $1000.00 for 40000 gallons or less, and $0.00025 for each additional gallon used.</li>
+<li><strong>industrial</strong>: $1000.00 for 40000 gallons or less, and $2000.00 if usage exceeds 40000 gallons but does not exceed 80000 gallons, and $3000.00 plus $0.00025 for each additional gallon if usage exceeds 80000 gallons.</li>
+</ul>
+</li>
+<li>Note that the meter's dial has nine digits and records the tenths of a gallon. For example, if the beginning reading was 444400003 and the ending reading was 444400135, then the customer used 13.2 gallons of water during that billing period.</li>
+<li>We won't consider the case where the water meter "flips over" from 999999999 to 000000000.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Python</code> Source Code for Water Meter</td>
+<td>1.4KB</td>
+<td><a href="/csp/zip/pset05.zip">pset05.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contents of <code>pset05.zip</code>:</strong></p>
+<pre><code class="bash">PSet05WaterMeter/
+├── testwaterbilling.py
+└── waterbilling.py
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Python</code> program in the file <code>watermeter.py</code> that calculates the
+quarterback rating, which reflects the performance of a quarterback in a particular
+game.</li>
+<li>You will write your solution in a function called <code>calculatebill(customer, begin, end)</code>
+right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>calculatebill("residential", 444400003, 444400135)</code> is executed, the
+output of the program should be: <code>5.0066</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Run the file <code>testwatermeter.py</code> to execute the <code>PyUnit</code> test bench.
+<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
+test with a <code>FAIL</code> output.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>watermeter.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
