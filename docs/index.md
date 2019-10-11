@@ -16,6 +16,7 @@
 + [Lab 3](lab03.md) is due on Friday, September 20th. It is a programming lab, which will be done in class.
 + [Problem Set 3](pset03.md) is due on Monday, September 23rd.
 + [Problem Set 4](pset04.md) is due on Tuesday, October 8th. -->
++ [Lab 4](lab04.md) is due on Saturday, October 12th.
 + [Problem Set 5](pset05.md) is due on Wednesday, October 16th.
 + [picoCTF 2019:](https://2019game.picoctf.com/#g=9473ed19fe1c472cbe3f128e681c8fb2) Use this link to register with my team, **Digital Dragons.** Note that you must use a VPN to overcome the reCAPTCHA.
 
@@ -39,7 +40,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
-6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11 *Sport Events* | 12 *Make-up Day*
+6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11 *Sport Events* | 12 *Make-up Day*<br>[**Lab 4 Due**](lab04.md)
 13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18     | 19
 20     | 21     | 22      | 23        | 24       | 25 *Field Trip* | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
