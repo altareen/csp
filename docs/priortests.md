@@ -1,4 +1,4 @@
-# Past Exams
+# Prior Tests
 
 ## Semester 1
 
