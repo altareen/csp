@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Problem Set 1: Hello World - CSP</title>
+    <title>Problem Set 6: Vending Machine - CSP</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -82,8 +82,8 @@
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Problem Set 1: Hello World</a>
+<li >
+    <a href="../pset01/">Problem Set 1: Hello World</a>
 </li>
 
                         
@@ -112,8 +112,8 @@
 
                         
                             
-<li >
-    <a href="../pset06/">Problem Set 6: Vending Machine</a>
+<li class="active">
+    <a href="./">Problem Set 6: Vending Machine</a>
 </li>
 
                         
@@ -187,12 +187,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="..">
+                        <a rel="prev" href="../pset05/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../pset02/">
+                        <a rel="next" href="../lab01/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -206,15 +206,19 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-1-helloworld">Problem Set 1: helloworld</a></li>
-            <li class="second-level"><a href="#background">Background</a></li>
+        <li class="first-level active"><a href="#problem-set-6-vending-machine">Problem Set 6: Vending Machine</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
+                
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#example-case">Example Case</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
                 
             <li class="second-level"><a href="#specification">Specification</a></li>
                 
-                <li class="third-level"><a href="#using-the-assignment-operator">Using the Assignment Operator</a></li>
-                <li class="third-level"><a href="#executing-your-python-program">Executing your Python Program</a></li>
             <li class="second-level"><a href="#testing">Testing</a></li>
                 
             <li class="second-level"><a href="#submission">Submission</a></li>
@@ -223,16 +227,46 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-1-helloworld">Problem Set 1: helloworld</h1>
+<h1 id="problem-set-6-vending-machine">Problem Set 6: Vending Machine</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
 </div>
-<h2 id="background">Background</h2>
+<h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Monday, September 9, 2019</li>
+<li><strong>Due Date:</strong> Wednesday, October 23, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>This problem set introduces you to the <strong>write-run</strong> software development
-cycle, with a very simple code framework.</li>
+<li>Implement a <code>Python</code> program that dispenses the correct amount of change, depending on
+the stock of coins in the machine.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>You will write a program that simulates the behaviour of a coin-operated vending machine, a device that was in common use until recently.</li>
+<li>A vending machine operates as follows: A customer selects an item for purchase, then inserts a certain amount of cash to cover the cost of the item. The product is then dispensed, and if change is due to the customer, it is provided in the form of coins.</li>
+<li>The vending machine we will consider has a <strong>finite stock</strong> of the following coins: <strong>25 cents(quarters)</strong>, <strong>10 cents(dimes)</strong>, and <strong>five cents(nickels)</strong>. Note that pennies will be
+excluded from consideration.</li>
+<li>The amount of change due to a customer is calculated according to the following simple relation: <code>change = payment - cost</code>.</li>
+<li>The vending machine should then dispense the <strong>minimum quantity</strong> of coins necessary to provide
+the change to the customer.</li>
+<li>However, what would happen if the machine completely ran out of a particular coin denomination, for instance, the quarter? In that case, the machine would have to fulfill its obligation by using its remaining stock of dimes and nickels.</li>
+<li>Note that the output of this program should be the <strong>quantity of coins</strong> that are dispensed by the vending machine.</li>
+</ul>
+<h2 id="example-case">Example Case</h2>
+<ul>
+<li>Consider the case where a customer deposits <code>200</code> cents into a vending machine, to purchase a product costing <code>70</code> cents. The change due to the customer is <code>130</code> cents.</li>
+<li>Then, let's say that the vending machine has a coin stock of <code>3</code> quarters, <code>3</code> dimes and <code>10</code> nickels.</li>
+<li>The vending machine will then dispense <code>3</code> quarters, <code>3</code> dimes and <code>5</code> nickels to the customer, which
+is <code>11</code> coins in total. Your program should return <code>11</code> as its result.</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Assume that the customer always deposits paper currency as payment. In other words, the payment placed into the vending machine does not replenish the coin stocks.</li>
+<li>Every time you dispense a coin to the customer, reduce that coin stock by one.</li>
+<li>The <code>cost</code> of the products, and the <code>payment</code> deposited, are all denominated in <strong>cents</strong>.
+This greatly simplifies the programming involved.</li>
+<li>You must calculate the <strong>minimum quantity</strong> of coins possible to fulfill the amount of change due
+to the customer.</li>
+<li>We won't consider the case where the vending machine has an insufficient stock of coins
+to cover the amount of change due to the customer. There will always be enough coins in each case.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -245,76 +279,35 @@ cycle, with a very simple code framework.</li>
 </thead>
 <tbody>
 <tr>
-<td><code>Python</code> Source Code for helloworld</td>
-<td>1.1KB</td>
-<td><a href="/csp/zip/pset01.zip">pset01.zip</a></td>
+<td><code>Python</code> Source Code for Vending Machine</td>
+<td>1.3KB</td>
+<td><a href="/csp/zip/pset06.zip">pset06.zip</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Contents of <code>pset01.zip</code>:</strong></p>
-<pre><code class="bash">PSet01SourceCode/
-├── helloworld.py
-└── testhelloworld.py
+<p><strong>Contents of <code>pset06.zip</code>:</strong></p>
+<pre><code class="bash">PSet06VendingMachine/
+├── testvendingmachine.py
+└── vendingmachine.py
 </code></pre>
 
 <h2 id="specification">Specification</h2>
-<h3 id="using-the-assignment-operator">Using the Assignment Operator</h3>
 <ul>
-<li>
-<p>Write a <code>Python</code> program in the file <code>helloworld.py</code> that
-uses the assignment operator to assign the message <code>hello world</code> to
-the <code>string</code> variable <code>greetings</code>.</p>
-</li>
-<li>
-<p>You will write your solution in a <strong>method</strong> called
-<code>displaymessage()</code>, right below the place
-where it says: <code>YOUR CODE HERE</code>. Make sure that
-the phrase <code>hello world</code> is placed in the variable <code>greetings</code>.
-Save your code by using the keystroke combination <code>Ctrl-s</code>.</p>
-</li>
+<li>Write a <code>Python</code> program in the file <code>vendingmachine.py</code> that dispenses the correct amount of change, depending on the stock of coins in the machine.</li>
+<li>You will write your solution in a function called <code>dispensechange(quarters, dimes, nickels, cost, payment)</code>
+right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>dispensechange(5, 5, 5, 160, 200)</code> is executed, the
+output of the program should be: <code>3</code></li>
 </ul>
-<h3 id="executing-your-python-program">Executing your <code>Python</code> Program</h3>
-<ul>
-<li>Now, you must <strong>run</strong> your <code>Python</code> program. Click on the
-<code>Run</code> menu item, and select <code>Run...</code></li>
-</ul>
-<p><img alt="Select menu" src="/csp/img/pset01Step01.png" /></p>
-<ul>
-<li>Then, you should see the <code>Run</code> dialog box appear. Select the
-file: <code>helloworld</code></li>
-</ul>
-<p><img alt="Method call" src="/csp/img/pset01Step02.png" /></p>
-<ul>
-<li>The output of your program should appear in the <code>Console</code> at
-the bottom of your window. You should see the words <code>hello world</code>
-displayed on the output.</li>
-</ul>
-<p><img alt="Terminal window" src="/csp/img/pset01Step03.png" /></p>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>
-<p>Now, we are going to verify that we have a correct <code>Python</code>
-program by using the <code>PyUnit</code> testing feature.</p>
-</li>
-<li>
-<p>In order to run the <code>PyUnit</code> test bench, click on the <code>Run</code> menu item,
-and select <code>Run...</code></p>
-</li>
+<li>Run the file <code>testvendingmachine.py</code> to execute the <code>PyUnit</code> test bench.
+<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
+test with a <code>FAIL</code> output.</li>
 </ul>
-<p><img alt="Select menu" src="/csp/img/pset01Step01.png" /></p>
-<ul>
-<li>The <code>Run</code> dialog box should appear. This time, select the
-file: <code>testhelloworld</code></li>
-</ul>
-<p><img alt="Test bench" src="/csp/img/pset01Step04.png" /></p>
-<ul>
-<li>You should then see the results of the <code>PyUnit</code> test. Since this is an
-example of a successful test, the word <code>OK</code> appears.</li>
-</ul>
-<p><img alt="Successful test" src="/csp/img/pset01Step05.png" /></p>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>helloworld.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>vendingmachine.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
