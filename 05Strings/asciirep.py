@@ -56,12 +56,37 @@ dessert = "5chocolatepies!"
 result = dessert.isalpha()
 print(result)
 
+radius = "923847"
+result = radius.isdigit()
+print(result)
 
+dinner = "     hamburgers\n\n\n\n\n\n"
+result = dinner.strip()
+print(result)
 
+lunch = "pizza\n\n\n\n\n\n\n\n\n"
+result = lunch.rstrip()
+print(result)
 
+candy = "chocolate"
+result = candy.find("cola")
+print(result)
 
+result = candy.find("soda")
+print(result)
 
+pastry = "applepiekiwipiebananapiemangopie"
+result = pastry.find("pie", 15)
+print(result)
 
+meal = "beefstewwithburgersandsalad"
+result = meal.replace("burgers", "pizza")
+print(result)
 
+bakery = "strawberryjamorangejammangojam"
+result = bakery.count("jam")
+print(result)
 
-
+food = "pizzawithwingsandsoda"
+result = food.startswith("pizza")
+print(result)
