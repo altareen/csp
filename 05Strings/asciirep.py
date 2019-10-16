@@ -90,3 +90,42 @@ print(result)
 food = "pizzawithwingsandsoda"
 result = food.startswith("pizza")
 print(result)
+
+# put carriage returns in your string
+greetings = "hello\n\n\n\n\n\nworld\n\n\n\n"
+print(greetings)
+
+prose = "She said, \"Hello\" to everyone."
+print(prose)
+
+path = "C:\\Documents\\homework\\notes.py"
+print(path)
+
+# using the tab character to format tables
+print("Product\tWeight\tPrice")
+print("kiwi\t0.15kg\t2.95")
+
+# Exercise 6.14
+header = "X-DSPAM-Confidence:0.8475"
+location = header.find(":")
+score = header[location+1:]
+score = float(score)
+print(location)
+print(score)
+print(type(score))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

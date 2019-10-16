@@ -91,3 +91,40 @@ print(result)
 
 greetings = "hello\n\n\n\n\nworld\n\n\n"
 print(greetings)
+
+# inserting the double quotation mark
+prose = "She said, \"Hello\" to everyone."
+print(prose)
+
+# using the backslash character
+path = "C:\\Documents\\homework\\notes.py"
+print(path)
+
+# creating tables with the tab character
+print("Product\tWeight\tPrice")
+print("kiwi\t0.15kg\t2.95")
+
+# f-strings only work with Python 3.7 or greater
+#amount = 5
+#food = "pizza"
+#result = f"I had {amount} servings of {food}."
+#print(result)
+
+# Exercise 6.14
+score = "X-DSPAM-Confidence:0.8475"
+location = score.find(":")
+num = score[location+1:]
+num = float(num)
+print(location)
+print(num)
+print(type(num))
+
+"hi".
+
+
+
+
+
+
+
+
