@@ -207,7 +207,7 @@
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
                 
-            <li class="second-level"><a href="#savingsduration-parameters">savingsduration() Parameters</a></li>
+            <li class="second-level"><a href="#parameters">Parameters</a></li>
                 
                 <li class="third-level"><a href="#annualsalary">annualsalary</a></li>
                 <li class="third-level"><a href="#percentsaved">percentsaved</a></li>
@@ -244,29 +244,29 @@
 <li>Let's also assume that you have a well-paying job, in which you earn a respectable annual salary. As well, you have a savings account which generates an annual rate of return.</li>
 <li>Furthermore, your place of employment provides you with pay raises on a semi-annual basis. That is, your salary will increase by a certain decimal percentage after the 6th month, the 12th month, the 18th month, and so on.</li>
 </ul>
-<h2 id="savingsduration-parameters"><code>savingsduration()</code> Parameters</h2>
+<h2 id="parameters">Parameters</h2>
 <ul>
 <li>The following is an explanation of the parameters used in the <code>savingsduration()</code> function:</li>
 </ul>
-<h3 id="annualsalary"><code>annualsalary</code></h3>
+<h4 id="annualsalary"><code>annualsalary</code></h4>
 <ul>
 <li>This is the annual salary which you earn from your job.</li>
 </ul>
-<h3 id="percentsaved"><code>percentsaved</code></h3>
+<h4 id="percentsaved"><code>percentsaved</code></h4>
 <ul>
 <li>This is the amount of your salary which you will dedicate towards saving for the down payment. It should be expressed in decimal form, for example: <code>0.1</code></li>
 </ul>
-<h3 id="totalcost"><code>totalcost</code></h3>
+<h4 id="totalcost"><code>totalcost</code></h4>
 <ul>
 <li>This is the purchase price of your dream home.</li>
 </ul>
-<h3 id="payraise"><code>payraise</code></h3>
+<h4 id="payraise"><code>payraise</code></h4>
 <ul>
 <li>This is the amount by which your salary is increased, and these raises occur every six months. This should be expressed in decimal form, for example: <code>0.1</code></li>
 </ul>
 <h2 id="hints">Hints</h2>
 <ul>
-<li>You will need to determine the amount of the <code>down payment</code>, which can be calculated from: `totalcost*0.25</li>
+<li>You will need to determine the amount of the <code>down payment</code>, which can be calculated from: <code>totalcost*0.25</code></li>
 <li>Since the time duration is measured in months, you will need to determine your <code>monthly salary</code>. This can be calculated from: <code>annualsalary/12.0</code></li>
 <li>The amount that you have saved so far should be referred to as your <code>current savings</code>, and you begin with a current savings of: <code>0</code></li>
 <li>Assume that your savings account generates an annual <code>rate</code> of return of 4%. In other words, <code>rate = 0.04</code></li>
