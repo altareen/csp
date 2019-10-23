@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3314a402-705f-4679-b335-10f0da2473d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mitexercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/.idea/06TestReview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/test1overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06TestReview/test1review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,34 +23,37 @@
     <session id="-339096567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8897" />
+          <entry key="py" value="12407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8897" />
+          <entry key="Python" value="12407" />
         </counts>
       </usages-collector>
     </session>
@@ -52,17 +63,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asciirep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="3335">
               <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mitexercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="957">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1review.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test1overview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
@@ -98,14 +127,16 @@
         <option value="$PROJECT_DIR$/asciicode.py" />
         <option value="$PROJECT_DIR$/asciirep.py" />
         <option value="$PROJECT_DIR$/mitexercises.py" />
+        <option value="$PROJECT_DIR$/test1review.py" />
+        <option value="$PROJECT_DIR$/test1overview.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="828" />
-    <option name="y" value="32" />
+    <option name="x" value="848" />
+    <option name="y" value="19" />
     <option name="width" value="1044" />
-    <option name="height" value="967" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,10 +157,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/apCSPrinciples/labs/lab04/Lab04CoinChange" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/apCSPrinciples/labs/lab05/Lab05GeneDetection" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -145,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mitexercises">
+  <component name="RunManager" selected="Python.test1review">
     <configuration name="asciicode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stringiteration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stringiteration.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1overview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stringloops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1review" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,7 +273,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stringloops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1review.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.stringloops" />
-      <item itemvalue="Python.stringiteration" />
       <item itemvalue="Python.asciirep" />
       <item itemvalue="Python.asciicode" />
       <item itemvalue="Python.mitexercises" />
+      <item itemvalue="Python.test1review" />
+      <item itemvalue="Python.test1overview" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test1review" />
+        <item itemvalue="Python.test1overview" />
         <item itemvalue="Python.mitexercises" />
         <item itemvalue="Python.asciirep" />
         <item itemvalue="Python.asciicode" />
-        <item itemvalue="Python.stringiteration" />
-        <item itemvalue="Python.stringloops" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="828" y="32" width="1044" height="967" extended-state="0" />
+    <frame x="848" y="19" width="1044" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19725221" />
@@ -290,7 +321,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26777253" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2939189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,8 +369,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asciirep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="3335">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitexercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -350,10 +388,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mitexercises.py">
+    <entry file="file://$PROJECT_DIR$/test1review.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="661">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
