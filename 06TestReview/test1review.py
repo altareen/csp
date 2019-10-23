@@ -92,3 +92,52 @@ def extraend(word):
 
 result = extraend("hello")
 print(result)
+
+# Question 37.
+def piglatin(word):
+    result = ""
+    first = word[0]
+    if first in "aeiou":
+        result = word + "hay"
+    else:
+        result = word[1:] + first + "ay"
+    return result
+
+result = piglatin("orange")
+print(result)
+
+result = piglatin("peach")
+print(result)
+
+# Fall 2018 Test 1
+
+# Programming Question 3.
+
+def multiply(grow, shrink):
+    product = 0
+    while shrink > 0:
+        if shrink%2 == 1:
+            product = product + grow
+        grow = grow * 2
+        shrink = shrink//2
+    return product
+
+result = multiply(23, 58)
+print(result)
+
+# Fall 2017 Test 1
+
+# Question 38.
+
+def caesarcipher(plaintext, shift):
+    ciphertext = ""
+    for letter in plaintext:
+        num = ord(letter)
+        index = num - 97
+        enc = (index + shift)%26
+        val = enc + 97
+        ciphertext += chr(val)
+    return ciphertext
+
+result = caesarcipher("mayday", 4)
+print(result)

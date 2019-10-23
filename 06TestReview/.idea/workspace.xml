@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02702bd6-b351-44fc-a2f0-bde1b2db5397" name="Default Changelist" comment="" />
+    <list default="true" id="02702bd6-b351-44fc-a2f0-bde1b2db5397" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test1review.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1review.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,16 @@
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="960" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="960" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -34,7 +46,13 @@
         <entry file="file://$PROJECT_DIR$/test1review.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <marker date="1571807776858" expanded="true" signature="1535:1697" ph="..." />
+                <marker date="1571807776858" expanded="true" signature="1856:2029" ph="..." />
+                <marker date="1571807776858" expanded="true" signature="2141:2352" ph="..." />
+                <marker date="1571807776858" expanded="true" signature="2141:2401" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,15 +81,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test1review.py" />
         <option value="$PROJECT_DIR$/test1overview.py" />
+        <option value="$PROJECT_DIR$/test1review.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="831" />
-    <option name="y" value="23" />
-    <option name="width" value="1044" />
+    <option name="x" value="886" />
+    <option name="y" value="22" />
+    <option name="width" value="1139" />
     <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -111,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1overview">
+  <component name="RunManager" selected="Python.test1review">
     <configuration name="test1overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="06TestReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +178,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1overview" />
         <item itemvalue="Python.test1review" />
+        <item itemvalue="Python.test1overview" />
       </list>
     </recent_temporary>
   </component>
@@ -179,11 +197,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="23" width="1044" height="1011" extended-state="0" />
+    <frame x="886" y="22" width="1139" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24926399" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22800718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -215,7 +233,13 @@
     <entry file="file://$PROJECT_DIR$/test1review.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <marker date="1571807776858" expanded="true" signature="1535:1697" ph="..." />
+            <marker date="1571807776858" expanded="true" signature="1856:2029" ph="..." />
+            <marker date="1571807776858" expanded="true" signature="2141:2352" ph="..." />
+            <marker date="1571807776858" expanded="true" signature="2141:2401" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
