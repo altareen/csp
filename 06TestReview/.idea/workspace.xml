@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02702bd6-b351-44fc-a2f0-bde1b2db5397" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test1review.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1overview.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,22 +30,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="960" />
+          <entry key="py" value="2028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="960" />
+          <entry key="Python" value="2028" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1review.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="2021">
               <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
               <folding>
                 <marker date="1571807776858" expanded="true" signature="1535:1697" ph="..." />
@@ -57,11 +57,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1overview.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="309">
+              <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+              <folding>
+                <marker date="1571817755387" expanded="true" signature="2282:2444" ph="..." />
+                <marker date="1571817755387" expanded="true" signature="2611:2784" ph="..." />
+                <marker date="1571817755387" expanded="true" signature="2896:3104" ph="..." />
+                <marker date="1571817755387" expanded="true" signature="3198:3328" ph="..." />
+                <marker date="1571817755387" expanded="true" signature="3198:3341" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,16 +88,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test1overview.py" />
         <option value="$PROJECT_DIR$/test1review.py" />
+        <option value="$PROJECT_DIR$/test1overview.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="886" />
-    <option name="y" value="22" />
-    <option name="width" value="1139" />
-    <option name="height" value="1011" />
+    <option name="x" value="788" />
+    <option name="y" value="17" />
+    <option name="width" value="1111" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1review">
+  <component name="RunManager" selected="Python.test1overview">
     <configuration name="test1overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="06TestReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,8 +185,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1review" />
         <item itemvalue="Python.test1overview" />
+        <item itemvalue="Python.test1review" />
       </list>
     </recent_temporary>
   </component>
@@ -197,11 +204,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="886" y="22" width="1139" height="1011" extended-state="0" />
+    <frame x="788" y="17" width="1111" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22800718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23388582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -209,7 +216,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39503387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,22 +230,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test1overview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1review.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="2021">
           <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
           <folding>
             <marker date="1571807776858" expanded="true" signature="1535:1697" ph="..." />
             <marker date="1571807776858" expanded="true" signature="1856:2029" ph="..." />
             <marker date="1571807776858" expanded="true" signature="2141:2352" ph="..." />
             <marker date="1571807776858" expanded="true" signature="2141:2401" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+          <folding>
+            <marker date="1571817755387" expanded="true" signature="2282:2444" ph="..." />
+            <marker date="1571817755387" expanded="true" signature="2611:2784" ph="..." />
+            <marker date="1571817755387" expanded="true" signature="2896:3104" ph="..." />
+            <marker date="1571817755387" expanded="true" signature="3198:3328" ph="..." />
+            <marker date="1571817755387" expanded="true" signature="3198:3341" ph="..." />
           </folding>
         </state>
       </provider>

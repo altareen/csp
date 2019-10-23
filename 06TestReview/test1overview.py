@@ -136,3 +136,64 @@ def extraend(word):
 
 result = extraend("hello")
 print(result)
+
+# Question 37.
+def piglatin(word):
+    result = ""
+    first = word[0]
+    if first in "aeiou":
+        result = word + "hay"
+    else:
+        result = word[1:] + first + "ay"
+    return result
+
+result = piglatin("orange")
+print(result)
+
+result = piglatin("peach")
+print(result)
+
+# Fall 2018 Test 1
+
+# Programming Problem Question 3.
+
+def multiply(grow, shrink):
+    product = 0
+    while shrink > 0:
+        if shrink%2 == 1:
+            product = product + grow
+        grow = grow * 2
+        shrink = shrink//2
+    return product
+
+result = multiply(23, 58)
+print(result)
+
+# Fall 2018 Test 1
+
+# Question 38.
+
+def caesarcipher(plaintext, shift):
+    ciphertext = ""
+    for letter in plaintext:
+        asc = ord(letter)
+        asc = asc - 97
+        cip = (asc + shift)%26
+        cip = cip + 97
+        ciphertext += chr(cip)
+    return ciphertext
+
+
+result = caesarcipher("mayday", 4)
+print(result)
+
+# The Hailstone Sequence
+def hailstone(num):
+    while num > 1:
+        if num%2 == 0:
+            num = num//2
+        else:
+            num = num*3 + 1
+        print(num)
+
+hailstone(5)
