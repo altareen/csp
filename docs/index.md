@@ -18,11 +18,12 @@
 + [Problem Set 4](pset04.md) is due on Tuesday, October 8th.
 + [Lab 4](lab04.md) is due on Saturday, October 12th.
 + [picoCTF 2019:](https://2019game.picoctf.com/#g=9473ed19fe1c472cbe3f128e681c8fb2) Use this link to register with my team, **Digital Dragons.** Note that you must use a VPN to overcome the reCAPTCHA.
-+ [Problem Set 5](pset05.md) is due on Wednesday, October 16th. -->
++ [Problem Set 5](pset05.md) is due on Wednesday, October 16th.
 + [Lab 5](lab05.md) is due on Friday, October 18th.
 + [Quiz 2: Python Conditionals](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Monday, October 21st.
-+ [Problem Set 6](pset06.md) is due on Wednesday, October 23rd.
++ [Problem Set 6](pset06.md) is due on Wednesday, October 23rd. -->
 + **Test 1: Python Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the section on `strings`.
++ [Problem Set 7](pset07.md) is due on Monday, November 4th.
 
 ## Course Calendar: Semester One
 
@@ -44,7 +45,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1      | 2 *SAT II*
-3      | 4 **PSet 7 Due** | 5       | 6         | 7        | 8 *End of First Quarter* | 9 
+3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6         | 7        | 8 *End of First Quarter* | 9 
 10     | 11 *Remembrance Day* | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28 *Thanksgiving* | 29     | 30
