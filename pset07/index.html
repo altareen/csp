@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Prior Tests - CSP</title>
+    <title>Problem Set 7: Down Payment - CSP</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -118,8 +118,8 @@
 
                         
                             
-<li >
-    <a href="../pset07/">Problem Set 7: Down Payment</a>
+<li class="active">
+    <a href="./">Problem Set 7: Down Payment</a>
 </li>
 
                         
@@ -173,8 +173,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Prior Tests</a>
+                    <li >
+                        <a href="../priortests/">Prior Tests</a>
                     </li>
                 
                 
@@ -199,12 +199,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../notes/">
+                        <a rel="prev" href="../pset06/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../references/">
+                        <a rel="next" href="../lab01/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -218,17 +218,79 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#prior-tests">Prior Tests</a></li>
-            <li class="second-level"><a href="#semester-1">Semester 1</a></li>
+        <li class="first-level active"><a href="#problem-set-7-down-payment">Problem Set 7: Down Payment</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
-                <li class="third-level"><a href="#test-1-python-syntax-and-strings">Test 1: Python Syntax and Strings</a></li>
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#parameters">Parameters</a></li>
+                
+                <li class="third-level"><a href="#annualsalary">annualsalary</a></li>
+                <li class="third-level"><a href="#percentsaved">percentsaved</a></li>
+                <li class="third-level"><a href="#totalcost">totalcost</a></li>
+                <li class="third-level"><a href="#payraise">payraise</a></li>
+            <li class="second-level"><a href="#hints">Hints</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="prior-tests">Prior Tests</h1>
-<h2 id="semester-1">Semester 1</h2>
-<h3 id="test-1-python-syntax-and-strings">Test 1: <code>Python</code> Syntax and Strings</h3>
+<h1 id="problem-set-7-down-payment">Problem Set 7: Down Payment</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="task-outline">Task Outline</h2>
+<ul>
+<li><strong>Due Date:</strong> Wednesday, October 30, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>Implement a <code>Python</code> program that determines how many months it will take to save up enough money for a down payment on a house.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>Let's assume that you have grown weary of living in dormitories, and you wish to save up enough money for a down payment on a house. The down payment is 25% of the the total cost of the house.</li>
+<li>Since housing is very expensive, it will probably take you several years to accomplish this task. In this program, we will measure this time duration in terms of months.</li>
+<li>Let's also assume that you have a well-paying job, in which you earn a respectable annual salary. As well, you have a savings account which generates an annual rate of return.</li>
+<li>Furthermore, your place of employment provides you with pay raises on a semi-annual basis. That is, your salary will increase by a certain decimal percentage after the 6th month, the 12th month, the 18th month, and so on.</li>
+</ul>
+<h2 id="parameters">Parameters</h2>
+<ul>
+<li>The following is an explanation of the parameters used in the <code>savingsduration()</code> function:</li>
+</ul>
+<h4 id="annualsalary"><code>annualsalary</code></h4>
+<ul>
+<li>This is the annual salary which you earn from your job.</li>
+</ul>
+<h4 id="percentsaved"><code>percentsaved</code></h4>
+<ul>
+<li>This is the amount of your salary which you will dedicate towards saving for the down payment. It should be expressed in decimal form, for example: <code>0.1</code></li>
+</ul>
+<h4 id="totalcost"><code>totalcost</code></h4>
+<ul>
+<li>This is the purchase price of your dream home.</li>
+</ul>
+<h4 id="payraise"><code>payraise</code></h4>
+<ul>
+<li>This is the amount by which your salary is increased, and these raises occur every six months. This should be expressed in decimal form, for example: <code>0.1</code></li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>You will need to determine the amount of the <strong>down payment</strong>, which can be calculated from: <code>totalcost*0.25</code></li>
+<li>Since the time duration is measured in months, you will need to determine your <strong>monthly salary</strong>. This can be calculated from: <code>annualsalary/12.0</code></li>
+<li>The amount that you have saved so far should be referred to as your <strong>current savings</strong>, and you begin with a current savings of: <code>0</code></li>
+<li>Assume that your savings account generates an annual <strong>rate</strong> of return of 4%. In other words, <code>rate = 0.04</code></li>
+<li>Create a variable that keeps track of the number of <strong>months</strong> that have occurred in this simulation, and set this variable to: <code>0</code></li>
+<li>Assume that you invest your current savings wisely, so at the end of each month, you receive an additional <code>currentsavings*rate/12.0</code> to be put into your savings.</li>
+<li>Be careful about when you increase your salary due to the pay raise. This should only happen after the 6th month, 12th month, 18th month, and so on.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
 <table>
 <thead>
 <tr>
@@ -239,27 +301,32 @@
 </thead>
 <tbody>
 <tr>
-<td>Fall 2015</td>
-<td>77KB</td>
-<td><a href="/csp/pdf/cspTest01Fall2015.pdf">cspTest01Fall2015.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2016</td>
-<td>77KB</td>
-<td><a href="/csp/pdf/cspTest01Fall2016.pdf">cspTest01Fall2016.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2017</td>
-<td>115KB</td>
-<td><a href="/csp/pdf/cspTest01Fall2017.pdf">cspTest01Fall2017.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2018</td>
-<td>138KB</td>
-<td><a href="/csp/pdf/cspTest01Fall2018.pdf">cspTest01Fall2018.pdf</a></td>
+<td><code>Python</code> Source Code for Down Payment</td>
+<td>1.4KB</td>
+<td><a href="/csp/zip/pset07.zip">pset07.zip</a></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p><strong>Contents of <code>pset07.zip</code>:</strong></p>
+<pre><code class="bash">PSet07DownPayment/
+├── downpayment.py
+└── testdownpayment.py
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Python</code> program in the file <code>downpayment.py</code> that outputs the number of months that would be required to save enough money for a down payment on a house, given the annual salary that you earn, and the return on your investments.</li>
+<li>You will write your solution in a function called <code>savingsduration(annualsalary, percentsaved, totalcost, payraise)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>savingsduration(120000, 0.05, 500000, 0.03)</code> is executed, the output of the program should be: <code>142</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Run the file <code>testdownpayment.py</code> to execute the <code>PyUnit</code> test bench. <code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful test with a <code>FAIL</code> output.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>downpayment.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
         
         
     </div>
