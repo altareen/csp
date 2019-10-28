@@ -235,12 +235,12 @@
 <ul>
 <li><strong>Due Date:</strong> Monday, November 11, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that determines how many months it will take to save up enough money for a down payment on a house.</li>
+<li>Implement a <code>Python</code> program that validates <code>ISBN-10</code> numbers.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>Any book that you purchase has an <strong>{International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and book-like products published internationally.</li>
-<li>It turns out that the last of an <code>ISBN-10</code>'s digits is a <strong>check digit,</strong> otherwise known as a ``checksum,'' which is a number related mathematically to its preceding digits. </li>
+<li>Any book that you purchase has an <strong>International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and book-like products published internationally.</li>
+<li>It turns out that the last of an <code>ISBN-10</code>'s digits is a <strong>check digit,</strong> otherwise known as a <strong>checksum,</strong> which is a number related mathematically to its preceding digits. </li>
 <li>The digits of an <code>ISBN-10</code> are supposed to adhere to a formula, and this check digit allows you to verify whether an <code>ISBN-10</code>'s other nine digits are valid, without having to resort to other means of verification, for instance, performing a query on a database of books.</li>
 <li>The check digit of an <code>ISBN-10</code> number can be defined as follows. If <code>x_1</code> represents an <code>ISBN-10</code>'s first digit, and <code>x_{10}</code> represents its last digit, then we have:</li>
 </ul>
@@ -253,7 +253,7 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 </script>
 </div>
 <ul>
-<li>In other words, to compute an \texttt{ISBN-10}'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and then divide it by 11. The remainder should be the <code>ISBN-10</code>'s tenth digit.</li>
+<li>In other words, to compute an <code>ISBN-10</code>'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and perform a modulus with 11. The remainder should be the <code>ISBN-10</code>'s tenth digit.</li>
 <li>For example, the <code>ISBN-10</code> for the textbook <em>Absolute Beginner's Guide to C</em>, is <code>0-789-75198-4</code>, the tenth digit of which is <code>4</code>. Let's take the sum of the products of the<code>ISBN-10</code>'s first nine digits(highlighted in bold):</li>
 </ul>
 <div>
@@ -265,7 +265,7 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 </script>
 </div>
 <ul>
-<li>If we now take the compute 290 modulus 11, we get a remainder of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
+<li>If we now compute 290 modulus 11, we get a remainder of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
 </ul>
 <h2 id="hints">Hints</h2>
 <h2 id="code-distribution">Code Distribution</h2>
