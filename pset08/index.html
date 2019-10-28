@@ -241,7 +241,7 @@
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>Any book that you purchase has an <strong>International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and book-like products published internationally.</li>
+<li>Any book that you purchase has an <strong>International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and media products published internationally.</li>
 <li>It turns out that the last number of an <code>ISBN-10</code>'s digits is a <strong>check digit,</strong> otherwise known as a <strong>checksum,</strong> which is a number related mathematically to its preceding digits. </li>
 <li>The digits of an <code>ISBN-10</code> are supposed to adhere to a formula, and this check digit allows you to verify whether an <code>ISBN-10</code>'s other nine digits are valid, without having to resort to other means of verification, for instance, performing a query on a database of books.</li>
 </ul>
@@ -258,7 +258,7 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 </script>
 </div>
 <ul>
-<li>In other words, to compute an <code>ISBN-10</code>'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and perform a modulus with 11. The remainder should be the <code>ISBN-10</code>'s tenth digit.</li>
+<li>In other words, to compute an <code>ISBN-10</code>'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and perform a modulus with 11. The result should be the <code>ISBN-10</code>'s tenth digit.</li>
 </ul>
 <h3 id="example-case">Example Case</h3>
 <ul>
@@ -273,7 +273,7 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 </script>
 </div>
 <ul>
-<li>If we now compute 290 modulus 11, we get a remainder of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
+<li>If we now compute 290 modulus 11, we get a result of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
 </ul>
 <h2 id="hints">Hints</h2>
 <h2 id="code-distribution">Code Distribution</h2>
