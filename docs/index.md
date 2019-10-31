@@ -23,6 +23,7 @@
 + [Quiz 2: Python Conditionals](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Monday, October 21st.
 + [Problem Set 6](pset06.md) is due on Wednesday, October 23rd.
 + **Test 1: Python Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the section on `strings`. -->
++ [Lab 6](lab06.md) is due on Friday, November 1st.
 + [Problem Set 7](pset07.md) is due on Monday, November 4th.
 + [Quiz 3: Python Strings](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th.
 
@@ -45,7 +46,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         |           |          | 1 **Lab 6 Due** | 2 *SAT II*
+       |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
 3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter* | 9 
 10     | 11 *Remembrance Day* | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
