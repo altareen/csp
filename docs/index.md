@@ -32,16 +32,6 @@
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
-### October 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-       |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
-6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11      | 12 *Make-up Day*<br>[**Lab 4 Due**](lab04.md)
-13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 5 Due**](lab05.md) | 19
-20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Python Syntax & Strings** | 25 *Field Trip* | 26
-27     | 28     | 29      | 30      | 31 *Halloween* | | 
-
 ### November 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
@@ -81,6 +71,16 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 15     | 16 [**PSet 2 Due**](pset02.md) | 17 [**Quiz 1 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 18        | 19       | 20 [**Lab 3 Due**](lab03.md) | 21 
 22     | 23 [**PSet 3 Due**](pset03.md) | 24      | 25 *Senior Week* | 26 *Senior Week* | 27 *Senior Week* | 28 
 29 *Make-up Day*<br>*Senior Week* | 30 *Senior Week* | | | | | 
+
+### October 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+       |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
+6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11      | 12 *Make-up Day*<br>[**Lab 4 Due**](lab04.md)
+13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 5 Due**](lab05.md) | 19
+20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Python Syntax & Strings** | 25 *Field Trip* | 26
+27     | 28     | 29      | 30      | 31 *Halloween* | | 
 
 ## Course Calendar: Semester Two
 
