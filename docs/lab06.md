@@ -25,7 +25,7 @@ smooth = [0] * len(audio)
 for i in range(start, stop):
 ```
 + This means that the loop will begin at `start`, and go up to(but not include) `stop`.
-+ Then, you will need to calculate the average of three elements in the `audio` list, for every index `i`. In other words, you will need to calculate the average of the three values: `audio[i-1], audio[i], and audio[i+1]`.
++ Then, you will need to calculate the average of three elements in the `audio` list, for every index `i`. In other words, you will need to calculate the average of the three values: `audio[i-1]`, `audio[i]`, and `audio[i+1]`.
 
 ## Code Distribution
 Description | File Size | File Name
