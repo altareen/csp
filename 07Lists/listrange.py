@@ -43,3 +43,4 @@ notes = ["do", "ray", "mi"]
 melody = ["fa", "so", "la"]
 notes.extend(melody)
 print(notes)
+

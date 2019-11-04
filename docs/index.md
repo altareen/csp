@@ -38,7 +38,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
 3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter* | 9 
-10     | 11 *Remembrance Day* | 12      | 13        | 14       | 15     | 16
+10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28 *Thanksgiving* | 29     | 30
 
