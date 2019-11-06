@@ -251,8 +251,8 @@
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>The main idea behind the Caesar Cipher is to shift each letter in a secret message by a fixed number of positions. If this shifting behaviour goes further than the end of the alphabet, then it ``wraps around'' to the beginning, and continues from there.</li>
-<li>The security of this crypto-system relies on having only the sender and the recipient know the secret \textbf{key}, which is the number of places by which the letters have been shifted.</li>
+<li>The main idea behind the Caesar Cipher is to shift each letter in a secret message by a fixed number of positions. If this shifting behaviour goes further than the end of the alphabet, then it <strong>wraps around</strong> to the beginning, and continues from there.</li>
+<li>The security of this crypto-system relies on having only the sender and the recipient know the secret <strong>key</strong>, which is the number of places by which the letters have been shifted.</li>
 </ul>
 <p><img alt="Encryption shift" src="/csp/img/encrypt.png" title="Encryption shift" /></p>
 <h2 id="hints">Hints</h2>
@@ -265,10 +265,17 @@
 </li>
 <li>You will need to make an adjustment to the numerical output of <code>ord(txt)</code>, such that <code>"a"</code> corresponds to <code>0</code>, <code>"b"</code> corresponds to <code>1</code>, etc.</li>
 <li>Unencrypted text is generally called <strong>plaintext</strong>, and encrypted text is generally known as <strong>ciphertext</strong>. The quantity by which the letters have been shifted is called a <strong>key</strong>.</li>
-<li>In general, the Caesar Cipher encrypts messages by <strong>rotating</strong> each letter by <code>key</code> positions. More formally, <code>p</code> is the <code>ASCII</code> value of a letter in the plaintext, and <code>key</code> is the amount by which each letter is shifted, then the <code>ASCII</code> value of the corresponding letter in the ciphertext <code>c</code>, is computed by the following equation:
-$$
-c &amp;=&amp; (p + \mbox{key})\, \mbox{mod}\, 26
-$$</li>
+<li>In general, the Caesar Cipher encrypts messages by <strong>rotating</strong> each letter by <code>key</code> positions. More formally, <code>p</code> is the <code>ASCII</code> value of a letter in the plaintext, and <code>key</code> is the amount by which each letter is shifted, then the <code>ASCII</code> value of the corresponding letter in the ciphertext <code>c</code>, is computed by the following equation:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</div>
+<script type="math/tex; mode=display">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</script>
+</div>
+<ul>
 <li>You may assume that all of the characters in the plaintext messages are in <strong>lowercase</strong>.</li>
 <li>There will be no punctuation present in any of the plaintext messages,with the exception of the space character. You should design your program so that any spaces in the plaintext message are transferred into the encrypted ciphertext.</li>
 </ul>
