@@ -171,22 +171,6 @@ print(result)
 
 # Fall 2018 Test 1
 
-# Question 38.
-
-def caesarcipher(plaintext, shift):
-    ciphertext = ""
-    for letter in plaintext:
-        asc = ord(letter)
-        asc = asc - 97
-        cip = (asc + shift)%26
-        cip = cip + 97
-        ciphertext += chr(cip)
-    return ciphertext
-
-
-result = caesarcipher("mayday", 4)
-print(result)
-
 # The Hailstone Sequence
 def hailstone(num):
     while num > 1:

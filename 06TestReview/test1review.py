@@ -125,19 +125,3 @@ def multiply(grow, shrink):
 result = multiply(23, 58)
 print(result)
 
-# Fall 2017 Test 1
-
-# Question 38.
-
-def caesarcipher(plaintext, shift):
-    ciphertext = ""
-    for letter in plaintext:
-        num = ord(letter)
-        index = num - 97
-        enc = (index + shift)%26
-        val = enc + 97
-        ciphertext += chr(val)
-    return ciphertext
-
-result = caesarcipher("mayday", 4)
-print(result)
