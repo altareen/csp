@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70858793-ad26-4c6a-aca8-254da96eaf32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/listremove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listsletters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listswords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,37 +21,37 @@
     <session id="1681070713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9222" />
+          <entry key="py" value="13159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9222" />
+          <entry key="Python" value="13159" />
         </counts>
       </usages-collector>
     </session>
@@ -53,19 +59,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listreduce.py">
+        <entry file="file://$PROJECT_DIR$/exercise4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="348">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <marker date="1573096758807" expanded="true" signature="357:362" ph="..." />
+                <marker date="1573096758807" expanded="true" signature="826:1130" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/listremove.py">
+        <entry file="file://$PROJECT_DIR$/exercise05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="289">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <marker date="1573103222761" expanded="true" signature="839:1155" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,14 +128,20 @@
         <option value="$PROJECT_DIR$/listchange.py" />
         <option value="$PROJECT_DIR$/listreduce.py" />
         <option value="$PROJECT_DIR$/listremove.py" />
+        <option value="$PROJECT_DIR$/listsletters.py" />
+        <option value="$PROJECT_DIR$/exercise4.py" />
+        <option value="$PROJECT_DIR$/listswords.py" />
+        <option value="$PROJECT_DIR$/exercise04.py" />
+        <option value="$PROJECT_DIR$/exercise5.py" />
+        <option value="$PROJECT_DIR$/exercise05.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="759" />
-    <option name="y" value="22" />
-    <option name="width" value="1099" />
-    <option name="height" value="1005" />
+    <option name="x" value="414" />
+    <option name="y" value="13" />
+    <option name="width" value="1409" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,8 +179,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listremove">
-    <configuration name="listalter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.exercise05">
+    <configuration name="exercise04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="07Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +192,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listalter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listchange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="07Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listchange.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listrange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="07Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +234,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listrange.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listreduce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="07Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,7 +255,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listreduce.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listremove" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="listswords" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="07Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +276,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listremove.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listswords.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +286,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.listrange" />
-      <item itemvalue="Python.listalter" />
-      <item itemvalue="Python.listchange" />
-      <item itemvalue="Python.listreduce" />
-      <item itemvalue="Python.listremove" />
+      <item itemvalue="Python.exercise4" />
+      <item itemvalue="Python.listswords" />
+      <item itemvalue="Python.exercise04" />
+      <item itemvalue="Python.exercise5" />
+      <item itemvalue="Python.exercise05" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.listremove" />
-        <item itemvalue="Python.listreduce" />
-        <item itemvalue="Python.listchange" />
-        <item itemvalue="Python.listalter" />
-        <item itemvalue="Python.listrange" />
+        <item itemvalue="Python.exercise05" />
+        <item itemvalue="Python.exercise5" />
+        <item itemvalue="Python.exercise04" />
+        <item itemvalue="Python.listswords" />
+        <item itemvalue="Python.exercise4" />
       </list>
     </recent_temporary>
   </component>
@@ -279,15 +316,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="759" y="22" width="1099" height="1005" extended-state="0" />
+    <frame x="414" y="13" width="1409" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25232774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19580925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41043085" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3594625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listreduce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="667">
           <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
@@ -385,7 +422,56 @@
     <entry file="file://$PROJECT_DIR$/listremove.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listsletters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listswords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1573096758807" expanded="true" signature="357:362" ph="..." />
+            <marker date="1573096758807" expanded="true" signature="826:1130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1573103222761" expanded="true" signature="839:1155" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

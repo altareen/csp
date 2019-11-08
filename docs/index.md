@@ -22,10 +22,12 @@
 + [Lab 5](lab05.md) is due on Friday, October 18th.
 + [Quiz 2: Python Conditionals](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Monday, October 21st.
 + [Problem Set 6](pset06.md) is due on Wednesday, October 23rd.
-+ **Test 1: Python Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the section on `strings`. -->
++ **Test 1: Python Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the section on `strings`.
 + [Lab 6](lab06.md) is due on Friday, November 1st.
 + [Problem Set 7](pset07.md) is due on Monday, November 4th.
-+ [Quiz 3: Python Strings](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th.
++ [Quiz 3: Python Strings](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th. -->
++ [Lab 7](lab07.md) is due on Friday, November 8th.
++ [Problem Set 8](pset08.md) is due on Monday, November 11th.
 
 ## Course Calendar: Semester One
 
@@ -37,7 +39,7 @@
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
-3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter* | 9 
+3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28 *Thanksgiving* | 29     | 30
