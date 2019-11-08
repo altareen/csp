@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Problem Set 8: Book Identifier - CSP</title>
+    <title>Lab 7: Caesar Cipher - CSP</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -124,8 +124,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Problem Set 8: Book Identifier</a>
+<li >
+    <a href="../pset08/">Problem Set 8: Book Identifier</a>
 </li>
 
                         
@@ -134,7 +134,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -175,8 +175,8 @@
 
                         
                             
-<li >
-    <a href="../lab07/">Lab 7: Caesar Cipher</a>
+<li class="active">
+    <a href="./">Lab 7: Caesar Cipher</a>
 </li>
 
                         
@@ -217,12 +217,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../pset07/">
+                        <a rel="prev" href="../lab06/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../lab01/">
+                        <a rel="next" href="../notes/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -236,13 +236,11 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-8-book-identifier">Problem Set 8: Book Identifier</a></li>
+        <li class="first-level active"><a href="#lab-7-caesar-cipher">Lab 7: Caesar Cipher</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
                 
-                <li class="third-level"><a href="#calculating-the-check-digit">Calculating the Check Digit</a></li>
-                <li class="third-level"><a href="#example-case">Example Case</a></li>
             <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
@@ -257,74 +255,45 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-8-book-identifier">Problem Set 8: Book Identifier</h1>
+<h1 id="lab-7-caesar-cipher">Lab 7: Caesar Cipher</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Monday, November 11, 2019</li>
+<li><strong>Due Date:</strong> Friday, November 8, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that validates <code>ISBN-10</code> numbers.</li>
+<li>Implement a <code>Python</code> program that encrypts a message using the caesar cipher.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>Any book that you purchase has an <strong>International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and media products published internationally.</li>
-<li>It turns out that the last number of an <code>ISBN-10</code>'s digits is a <strong>check digit,</strong> otherwise known as a <strong>checksum,</strong> which is a number related mathematically to its preceding digits. </li>
-<li>The digits of an <code>ISBN-10</code> are supposed to adhere to a formula, and this check digit allows you to verify whether an <code>ISBN-10</code>'s other nine digits are valid, without having to resort to other means of verification, for instance, by performing a query on a database of books.</li>
+<li>The main idea behind the Caesar Cipher is to shift each letter in a secret message by a fixed number of positions. If this shifting behaviour goes further than the end of the alphabet, then it <strong>wraps around</strong> to the beginning, and continues from there.</li>
+<li>The security of this crypto-system relies on having only the sender and the recipient know the secret <strong>key</strong>, which is the number of places by which the letters have been shifted.</li>
 </ul>
-<h3 id="calculating-the-check-digit">Calculating the Check Digit</h3>
-<ul>
-<li>The check digit of an <code>ISBN-10</code> number can be defined as follows. If <span><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span> represents an <code>ISBN-10</code>'s first digit, and <span><span class="MathJax_Preview">x_{10}</span><script type="math/tex">x_{10}</script></span> represents its last digit, then we have the following:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 6 \cdot x_6 + 7 \cdot x_7 + 8 \cdot x_8 + 9 \cdot x_9)\, \mbox{modulus}\, 11
-</div>
-<script type="math/tex; mode=display">
-x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 6 \cdot x_6 + 7 \cdot x_7 + 8 \cdot x_8 + 9 \cdot x_9)\, \mbox{modulus}\, 11
-</script>
-</div>
-<ul>
-<li>In other words, to compute an <code>ISBN-10</code>'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and perform a modulus with 11. The result should be the <code>ISBN-10</code>'s tenth digit.</li>
-</ul>
-<h3 id="example-case">Example Case</h3>
-<ul>
-<li>For example, the <code>ISBN-10</code> for the textbook <em>Absolute Beginner's Guide to C</em>, is <code>0-789-75198-4</code>, the tenth digit of which is <code>4</code>. Let's take the sum of the products of the<code>ISBN-10</code>'s first nine digits:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-(1 \cdot \texttt{0}) + (2 \cdot \texttt{7}) + (3 \cdot \texttt{8}) + (4 \cdot \texttt{9}) + (5 \cdot \texttt{7}) + (6 \cdot \texttt{5}) + (7 \cdot \texttt{1}) + (8 \cdot \texttt{9}) + (9 \cdot \texttt{8}) = 290
-</div>
-<script type="math/tex; mode=display">
-(1 \cdot \texttt{0}) + (2 \cdot \texttt{7}) + (3 \cdot \texttt{8}) + (4 \cdot \texttt{9}) + (5 \cdot \texttt{7}) + (6 \cdot \texttt{5}) + (7 \cdot \texttt{1}) + (8 \cdot \texttt{9}) + (9 \cdot \texttt{8}) = 290
-</script>
-</div>
-<ul>
-<li>If we now compute 290 modulus 11, we get a result of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
-</ul>
+<p><img alt="Encryption shift" src="/csp/img/encrypt.png" title="Encryption shift" /></p>
 <h2 id="hints">Hints</h2>
 <ul>
-<li>Note that the <code>ISBN-10</code> is being read in as a string, and it gets converted to an integer by using the <code>int()</code> function. The reason for this procedure is to accommodate <code>ISBN-10</code>'s with leading zeros.</li>
-<li>Now that we have an <code>ISBN-10</code> in integer form, how can we get at its tenth(i.e. rightmost) digit? Perhaps we can make a clever use of the modulus operator:</li>
+<li><code>Python</code> uses a numerical <code>ASCII</code> value to represent each text character in the alphabet. For example, the <code>ASCII</code> value of the letter <code>"a"</code> is <code>97</code>, and the <code>ASCII</code> value of the letter <code>"z"</code> is <code>122</code>.</li>
+<li>In order to convert between the two formats, you need to use the following <code>Python</code> functions:<ul>
+<li><code>ord(txt)</code> This returns the numerical <code>ASCII</code> code corresponding to the text character <code>txt</code>.</li>
+<li><code>chr(num)</code> This returns the text character corresponding to the numerical <code>ASCII</code> code <code>num</code>.</li>
 </ul>
-<pre><code class="python">tenth = isbncode % 10
-</code></pre>
-
-<ul>
-<li>Now, how can we get a that same variable's ninth digit? Perhaps we can get rid of its tenth digit by using integer division:</li>
+</li>
+<li>You will need to make an adjustment to the numerical output of <code>ord(txt)</code>, such that <code>"a"</code> corresponds to <code>0</code>, <code>"b"</code> corresponds to <code>1</code>, etc.</li>
+<li>Unencrypted text is generally called <strong>plaintext</strong>, and encrypted text is generally known as <strong>ciphertext</strong>. The quantity by which the letters have been shifted is called a <strong>key</strong>.</li>
+<li>In general, the Caesar Cipher encrypts messages by <strong>rotating</strong> each letter by <code>key</code> positions. More formally, <code>p</code> is the <code>ASCII</code> value of a letter in the plaintext, and <code>key</code> is the amount by which each letter is shifted, then the <code>ASCII</code> value of the corresponding letter in the ciphertext <code>c</code>, is computed by the following equation:</li>
 </ul>
-<pre><code class="python">isbncode = isbncode // 10
-</code></pre>
-
+<div>
+<div class="MathJax_Preview">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</div>
+<script type="math/tex; mode=display">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</script>
+</div>
 <ul>
-<li>Afterwards, we can access the ninth digit by using the modulus operator:</li>
-</ul>
-<pre><code class="python">ninth = isbncode % 10
-</code></pre>
-
-<ul>
-<li>Hopefully, you can detect a pattern here. Remember that a certain looping construct such as the <code>for</code> loop can be very useful here.</li>
+<li>You may assume that all of the characters in the plaintext messages are in <strong>lowercase</strong>.</li>
+<li>There will be no punctuation present in any of the plaintext messages,with the exception of the space character. You should design your program so that any spaces in the plaintext message are transferred into the encrypted ciphertext.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -337,32 +306,33 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 </thead>
 <tbody>
 <tr>
-<td><code>Python</code> Source Code for Book Identifier</td>
-<td>1.2KB</td>
-<td><a href="/csp/zip/pset08.zip">pset08.zip</a></td>
+<td><code>Python</code> Source Code for Caesar Cipher</td>
+<td>1.5KB</td>
+<td><a href="/csp/zip/lab07.zip">lab07.zip</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Contents of <code>pset08.zip</code>:</strong></p>
-<pre><code class="bash">PSet08BookIdentifier/
-├── bookidentifier.py
-└── testbookidentifier.py
+<p><strong>Contents of <code>lab07.zip</code>:</strong></p>
+<pre><code class="bash">Lab07CaesarCipher/
+├── caesarcipher.py
+└── testcaesarcipher.py
 </code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
-<li>Write a <code>Python</code> program in the file <code>bookidentifier.py</code> that determines whether an <code>ISBN-10</code> number is legitimate or not.</li>
-<li>You will write your solution in a function called <code>validatebook(isbncode)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>If the <code>ISBN-10</code> number is valid, then your <code>validatebook</code> method should return the string <code>YES</code>. Otherwise, if the <code>ISBN-10</code> number is not valid, then your <code>validatebook</code> method should return the string <code>NO</code>.</li>
-<li>When the function call <code>validatebook("0789751984")</code> is executed, the output of the program should be: <code>YES</code></li>
+<li>Write a <code>Python</code> program in the file <code>caesarcipher.py</code> that encrypts a message using the caesar cipher.</li>
+<li>You will write your solution in a function called <code>encrypt(message, key)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>encrypt("hello", 1)</code> is executed, the output of the program should be: <code>ifmmp</code></li>
 </ul>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>Run the file <code>testbookidentifier.py</code> to execute the <code>PyUnit</code> test bench. <code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful test with a <code>FAIL</code> output.</li>
+<li>Run the file <code>testcaesarcipher.py</code> to execute the <code>PyUnit</code> test bench.
+<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
+test with a <code>FAIL</code> output.</li>
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>bookidentifier.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>caesarcipher.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
