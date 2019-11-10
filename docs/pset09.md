@@ -54,7 +54,7 @@ timeposts = [0] * gaps
 ```
 + Next, you should loop across the `timeposts` list, and fill it with `time` values that correspond to the position of each rectangle. For the example described in the Background section, the `timeposts` list would be as follows:
 ```python
-[5, 6, 7, 8, 9, 10]
+timeposts = [5, 6, 7, 8, 9, 10]
 ```
 + Then, it is simply a matter of looping across the `timeposts` list, calculating the product of `f(x)*step`, and summing each of these products to result in the area under the curve.
 
