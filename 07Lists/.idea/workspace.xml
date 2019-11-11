@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70858793-ad26-4c6a-aca8-254da96eaf32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/pset09.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +16,17 @@
     <session id="1681070713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="4" />
           <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +86,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="407">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
@@ -129,10 +130,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="931" />
-    <option name="y" value="11" />
-    <option name="width" value="960" />
-    <option name="height" value="1014" />
+    <option name="x" value="403" />
+    <option name="y" value="41" />
+    <option name="width" value="1007" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,11 +153,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/academics/leetCode/scratchpadcode.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../08Dictionaries" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -307,10 +308,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="931" y="11" width="960" height="1014" extended-state="0" />
+    <frame x="403" y="41" width="1007" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24064171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22912423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -431,6 +432,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/academics/leetCode/scratchpadcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -455,22 +463,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/academics/leetCode/scratchpadcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-          <folding>
-            <marker date="1573370114067" expanded="true" signature="1433:1730" ph="..." />
-            <marker date="1573370114067" expanded="true" signature="1754:1759" ph="..." />
-            <marker date="1573370114067" expanded="true" signature="1754:2059" ph="..." />
-            <marker date="1573370114067" expanded="true" signature="2785:2787" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="407">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
