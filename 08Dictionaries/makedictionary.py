@@ -19,3 +19,33 @@ print(fruit)
 phonebook["dan"] = 1276
 print(phonebook)
 
+# using len() to determine the number of key-value pairs
+total = len(fruit)
+print(total)
+
+# determine if a key exists in a dictionary with: in
+result = "banana" in fruit
+print(result)
+
+outcome = "kiwi" in fruit
+print(outcome)
+
+# using del to remove a key-value pair
+del fruit["pear"]
+print(fruit)
+
+# adding a key-value pair to a dictionary
+fruit["watermelon"] = 15
+print(fruit)
+
+
+
+
+
+
+
+
+
+
+
+
