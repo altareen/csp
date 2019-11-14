@@ -13,13 +13,14 @@ for line in fhand:
             emails[address] = qty + 1
 print(emails)
 
-bigname = ""
+bigemail = ""
 bignum = 0
 for key in emails:
     if emails[key] > bignum:
-        bigname = key
+        bigemail = key
         bignum = emails[key]
-print(bigname)
+print(bigemail)
 print(bignum)
+
 
 

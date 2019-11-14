@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d8b095-0f85-48d8-bf58-4d2a013e2ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionaryfunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionarymethods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercjse02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/08Dictionaries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/08Dictionaries.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createdictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/createdictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makedictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/makedictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaryfunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaryfunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +17,7 @@
     <session id="1357167691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -31,22 +27,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3245" />
+          <entry key="py" value="4905" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3245" />
+          <entry key="Python" value="4905" />
         </counts>
       </usages-collector>
     </session>
@@ -62,18 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="667">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dictionaryfunctions.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -97,12 +106,14 @@
         <option value="$PROJECT_DIR$/exercjse02.py" />
         <option value="$PROJECT_DIR$/dictionarymethods.py" />
         <option value="$PROJECT_DIR$/exercise3.py" />
+        <option value="$PROJECT_DIR$/dictionaryfunctions.py" />
+        <option value="$PROJECT_DIR$/exercise03.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="y" value="23" />
+    <option name="x" value="423" />
+    <option name="y" value="13" />
     <option name="width" value="1214" />
     <option name="height" value="1006" />
   </component>
@@ -142,8 +153,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exercise3">
-    <configuration name="createdictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.exercise03">
+    <configuration name="dictionaryfunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="08Dictionaries" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/createdictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaryfunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="08Dictionaries" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +260,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.createdictionary" />
-      <item itemvalue="Python.exercise2" />
       <item itemvalue="Python.exercjse02" />
       <item itemvalue="Python.dictionarymethods" />
       <item itemvalue="Python.exercise3" />
+      <item itemvalue="Python.dictionaryfunctions" />
+      <item itemvalue="Python.exercise03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise03" />
+        <item itemvalue="Python.dictionaryfunctions" />
         <item itemvalue="Python.exercise3" />
         <item itemvalue="Python.dictionarymethods" />
         <item itemvalue="Python.exercjse02" />
-        <item itemvalue="Python.createdictionary" />
-        <item itemvalue="Python.exercise2" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +290,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="23" width="1214" height="1006" extended-state="0" />
+    <frame x="423" y="13" width="1214" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2060555" />
@@ -287,7 +298,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38052094" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27406567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,9 +316,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dictionaryfunctions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/makedictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="769">
@@ -345,8 +353,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="667">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionaryfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
