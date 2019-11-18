@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="../img/favicon.ico">
+
+    
+    <title>Problem Set 10: Credit Card - CSP</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+    <link href="../css/highlight.min.css" rel="stylesheet">
+    <link href="../css/tablefont.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">CSP</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../pset01/">Problem Set 1: Hello World</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset02/">Problem Set 2: Fahrenheit</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset03/">Problem Set 3: Note Frequency</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset04/">Problem Set 4: Quarterback Rating</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset05/">Problem Set 5: Water Meter</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset06/">Problem Set 6: Vending Machine</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset07/">Problem Set 7: Down Payment</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset08/">Problem Set 8: Book Identifier</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../pset09/">Problem Set 9: Radiation Exposure</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../lab01/">Lab 1: Digital Explosion</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab02/">Lab 2: Easter Sunday</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab03/">Lab 3: Movie Critic</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab04/">Lab 4: Coin Change</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab05/">Lab 5: Gene Detection</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab06/">Lab 6: Smooth Signal</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab07/">Lab 7: Caesar Cipher</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../lab08/">Lab 8: Polybius Cipher</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../notes/">Course Notes</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../priortests/">Prior Tests</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../references/">References</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../syllabus/">Syllabus</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#problem-set-10-credit-card">Problem Set 10: Credit Card</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
+                
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#example-case">Example Case</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="problem-set-10-credit-card">Problem Set 10: Credit Card</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="task-outline">Task Outline</h2>
+<ul>
+<li><strong>Due Date:</strong> Monday, November 25, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>Implement a <code>Python</code> program that determines whether a provided credit card number is valid, according to Luhn's algorithm.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>Every credit card has a number, both printed on its face, and embedded in the magnetic stripe on its back. That number is also stored in a database somewhere, so that when your card is used to buy something, the creditor knows whom to bill.</li>
+<li>There are many people with credit cards in this world, so those numbers are pretty long:<ul>
+<li>American Express: 15-digit numbers</li>
+<li>MasterCard: 16-digit numbers</li>
+<li>Visa: 13- and 16-digit numbers</li>
+</ul>
+</li>
+<li>Credit cards companies don't just assign a random series of digits to compose
+    their credit card numbers. Rather, there is actually some structure to them:<ul>
+<li>American Express numbers must start with 34 or 37.</li>
+<li>MasterCard numbers must start with 51, 52, 53, 54 or 55.</li>
+<li>Visa numbers must start with 4.</li>
+</ul>
+</li>
+<li>Credit card numbers also have a <strong>checksum</strong> built into them, which is a mathematical relationship between at least one number, and the others. This checksum enables computers to detect errors and fraudulent credit card numbers, without having to query a database, which can be slow.</li>
+<li>Credit card companies use an algorithm developed by Hans Peter Luhn, a researcher from IBM.</li>
+<li>According to <strong>Luhn's algorithm</strong>, you can determine if a credit card is valid by executing the following steps:<ol>
+<li>Multiply every other digit by 2, starting with the number's <strong>second-to-last digit</strong>, and then add those products' digits together.</li>
+<li>Take this result, and add it to the sum of the digits that weren't multiplied by 2.</li>
+<li>If the total's last digit is 0, then that credit card number is valid.</li>
+</ol>
+</li>
+</ul>
+<h2 id="example-case">Example Case</h2>
+<ul>
+<li>Consider an example of Luhn's algorithm with the following American Express number: 378282246310005</li>
+<li>For the sake of clarity, I have underlined every other digit, starting with the number's second-to-last digit:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
+</div>
+<script type="math/tex; mode=display">
+3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
+</script>
+</div>
+<ul>
+<li>Then, multiply each of the underlined digits(highlighted in bold) by 2:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+\textbf{7}\cdot{2} + \textbf{2}\cdot{2} + \textbf{2}\cdot{2} + \textbf{4}\cdot{2} + \textbf{3}\cdot{2} + \textbf{0}\cdot{2} + \textbf{0}\cdot{2}
+</div>
+<script type="math/tex; mode=display">
+\textbf{7}\cdot{2} + \textbf{2}\cdot{2} + \textbf{2}\cdot{2} + \textbf{4}\cdot{2} + \textbf{3}\cdot{2} + \textbf{0}\cdot{2} + \textbf{0}\cdot{2}
+</script>
+</div>
+<ul>
+<li>The partial products are as follows:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+14 + 4 + 4 + 8 + 6 + 0 + 0
+</div>
+<script type="math/tex; mode=display">
+14 + 4 + 4 + 8 + 6 + 0 + 0
+</script>
+</div>
+<ul>
+<li>Next, add those products' digits(<strong>Note:</strong> not the products themselves) together:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
+</div>
+<script type="math/tex; mode=display">
+1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
+</script>
+</div>
+<ul>
+<li>Now, add the result of 27 to the sum of the digits in the credit card number that <strong>weren't</strong> multiplied by 2:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 &amp;=&amp; 60
+</div>
+<script type="math/tex; mode=display">
+27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 &=& 60
+</script>
+</div>
+<ul>
+<li>Notice that the last digit in the result of 60 is a 0, so the credit card number is legitimate.</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Note that the credit card number is being brought into the function as a string. This means that you will have to perform string slicing throughout your program, and convert between string values and integers. Use <code>int()</code> and <code>str()</code> to perform these conversions.</li>
+<li>Luhn's algorithm clearly specifies that you must sum the digits starting from the <strong>second-to-last digit</strong>. Does this mean that you have to perform a reverse loop? Not necessarily. Think about what happens when a credit card has an <strong>odd</strong> quantity of digits, it means that we have to sum all of the elements located at the <strong>odd-numbered</strong> indexes:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
+</div>
+<script type="math/tex; mode=display">
+3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
+</script>
+</div>
+<ul>
+<li>Now, think about what happens when a credit card has an <strong>even</strong> quantity of digits. In this case, we have to sum all of the elements located at the <strong>even-numbered</strong> indexes:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}0
+</div>
+<script type="math/tex; mode=display">
+\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}0
+</script>
+</div>
+<h2 id="code-distribution">Code Distribution</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Python</code> Source Code for Credit Card</td>
+<td>1.4KB</td>
+<td><a href="/csp/zip/pset10.zip">pset10.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contents of <code>pset10.zip</code>:</strong></p>
+<pre><code class="bash">PSet10CreditCard/
+├── creditcard.py
+└── testcreditcard.py
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Python</code> program in the file <code>creditcard.py</code> which calculates the amount of radiation exposure in a given time period.</li>
+<li>You will write your solution in a function called <code>validate(digits)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>If the credit card number is valid, then your <code>validate</code> function should return a string corresponding to the specific credit card brand. These return values should be <code>AMEX</code>, <code>MASTERCARD}</code>, <code>VISA</code>, or <code>VALID</code>. Otherwise, if the credit card number is not valid, then your <code>validate</code> function should return the string <code>INVALID</code>.</li>
+<li>When the function call <code>validate("378282246310005")</code> is executed, the output of the program should be: <code>AMEX</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Run the file <code>testcreditcard.py</code> to execute the <code>PyUnit</code> test bench. <code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful test with a <code>FAIL</code> output.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>creditcard.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
