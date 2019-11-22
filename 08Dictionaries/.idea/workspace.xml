@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d8b095-0f85-48d8-bf58-4d2a013e2ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionaryget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionarygetmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chordprogression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chordsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09Tuples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09Tuples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09Tuples/tuplemethods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09Tuples/tupleoperations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/exercise02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/exercise2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/filehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/filehandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/stockanalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10Files/stockprices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,33 +28,34 @@
     <session id="1357167691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10963" />
+          <entry key="py" value="11953" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10963" />
+          <entry key="Python" value="11953" />
         </counts>
       </usages-collector>
     </session>
@@ -78,16 +90,42 @@
         <entry file="file://$PROJECT_DIR$/dictionaryget.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1305">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dictionarygetmethod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chordprogression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1574307076099" expanded="true" signature="37:42" ph="..." />
+                <marker date="1574307076099" expanded="true" signature="37:442" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dictionarygetmethod.py">
+        <entry file="file://$PROJECT_DIR$/chordsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="464">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1574313153914" expanded="true" signature="86:91" ph="..." />
+                <marker date="1574313153914" expanded="true" signature="86:486" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,14 +157,16 @@
         <option value="$PROJECT_DIR$/dictionaryproblems.py" />
         <option value="$PROJECT_DIR$/dictionaryget.py" />
         <option value="$PROJECT_DIR$/dictionarygetmethod.py" />
+        <option value="$PROJECT_DIR$/chordprogression.py" />
+        <option value="$PROJECT_DIR$/chordsequence.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
+    <option name="x" value="237" />
     <option name="y" value="26" />
-    <option name="width" value="1137" />
-    <option name="height" value="987" />
+    <option name="width" value="1650" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,8 +204,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dictionarygetmethod">
-    <configuration name="dictionaryexercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.chordsequence">
+    <configuration name="chordprogression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="08Dictionaries" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +217,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaryexercises.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chordprogression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chordsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="08Dictionaries" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chordsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,41 +310,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise03" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="08Dictionaries" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.exercise03" />
-      <item itemvalue="Python.dictionaryexercises" />
       <item itemvalue="Python.dictionaryproblems" />
       <item itemvalue="Python.dictionaryget" />
       <item itemvalue="Python.dictionarygetmethod" />
+      <item itemvalue="Python.chordprogression" />
+      <item itemvalue="Python.chordsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chordsequence" />
+        <item itemvalue="Python.chordprogression" />
         <item itemvalue="Python.dictionarygetmethod" />
         <item itemvalue="Python.dictionaryget" />
         <item itemvalue="Python.dictionaryproblems" />
-        <item itemvalue="Python.dictionaryexercises" />
-        <item itemvalue="Python.exercise03" />
       </list>
     </recent_temporary>
   </component>
@@ -301,15 +341,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="26" width="1137" height="987" extended-state="0" />
+    <frame x="237" y="26" width="1650" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22032374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15076923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2939815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2908046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,14 +446,36 @@
     <entry file="file://$PROJECT_DIR$/dictionaryget.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dictionarygetmethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="724">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chordprogression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1574307076099" expanded="true" signature="37:42" ph="..." />
+            <marker date="1574307076099" expanded="true" signature="37:442" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chordsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1574313153914" expanded="true" signature="86:91" ph="..." />
+            <marker date="1574313153914" expanded="true" signature="86:486" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
