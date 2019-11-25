@@ -285,7 +285,7 @@
 <ul>
 <li>The Vigenere Cipher improves upon the Caesar Cipher by encrypting a message using a <strong>sequence</strong> of keys, also known as a <strong>keyword</strong>.</li>
 <li>A <strong>keyword</strong> is an alphabetical string, where <code>a</code> represents <code>0</code>, <code>b</code> represents <code>1</code>, <code>c</code> represents <code>2</code>, and so on, all the way up to <code>z</code> which represents <code>25</code>.</li>
-<li>In other words, if <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> is some plaintext, and <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> is a keyword, then each letter <span><span class="MathJax_Preview">c_i</span><script type="math/tex">c_i</script></span> in the ciphertext, <span><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> is computed as:</li>
+<li>In other words, if <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> is some plaintext, and <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> is a keyword, then each letter <span><span class="MathJax_Preview">c_i</span><script type="math/tex">c_i</script></span> in the ciphertext <span><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> is computed as:</li>
 </ul>
 <div>
 <div class="MathJax_Preview">
@@ -296,7 +296,7 @@ c_i = (p_i + k_j)\, \mbox{mod}\, 26
 </script>
 </div>
 <ul>
-<li>Note that the Vigenere Cipher uses <span><span class="MathJax_Preview">k_j</span><script type="math/tex">k_j</script></span> in constrast to the Caesar Cipher, which just uses <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span>. Also, if <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> is shorter than the plaintext message <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>(which is usually the case), then the letters in <span><span class="MathJax_Preview"><span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span></span><script type="math/tex"><span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span></script></span> must be reused cyclically as many times as it takes to encrypt <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>.</li>
+<li>Note that the Vigenere Cipher uses <span><span class="MathJax_Preview">k_j</span><script type="math/tex">k_j</script></span> in constrast to the Caesar Cipher, which just uses <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span>. Also, if <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> is shorter than the plaintext message <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>(which is usually the case), then the letters in <span><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> must be reused cyclically as many times as it takes to encrypt <span><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>.</li>
 </ul>
 <h2 id="example-case">Example Case</h2>
 <ul>
