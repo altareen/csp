@@ -30,9 +30,10 @@
 + [Problem Set 8](pset08.md) is due on Monday, November 11th.
 + [Lab 8](lab08.md) is due on Friday, November 15th.
 + [Problem Set 9](pset09.md) is due on Monday, November 18th.
-+ [Quiz 4: Python Lists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th. -->
++ [Quiz 4: Python Lists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 9](lab09.md) is due on Friday, November 22nd.
-+ [Problem Set 10](pset10.md) is due on Monday, November 25th.
++ [Problem Set 10](pset10.md) is due on Monday, November 25th. -->
++ [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 
 ## Course Calendar: Semester One
@@ -54,7 +55,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *Junior Week* | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
+1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
 8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
