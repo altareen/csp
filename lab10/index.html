@@ -294,19 +294,15 @@
 <li>HTTP is a connectionless, text-based protocol, in which clients send requests to servers.</li>
 <li>When you type a URL into a web browser, the following steps occur:<ul>
 <li>If the URL contains a domain name, then the browser first connects to a Domain Name Server, and retrieves the corresponding IP address for that domain name.</li>
-<li>The web browser then connects to the web server, and sends an HTTP request for the desired web page. The HTTP request takes the following form:</li>
+<li>The web browser then connects to the web server, and sends an HTTP request for the desired web page. The HTTP request takes the following form: <code>GET /hello.html HTTP/1.1</code></li>
+<li>The web server receives the request, verifies that it is properlyformatted, and returns an appropriate error message if it is not. Then, it checks for the desired web page. If the requested page exists, then the web server sends it out. However, if the web server cannot find the requested web page, then it will send out an error message.</li>
 </ul>
 </li>
 </ul>
-<pre><code class="bash">GET /hello.html HTTP/1.1
-</code></pre>
-
-<pre><code>+ The web server receives the request, verifies that it is properlyformatted, and returns an appropriate error message if it is not. Then, it checks for the desired web page. If the requested page exists, then the web server sends it out. However, if the web server cannot find the requested web page, then it will send out an error message.
-</code></pre>
 <p><img alt="Network stack" src="/csp/img/network.png" title="Network stack" /></p>
 <h2 id="example-case">Example Case</h2>
 <ul>
-<li>According to Regulation \texttt{rfc7230} from the Internet Enginering Task Force(IETF), a well-formed HTTP request line takes the following form:</li>
+<li>According to Regulation <code>rfc7230</code> from the Internet Enginering Task Force(IETF), a well-formed HTTP request line takes the following form:</li>
 </ul>
 <pre><code class="bash">delivery-method SPACE request-target SPACE HTTP-version
 </code></pre>
