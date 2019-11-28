@@ -33,6 +33,7 @@
 + [Quiz 4: Python Lists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 9](lab09.md) is due on Friday, November 22nd.
 + [Problem Set 10](pset10.md) is due on Monday, November 25th. -->
++ [Lab 10](lab10.md) is due on Friday, November 29nd.
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 
@@ -49,7 +50,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
 17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
-24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29     | 30
+24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
 
 ### December 2019
 

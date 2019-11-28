@@ -32,6 +32,7 @@ nav:
     - 'Lab 7: Caesar Cipher': lab07.md
     - 'Lab 8: Polybius Cipher': lab08.md
     - 'Lab 9: Substitution Cipher': lab09.md
+    - 'Lab 10: Request Line': lab10.md
 - Course Notes: notes.md
 - Prior Tests: priortests.md
 - References: references.md
