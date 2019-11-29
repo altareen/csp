@@ -272,10 +272,14 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#lab-9-substitution-cipher">Lab 9: Substitution Cipher</a></li>
+        <li class="first-level active"><a href="#lab-9-request-line">Lab 9: Request Line</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#example-case">Example Case</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
                 
@@ -289,23 +293,50 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="lab-9-substitution-cipher">Lab 9: Substitution Cipher</h1>
+<h1 id="lab-9-request-line">Lab 9: Request Line</h1>
 <div class="admonition note">
-<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Friday, November 22, 2019</li>
+<li><strong>Due Date:</strong> Friday, November 29, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that encrypts a message using the substitution cipher.</li>
+<li>Implement a <code>Java</code> program that determines the validity of an HTTP request line.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>In a substitution cipher, we <strong>encrypt</strong> a message by replacing every letter in a plaintext message with some other letter.</li>
-<li>In order to perform this encryption, we make use of a <strong>key</strong>. In the case of the substitution cipher, the key is a mapping of each of the letters of the alphabet to the letter that it should correspond to, when we encrypt it.</li>
-<li>To <strong>decrypt</strong> the message, the receiver of the message would need to know the key, so that they could reverse the process.</li>
-<li>A <strong>key</strong>, for example, might be the string <code>jtrekyavogdxpsncuizlfbmwhq</code>. This 26-character key means that <code>a</code>(the first letter of the alphabet) should be converted into <code>j</code>(the first letter of the key). Similarly, the letter <code>b</code>(the second letter of the alphabet) should be converted into <code>t</code>(the second letter of the key) and so on.</li>
-<li>Therefore, a message like <code>hello</code> would be encrypted as <code>vkxxn</code>, replacing each of the letters according to the mapping as determined by the key.</li>
+<li>HyperText Transfer Protocol(HTTP) is the protocol that web browsers and web servers use to communicate with each other over the Internet.</li>
+<li>HTTP is an application level protocol, because it sits on top of the TCP layer in the protocol stack, and it is used by specific applications to talk to each other. In this particular case, those applications happen to be web browsers and web servers.</li>
+<li>HTTP is a connectionless, text-based protocol, in which clients send requests to servers.</li>
+<li>When you type a URL into a web browser, the following steps occur:<ul>
+<li>If the URL contains a domain name, then the browser first connects to a Domain Name Server, and retrieves the corresponding IP address for that domain name.</li>
+<li>The web browser then connects to the web server, and sends an HTTP request for the desired web page. The HTTP request takes the following form: <code>GET /hello.html HTTP/1.1</code></li>
+<li>The web server receives the request, verifies that it is properly formatted, and returns an appropriate error message if it is not. Then, it checks for the desired web page. If the requested page exists, then the web server sends it out. However, if the web server cannot find the requested web page, then it will send out an error message.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Network stack" src="/csp/img/network.png" title="Network stack" /></p>
+<h2 id="example-case">Example Case</h2>
+<ul>
+<li>According to Regulation <code>rfc7230</code> from the Internet Enginering Task Force(IETF), a well-formed HTTP request line takes the following form:</li>
+</ul>
+<pre><code class="bash">delivery-method SPACE request-target SPACE HTTP-version
+</code></pre>
+
+<ul>
+<li>Your task is to verify that a given HTTP request conforms to this structure, and is consistent with the following rules:<ul>
+<li>If <code>delivery-method</code> is not <code>GET</code>, then the function should return: <code>405 Method Not Allowed</code></li>
+<li>If <code>request-target</code> does not begin with a <code>/</code>, then the function should return: <code>501 Not Implemented</code></li>
+<li>If <code>request-target</code> contains a <code>"</code>, then the function should return: <code>400 Bad Request</code></li>
+<li>If <code>HTTP-version</code> is not <code>HTTP/1.1</code>, then the function should return: <code>505 HTTP Version Not Supported</code></li>
+</ul>
+</li>
+<li>If none of the above errors occur, then this means that the HTTP request line is well-formed, and that the <code>parse()</code> function should return the <code>request-target</code>.</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>You should use string slicing to separate the different parts of the request line. However, this means that you will need to discover the index locations of the <code>SPACE</code>s.</li>
+<li>Use the <code>indexOf(String word)</code> function to discover the index of the first <code>SPACE</code>, and then use <code>indexOf(String word, int start)</code> to discover the index of the other <code>SPACE</code>.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -318,31 +349,37 @@
 </thead>
 <tbody>
 <tr>
-<td><code>Python</code> Source Code for Substitution Cipher</td>
-<td>1.7KB</td>
-<td><a href="/csp/zip/lab09.zip">lab09.zip</a></td>
+<td><code>Java</code> Source Code for Request Line</td>
+<td>5.0KB</td>
+<td><a href="/csa/zip/lab09.zip">lab09.zip</a></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Contents of <code>lab09.zip</code>:</strong></p>
-<pre><code class="bash">Lab09SubstitutionCipher/
-├── substitutioncipher.py
-└── testsubstitutioncipher.py
+<pre><code class="bash">Lab09RequestLine/
+├── package.bluej
+├── README.TXT
+├── RequestLine.class
+├── RequestLine.ctxt
+├── RequestLine.java
+├── RequestLineJUnitTest.class
+├── RequestLineJUnitTest.ctxt
+└── RequestLineJUnitTest.java
 </code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
-<li>Write a <code>Python</code> program in the file <code>substitutioncipher.py</code> that encrypts a message using the substitution cipher.</li>
-<li>You will write your solution in a function called <code>encrypt(message, key)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>encrypt("hello", "jtrekyavogdxpsncuizlfbmwhq")</code> is executed, the output of the program should be: <code>vkxxn</code></li>
+<li>Write a <code>Java</code> program in the file <code>RequestLine.java</code> that determines the validity of an HTTP request line.</li>
+<li>You will write your solution in a function called <code>parse(String line)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>parse("GET /hello.html HTTP/1.1")</code> is executed, the output of the program should be: <code>/hello.html</code></li>
 </ul>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>Run the file <code>testsubstitutioncipher.py</code> to execute the <code>PyUnit</code> test bench. <code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful test with a <code>FAIL</code> output.</li>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>substitutioncipher.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>RequestLine.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
