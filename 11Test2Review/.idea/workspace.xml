@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42d81976-211c-4abd-a257-1d8d0420ce92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiplechoice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part1multiplechoice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08Dictionaries/dictionaryexercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08Dictionaries/dictionaryexercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10Files/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="42d81976-211c-4abd-a257-1d8d0420ce92" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +12,7 @@
     <session id="735558571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -59,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part1multiplechoice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="553">
               <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
@@ -197,7 +191,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31328037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31328037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,7 +214,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part1multiplechoice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="553">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>

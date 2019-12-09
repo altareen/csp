@@ -20,4 +20,4 @@ Fall 2015 |   91KB | [cspTest02Fall2015.pdf](/csp/pdf/cspTest02Fall2015.pdf)
 Fall 2016 |   96KB | [cspTest02Fall2016.pdf](/csp/pdf/cspTest02Fall2016.pdf)
 Fall 2017 |  163KB | [cspTest02Fall2017.pdf](/csp/pdf/cspTest02Fall2017.pdf)
 Fall 2018 |  162KB | [cspTest02Fall2018.pdf](/csp/pdf/cspTest02Fall2018.pdf)
-
+          |   29KB | [additionalProgrammingQuestions.pdf](/csp/pdf/additionalProgrammingQuestions.pdf)
