@@ -38,7 +38,7 @@ print(result)
 
 # Introduction to Python, Exercise 5, page 105
 def winpercentage(name):
-    football = {"patriots":[8, 1], "bills":[6, 3], "jets":[2, 7], "dolphins":[2, 7]}
+    football = {"patriots":[8, 2], "bills":[6, 3], "jets":[2, 7], "dolphins":[2, 7]}
     record = football[name]
     outcome = record[0]/(record[0] + record[1])
     return outcome

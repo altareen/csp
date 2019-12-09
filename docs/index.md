@@ -32,25 +32,16 @@
 + [Problem Set 9](pset09.md) is due on Monday, November 18th.
 + [Quiz 4: Python Lists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 9](lab09.md) is due on Friday, November 22nd.
-+ [Problem Set 10](pset10.md) is due on Monday, November 25th. -->
-+ [Lab 10](lab10.md) is due on Friday, November 29nd.
++ [Problem Set 10](pset10.md) is due on Monday, November 25th.
++ [Lab 10](lab10.md) is due on Friday, November 29th. -->
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
++ **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
 
 ## Course Calendar: Semester One
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
-
-### November 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
-3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
-10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
-17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
-24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
 
 ### December 2019
 
@@ -91,6 +82,16 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 5 Due**](lab05.md) | 19
 20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Python Syntax & Strings** | 25 *Field Trip* | 26
 27     | 28     | 29      | 30      | 31 *Halloween* | | 
+
+### November 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+       |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
+3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
+10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
+17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
+24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
 
 ## Course Calendar: Semester Two
 

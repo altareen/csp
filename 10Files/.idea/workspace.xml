@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f13a09-f33b-493f-90fd-df3653628909" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/michigananalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/michigananalysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michigancensus.py" beforeDir="false" afterPath="$PROJECT_DIR$/michigancensus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08Dictionaries/dictionaryexercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08Dictionaries/dictionaryexercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +15,13 @@
     <session id="-1671528096">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/michigandata.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="2378">
               <caret line="82" column="22" selection-start-line="82" selection-end-line="83" />
             </state>
           </provider>
@@ -71,10 +72,9 @@
         <entry file="file://$PROJECT_DIR$/michigancensus.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <marker date="1574917919402" expanded="true" signature="80:478" ph="..." />
-                <marker date="1574917919402" expanded="true" signature="80:1412" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,11 +139,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/apCSPrinciples/codingProblems/spaceCowsTransportation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11Test2Review" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -448,9 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/michingandata.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/michingandata.txt" />
     <entry file="file://$PROJECT_DIR$/solardata.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,10 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1574841502097" expanded="true" signature="150:495" ph="..." />
-            <marker date="1574841502097" expanded="true" signature="536:901" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,6 +466,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/michigandata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2378">
+          <caret line="82" column="22" selection-start-line="82" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/michigananalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2088">
@@ -479,20 +480,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/michigandata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="82" column="22" selection-start-line="82" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/michigancensus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <marker date="1574917919402" expanded="true" signature="80:478" ph="..." />
-            <marker date="1574917919402" expanded="true" signature="80:1412" ph="..." />
           </folding>
         </state>
       </provider>
