@@ -52,7 +52,76 @@ lunch = {"pizza":10, "burger":12}
 food = lunch.get("chips", 0)
 print(food)
 
+# 13.
+#fruit = {"banana":5, "pear":3, "orange":8}
+#result = fruit["kiwi"]
+# Fails with a Traceback.
 
+# 14.
+fruit = {"banana":5, "pear":3, "orange":8}
+result = fruit.get("kiwi", 0)
+print(result)
 
+# 15.
+fruit = {"banana":5, "pear":3, "orange":8}
+for item in fruit:
+    print(item)
 
+# 17.
+fruit = {"banana":5, "pear":3, "orange":8}
+del fruit["orange"]
+print(fruit)
 
+# 18.
+drinks = {"coffee":87, "tea":23, "juice":49}
+result = list(drinks.values())
+print(result)
+
+# 19.
+fruit = {"banana":5, "pear":3, "orange":8}
+fruit["orange"] -= 2
+print(fruit)
+
+# 20.
+cheese = {"swiss":3, "cheddar":7, "gouda":6}
+result = "swiss" in cheese
+print(result)
+
+# Short Answer
+
+# 1.
+cheeses = ["Cheddar", "Edam", "Gouda"]
+print(cheeses[0])
+
+# 2.
+# [0, 0, 0, 0]
+print([0] * 4)
+
+# 3.
+#["pizza", "burger", "fries"]
+snacks = ["pizza", "burger"]
+snacks.append("fries")
+print(snacks)
+
+# 4.
+drinks = ["tea", "soda", "cola", "juice"]
+drinks.sort()
+print(drinks)
+
+# 5.
+dinner = ["salad", "bread", "steak", "potato"]
+del dinner[1]
+print(dinner)
+
+# 6.
+nums = [3, 41, 12, 9, 74, 15]
+print(max(nums))
+
+# 7.
+food = {"pizza":3}
+food["fries"] = 10
+print(food)
+
+# 8
+treasure = {"gold":50, "silver":100}
+print("gold" in treasure)
