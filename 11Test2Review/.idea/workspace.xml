@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42d81976-211c-4abd-a257-1d8d0420ce92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/freeresponse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3freeresponse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/freeresponse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multiplechoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplechoice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part1multiplechoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/part1multiplechoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3freeresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3freeresponse.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,9 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,53 +38,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6122" />
+          <entry key="py" value="7142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6122" />
+          <entry key="Python" value="7142" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiplechoice.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/freeresponse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="487">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
-                <marker date="1576041620097" expanded="true" signature="3133:3294" ph="..." />
-                <marker date="1576041620097" expanded="true" signature="3384:3941" ph="..." />
-                <marker date="1576041620097" expanded="true" signature="3384:4120" ph="..." />
+                <marker date="1576120848678" expanded="true" signature="1513:1897" ph="..." />
+                <marker date="1576120848678" expanded="true" signature="2093:2269" ph="..." />
+                <marker date="1576120848678" expanded="true" signature="2386:2596" ph="..." />
+                <marker date="1576120848678" expanded="true" signature="2386:2651" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freeresponse.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part3freeresponse.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part1multiplechoice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
-              <folding>
-                <marker date="1576051075023" expanded="true" signature="2740:2990" ph="..." />
-                <marker date="1576051075023" expanded="true" signature="3063:3224" ph="..." />
-                <marker date="1576051075023" expanded="true" signature="3314:3867" ph="..." />
-                <marker date="1576051075023" expanded="true" signature="3314:4047" ph="..." />
-              </folding>
+            <state relative-caret-position="1595">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -103,18 +89,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/freeresponse.py" />
-        <option value="$PROJECT_DIR$/part3freeresponse.py" />
         <option value="$PROJECT_DIR$/multiplechoice.py" />
         <option value="$PROJECT_DIR$/part1multiplechoice.py" />
+        <option value="$PROJECT_DIR$/part3freeresponse.py" />
+        <option value="$PROJECT_DIR$/freeresponse.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="531" />
-    <option name="y" value="26" />
-    <option name="width" value="1354" />
-    <option name="height" value="1002" />
+    <option name="x" value="183" />
+    <option name="y" value="16" />
+    <option name="width" value="1645" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,7 +138,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.part1multiplechoice">
+  <component name="RunManager" selected="Python.freeresponse">
+    <configuration name="freeresponse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="11Test2Review" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/freeresponse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="multiplechoice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="11Test2Review" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,9 +205,11 @@
     <list>
       <item itemvalue="Python.multiplechoice" />
       <item itemvalue="Python.part1multiplechoice" />
+      <item itemvalue="Python.freeresponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.freeresponse" />
         <item itemvalue="Python.part1multiplechoice" />
         <item itemvalue="Python.multiplechoice" />
       </list>
@@ -220,14 +229,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="531" y="26" width="1354" height="1002" extended-state="0" />
+    <frame x="183" y="16" width="1645" height="981" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17908202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14691357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20819113" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26689976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,33 +255,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/freeresponse.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3freeresponse.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiplechoice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <marker date="1576041620097" expanded="true" signature="3133:3294" ph="..." />
-            <marker date="1576041620097" expanded="true" signature="3384:3941" ph="..." />
-            <marker date="1576041620097" expanded="true" signature="3384:4120" ph="..." />
-          </folding>
+        <state relative-caret-position="652">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part1multiplechoice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="652">
+          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3freeresponse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeresponse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
-            <marker date="1576051075023" expanded="true" signature="2740:2990" ph="..." />
-            <marker date="1576051075023" expanded="true" signature="3063:3224" ph="..." />
-            <marker date="1576051075023" expanded="true" signature="3314:3867" ph="..." />
-            <marker date="1576051075023" expanded="true" signature="3314:4047" ph="..." />
+            <marker date="1576120848678" expanded="true" signature="1513:1897" ph="..." />
+            <marker date="1576120848678" expanded="true" signature="2093:2269" ph="..." />
+            <marker date="1576120848678" expanded="true" signature="2386:2596" ph="..." />
+            <marker date="1576120848678" expanded="true" signature="2386:2651" ph="..." />
           </folding>
         </state>
       </provider>
