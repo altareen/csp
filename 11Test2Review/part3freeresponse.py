@@ -53,3 +53,87 @@ print(result)
 result = convertmandarin("20")
 print(result)
 
+
+# Question 4.
+
+def validate(username, password):
+    credentials = {"alice":"trustnoone", "bob":"burger", "carl":"baskeball"}
+    result = ""
+    if username not in credentials:
+        result = "invalid username"
+    elif username in credentials and password != credentials[username]:
+        result = "incorrect password"
+    elif username in credentials and password == credentials[username]:
+        result = "login successful"
+    return result
+
+result = validate("jim", "football")
+print(result)
+
+result = validate("bob", "pizza")
+print(result)
+
+result = validate("alice", "trustnoone")
+print(result)
+
+
+# Question 5.
+
+def winpercentage(team):
+    division = {"patriots":[8,2], "bills":[7,3], "jets":[4,6], "dolphins":[1,9]}
+    record = division[team]
+    result = record[0]/(record[0] + record[1])
+    return result
+
+result = winpercentage("patriots")
+print(result)
+
+result = winpercentage("bills")
+print(result)
+
+def numberofwins():
+    division = {"patriots": [8, 2], "bills": [7, 3], "jets": [4, 6], "dolphins": [1, 9]}
+    wins = []
+    for team in division:
+        record = division[team]
+        wins.append(record[0])
+    return wins
+
+result = numberofwins()
+print(result)
+
+# Question 34.
+
+def listintersection(first, second):
+    result = []
+    for num in first:
+        if num in second:
+            result.append(num)
+    return result
+
+result = listintersection([1, 3, 5], [5, 3])
+print(result)
+
+result = listintersection([2,3,8,9,4,12,8,13,19,7,6], [1,9,3,8,4,7,9,13])
+print(result)
+
+# Question 35.
+
+def middle(nums):
+    size = len(nums)
+    center = size//2
+    return nums[center]
+
+result = middle([8, 0, 100, 12, 1])
+print(result)
+
+
+
+
+
+
+
+
+
+
+
