@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42d81976-211c-4abd-a257-1d8d0420ce92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/part3freeresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3freeresponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +14,12 @@
     <session id="735558571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,13 +49,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/freeresponse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="3132">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <marker date="1576120848678" expanded="true" signature="1513:1897" ph="..." />
                 <marker date="1576120848678" expanded="true" signature="2093:2269" ph="..." />
                 <marker date="1576120848678" expanded="true" signature="2386:2596" ph="..." />
-                <marker date="1576120848678" expanded="true" signature="2386:2651" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,15 +63,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part3freeresponse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="308">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <marker date="1576127888028" expanded="true" signature="1416:1819" ph="..." />
                 <marker date="1576127888028" expanded="true" signature="1416:2289" ph="..." />
                 <marker date="1576127888028" expanded="true" signature="2016:2192" ph="..." />
                 <marker date="1576127888028" expanded="true" signature="2308:2518" ph="..." />
                 <marker date="1576127888028" expanded="true" signature="2609:2724" ph="..." />
-                <marker date="1576127888028" expanded="true" signature="2609:3035" ph="..." />
                 <marker date="1576127888028" expanded="true" signature="2906:2974" ph="..." />
               </folding>
             </state>
@@ -102,10 +100,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
+    <option name="x" value="198" />
     <option name="y" value="22" />
-    <option name="width" value="1555" />
-    <option name="height" value="1022" />
+    <option name="width" value="1403" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12FinalExamReview" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -257,10 +255,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="22" width="1555" height="1022" extended-state="0" />
+    <frame x="198" y="22" width="1403" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15555556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17271408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -299,28 +297,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/freeresponse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="3132">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <marker date="1576120848678" expanded="true" signature="1513:1897" ph="..." />
             <marker date="1576120848678" expanded="true" signature="2093:2269" ph="..." />
             <marker date="1576120848678" expanded="true" signature="2386:2596" ph="..." />
-            <marker date="1576120848678" expanded="true" signature="2386:2651" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part3freeresponse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="308">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
           <folding>
             <marker date="1576127888028" expanded="true" signature="1416:1819" ph="..." />
             <marker date="1576127888028" expanded="true" signature="1416:2289" ph="..." />
             <marker date="1576127888028" expanded="true" signature="2016:2192" ph="..." />
             <marker date="1576127888028" expanded="true" signature="2308:2518" ph="..." />
             <marker date="1576127888028" expanded="true" signature="2609:2724" ph="..." />
-            <marker date="1576127888028" expanded="true" signature="2609:3035" ph="..." />
             <marker date="1576127888028" expanded="true" signature="2906:2974" ph="..." />
           </folding>
         </state>
