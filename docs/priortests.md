@@ -21,3 +21,10 @@ Fall 2016 |   96KB | [cspTest02Fall2016.pdf](/csp/pdf/cspTest02Fall2016.pdf)
 Fall 2017 |  163KB | [cspTest02Fall2017.pdf](/csp/pdf/cspTest02Fall2017.pdf)
 Fall 2018 |  162KB | [cspTest02Fall2018.pdf](/csp/pdf/cspTest02Fall2018.pdf)
           |   29KB | [additionalProgrammingQuestions.pdf](/csp/pdf/additionalProgrammingQuestions.pdf)
+
+### Semester 1 Exam
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Fall 2017 | 164KB | [cspSemester1Exam.pdf](/csp/pdf/cspSemester1Exam.pdf)
+
