@@ -129,6 +129,7 @@ def splitstring(word):
 
 splitstring("buffalo")
 
+# Question 12.
 def othercaps(word):
     result = ""
     for i in range(len(word)):
@@ -139,4 +140,51 @@ def othercaps(word):
     return result
 
 result = othercaps("rhinoceros")
+print(result)
+
+# Section 2
+
+# Question 13.
+def blendedwords(one, two):
+    outcome = ""
+    for i in range(len(one)):
+        combined = one[i] + two[i]
+        outcome += combined
+    return outcome
+
+result = blendedwords("abcde", "ABCDE")
+print(result)
+
+# Question 14.
+def makeupper(name):
+    outcome = ""
+    line = name.split()
+    for i in range(len(line)):
+        line[i] = line[i].capitalize()
+    outcome = " ".join(line)
+    return outcome
+
+result = makeupper("sherlock benedict holmes")
+print(result)
+
+# Question 17.
+def wrapalphabet():
+    alpha = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(len(alpha)):
+        print(alpha[i:] + alpha[:i])
+
+wrapalphabet()
+
+# Question 21.
+import random
+def anagram(word):
+    outcome = ""
+    text = list(word)
+    while len(text) > 0:
+        letter = random.choice(text)
+        outcome += letter
+        text.remove(letter)
+    return outcome
+
+result = anagram("idle")
 print(result)

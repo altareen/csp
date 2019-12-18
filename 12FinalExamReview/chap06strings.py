@@ -127,5 +127,53 @@ def splitstring(word):
 
 splitstring("buffalo")
 
+# Section 3
+
+# Question 12.
+def otheruppercase(word):
+    outcome = ""
+    for i in range(len(word)):
+        if i%2 == 0:
+            outcome += word[i]
+        else:
+            outcome += word[i].upper()
+    return outcome
+
+result = otheruppercase("rhinoceros")
+print(result)
+
+# Question 13.
+def blendwords(one, two):
+    outcome = ""
+    for i in range(len(one)):
+        combine = one[i] + two[i]
+        outcome += combine
+    return outcome
+
+result = blendwords("abcde", "ABCDE")
+print(result)
+
+# Question 14.
+def makeupper(name):
+    outcome = ""
+    line = name.split()
+    for i in range(len(line)):
+        line[i] = line[i].capitalize()
+    outcome = " ".join(line)
+    return outcome
+
+result = makeupper("sherlock benedict holmes")
+print(result)
+
+# Question 17.
+def generateletters():
+    alpha = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(len(alpha)):
+        result = alpha[i:] + alpha[:i]
+        print(result)
+
+generateletters()
+
+
 
 
