@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec50f0-5a87-4725-b509-6793d5231ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chap7lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap07lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap6strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap6strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9227" />
+          <entry key="py" value="10770" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9227" />
+          <entry key="Python" value="10770" />
         </counts>
       </usages-collector>
     </session>
@@ -102,11 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap7lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="338">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chap07lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -129,14 +136,15 @@
         <option value="$PROJECT_DIR$/chap06strings.py" />
         <option value="$PROJECT_DIR$/chap6strings.py" />
         <option value="$PROJECT_DIR$/chap7lists.py" />
+        <option value="$PROJECT_DIR$/chap07lists.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
-    <option name="y" value="293" />
-    <option name="width" value="1607" />
-    <option name="height" value="688" />
+    <option name="x" value="176" />
+    <option name="y" value="246" />
+    <option name="width" value="1691" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chap7lists">
+  <component name="RunManager" selected="Python.chap07lists">
     <configuration name="chap06strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="12FinalExamReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,6 +196,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap06strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chap07lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="12FinalExamReview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,9 +271,11 @@
       <item itemvalue="Python.chap06strings" />
       <item itemvalue="Python.chap6strings" />
       <item itemvalue="Python.chap7lists" />
+      <item itemvalue="Python.chap07lists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chap07lists" />
         <item itemvalue="Python.chap7lists" />
         <item itemvalue="Python.chap6strings" />
         <item itemvalue="Python.chap06strings" />
@@ -265,15 +296,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="79" width="1141" height="913" extended-state="0" />
+    <frame x="171" y="288" width="1691" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30734769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20588236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35316455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4589615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,8 +373,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chap7lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="338">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
