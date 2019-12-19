@@ -188,3 +188,18 @@ def anagram(word):
 
 result = anagram("idle")
 print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

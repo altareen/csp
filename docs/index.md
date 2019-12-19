@@ -33,10 +33,11 @@
 + [Quiz 4: Python Lists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 9](lab09.md) is due on Friday, November 22nd.
 + [Problem Set 10](pset10.md) is due on Monday, November 25th.
-+ [Lab 10](lab10.md) is due on Friday, November 29th. -->
++ [Lab 10](lab10.md) is due on Friday, November 29th.
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
-+ **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
++ **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th. -->
++ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library.
 
 ## Course Calendar: Semester One
 
@@ -58,7 +59,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
-5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 *Final Exams* | 11
+5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 **CSP Exam 2:00PM**<br>**6F Library** | 11
 12     | 13 *Final Exams* | 14      | 15        | 16       | 17 *Winter Break Begins* | 18
 19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
