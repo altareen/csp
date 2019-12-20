@@ -93,6 +93,68 @@ print(nums)
 nums.insert(3, 25)
 print(nums)
 
+# Question 4.
+nums = []
+for trial in range(20):
+    value = random.randint(1, 12)
+    nums.append(value)
+print(nums)
+for i in range(len(nums)):
+    value = nums[i]
+    if value > 10:
+        nums[i] = 10
+print(nums)
+
+# Question 5.
+phrase = ["Soft", "what", "light", "through", "yonder", "window", "breaks"]
+for i in range(len(phrase)):
+    word = phrase[i]
+    phrase[i] = word[1:]
+print(phrase)
+
+# Question 6.
+nums = []
+for item in range(50):
+    nums.append(item)
+print(nums)
+
+nums = []
+for item in range(1, 51):
+    nums.append(item**2)
+print(nums)
+
+alpha = "abcdefghijklmnopqrstuvwxyz"
+result = []
+factor = 1
+for letter in alpha:
+    result.append(letter*factor)
+    factor += 1
+print(result)
+print(factor)
+
+# Question 7.
+def columnwise(one, two):
+    outcome = []
+    for i in range(len(one)):
+        addition = one[i] + two[i]
+        outcome.append(addition)
+    return outcome
+
+result = columnwise([3, 1, 4], [1, 5, 9])
+print(result)
+
+# Question 8.
+def factorize(num):
+    outcome = []
+    value = num//2 + 1
+    for i in range(1,value):
+        if num%i == 0:
+            outcome.append(i)
+    return outcome
+
+result = factorize(21)
+print(result)
+
 
 
 
