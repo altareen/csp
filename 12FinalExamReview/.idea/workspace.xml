@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec50f0-5a87-4725-b509-6793d5231ade" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap07lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap07lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11896" />
+          <entry key="py" value="13000" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11896" />
+          <entry key="Python" value="13000" />
         </counts>
       </usages-collector>
     </session>
@@ -101,16 +100,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap7lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="369">
+              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+              <folding>
+                <marker date="1576809198512" expanded="true" signature="1924:2060" ph="..." />
+                <marker date="1576809198512" expanded="true" signature="2146:2299" ph="..." />
+                <marker date="1576809198512" expanded="true" signature="2397:2685" ph="..." />
+                <marker date="1576809198512" expanded="true" signature="2397:2737" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap07lists.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
@@ -141,8 +146,8 @@
       <list>
         <option value="$PROJECT_DIR$/chap06strings.py" />
         <option value="$PROJECT_DIR$/chap6strings.py" />
-        <option value="$PROJECT_DIR$/chap7lists.py" />
         <option value="$PROJECT_DIR$/chap07lists.py" />
+        <option value="$PROJECT_DIR$/chap7lists.py" />
       </list>
     </option>
   </component>
@@ -188,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chap07lists">
+  <component name="RunManager" selected="Python.chap7lists">
     <configuration name="chap06strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="12FinalExamReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,8 +286,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chap07lists" />
         <item itemvalue="Python.chap7lists" />
+        <item itemvalue="Python.chap07lists" />
         <item itemvalue="Python.chap6strings" />
         <item itemvalue="Python.chap06strings" />
       </list>
@@ -377,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap7lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap07lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -392,6 +390,19 @@
             <marker date="1576806012517" expanded="true" signature="2092:2228" ph="..." />
             <marker date="1576806012517" expanded="true" signature="2318:2461" ph="..." />
             <marker date="1576806012517" expanded="true" signature="2318:2503" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap7lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding>
+            <marker date="1576809198512" expanded="true" signature="1924:2060" ph="..." />
+            <marker date="1576809198512" expanded="true" signature="2146:2299" ph="..." />
+            <marker date="1576809198512" expanded="true" signature="2397:2685" ph="..." />
+            <marker date="1576809198512" expanded="true" signature="2397:2737" ph="..." />
           </folding>
         </state>
       </provider>

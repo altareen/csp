@@ -103,4 +103,77 @@ for i in range(len(words)):
     words[i] = item[1:]
 print(words)
 
+# Question 6.
+nums = []
+for item in range(50):
+    nums.append(item)
+print(nums)
+
+nums = []
+for item in range(1, 51):
+    nums.append(item**2)
+print(nums)
+
+alpha = "abcdefghijklmnopqrstuvwxyz"
+result = []
+factor = 1
+for letter in alpha:
+    result.append(letter*factor)
+    factor += 1
+print(result)
+
+# Question 7.
+def columnwise(one, two):
+    outcome = []
+    for i in range(len(one)):
+        addition = one[i] + two[i]
+        outcome.append(addition)
+    return outcome
+
+result = columnwise([3,1,4], [1,5,9])
+print(result)
+
+# Question 8.
+def factorize(num):
+    outcome = []
+    value = num//2 + 1
+    for item in range(1, value):
+        if num%item == 0:
+            outcome.append(item)
+    return outcome
+
+result = factorize(2938472)
+print(result)
+
+# Question 9.
+def calculateodds():
+    outcome = [0]*11
+    for trial in range(10000):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        total = first + second
+        index = total - 2
+        outcome[index] += 1
+    for i in range(len(outcome)):
+        outcome[i] = 100*outcome[i]/10000
+    return outcome
+
+nums = []
+for item in range(2, 13):
+    nums.append(item)
+print(nums)
+result = calculateodds()
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
 
