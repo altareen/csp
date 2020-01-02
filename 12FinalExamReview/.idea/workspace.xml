@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddec50f0-5a87-4725-b509-6793d5231ade" name="Default Changelist" comment="" />
+    <list default="true" id="ddec50f0-5a87-4725-b509-6793d5231ade" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/chap7lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +18,11 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="13080" />
+          <entry key="py" value="14092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13080" />
+          <entry key="Python" value="14092" />
         </counts>
       </usages-collector>
     </session>
@@ -101,13 +105,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap7lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="157" column="41" lean-forward="true" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
+            <state relative-caret-position="405">
+              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
               <folding>
-                <marker date="1576809327004" expanded="true" signature="1924:2060" ph="..." />
-                <marker date="1576809327004" expanded="true" signature="2146:2299" ph="..." />
-                <marker date="1576809327004" expanded="true" signature="2397:2755" ph="..." />
-                <marker date="1576809327004" expanded="true" signature="2397:2807" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="1924:2060" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="2146:2299" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="2831:2911" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="3005:3158" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="3237:3398" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="3539:3786" ph="..." />
+                <marker date="1577935580070" expanded="true" signature="3539:3836" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,12 +123,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap07lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="4553">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
               <folding>
                 <marker date="1576806012517" expanded="true" signature="2092:2228" ph="..." />
                 <marker date="1576806012517" expanded="true" signature="2318:2461" ph="..." />
-                <marker date="1576806012517" expanded="true" signature="2318:2503" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,10 +156,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="255" />
-    <option name="y" value="36" />
-    <option name="width" value="1574" />
-    <option name="height" value="969" />
+    <option name="x" value="203" />
+    <option name="y" value="23" />
+    <option name="width" value="1571" />
+    <option name="height" value="935" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +178,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,15 +311,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="36" width="1574" height="969" extended-state="0" />
+    <frame x="200" y="38" width="1571" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22143318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22186287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33497536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,25 +388,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chap07lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="4553">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
           <folding>
             <marker date="1576806012517" expanded="true" signature="2092:2228" ph="..." />
             <marker date="1576806012517" expanded="true" signature="2318:2461" ph="..." />
-            <marker date="1576806012517" expanded="true" signature="2318:2503" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap7lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="157" column="41" lean-forward="true" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
+        <state relative-caret-position="405">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
           <folding>
-            <marker date="1576809327004" expanded="true" signature="1924:2060" ph="..." />
-            <marker date="1576809327004" expanded="true" signature="2146:2299" ph="..." />
-            <marker date="1576809327004" expanded="true" signature="2397:2755" ph="..." />
-            <marker date="1576809327004" expanded="true" signature="2397:2807" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="1924:2060" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="2146:2299" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="2831:2911" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="3005:3158" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="3237:3398" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="3539:3786" ph="..." />
+            <marker date="1577935580070" expanded="true" signature="3539:3836" ph="..." />
           </folding>
         </state>
       </provider>

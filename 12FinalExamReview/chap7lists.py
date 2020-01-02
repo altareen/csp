@@ -165,12 +165,56 @@ print(nums)
 result = calculateodds()
 print(result)
 
+# Question 10.
+def rotatelist(nums):
+    item = [nums[-1]]
+    nums = item + nums
+    del nums[-1]
+    return nums
+
+result = rotatelist([29,31,18,79,87,92,38])
+print(result)
+
+# Question 11.
+def separatezeros():
+    solution = [1]
+    for i in range(1, 11):
+        solution.append(1)
+        solution.extend([0]*i)
+        solution.append(1)
+    return solution
+
+result = separatezeros()
+print(result)
+
+# Question 13.
+def removerepeats(nums):
+    i = 0
+    while i < len(nums):
+        amount = nums.count(nums[i])
+        if amount > 1:
+            nums.remove(nums[i])
+        i += 1
+    return nums
+
+result = removerepeats([1,1,2,0,0,0,1,1,3,3,3,4,3,0,1,3,1,0,0])
+print(result)
 
 
+# Question 15.
+def onetimepad(plaintext):
+    ciphertext = ""
+    shifts = [1, 3, 2, 10, 8, 2]
+    for i in range(len(plaintext)):
+        letter = plaintext[i]
+        code = ord(letter) - 97
+        num = (code+shifts[i])%26
+        encode = chr(num+97)
+        ciphertext += encode
+    return ciphertext
 
-
-
-
+result = onetimepad("secret")
+print(result)
 
 
 

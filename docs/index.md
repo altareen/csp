@@ -44,16 +44,6 @@
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
-### December 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
-8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
-15     | 16     | 17      | 18        | 19       | 20     | 21
-22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
-29     | 30     | 31 *NYE Carnival* | | | | 
-
 ### January 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
@@ -93,6 +83,16 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
 17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
 24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
+
+### December 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
+8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
+15     | 16     | 17      | 18        | 19       | 20     | 21
+22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
+29     | 30     | 31 *NYE Carnival* | | | | 
 
 ## Course Calendar: Semester Two
 
