@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec50f0-5a87-4725-b509-6793d5231ade" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/chap7lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap08lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap07lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap07lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +17,35 @@
     <session id="-1478612111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14092" />
+          <entry key="py" value="17834" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="14092" />
+          <entry key="Python" value="17834" />
         </counts>
       </usages-collector>
     </session>
@@ -102,19 +105,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap7lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+            <state relative-caret-position="6206">
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
               <folding>
                 <marker date="1577935580070" expanded="true" signature="1924:2060" ph="..." />
                 <marker date="1577935580070" expanded="true" signature="2146:2299" ph="..." />
                 <marker date="1577935580070" expanded="true" signature="2831:2911" ph="..." />
                 <marker date="1577935580070" expanded="true" signature="3005:3158" ph="..." />
                 <marker date="1577935580070" expanded="true" signature="3237:3398" ph="..." />
-                <marker date="1577935580070" expanded="true" signature="3539:3786" ph="..." />
-                <marker date="1577935580070" expanded="true" signature="3539:3836" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,11 +124,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap07lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4553">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="515">
+              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
               <folding>
-                <marker date="1576806012517" expanded="true" signature="2092:2228" ph="..." />
-                <marker date="1576806012517" expanded="true" signature="2318:2461" ph="..." />
+                <marker date="1578011573612" expanded="true" signature="2092:2228" ph="..." />
+                <marker date="1578011573612" expanded="true" signature="2318:2461" ph="..." />
+                <marker date="1578011573612" expanded="true" signature="2535:2602" ph="..." />
+                <marker date="1578011573612" expanded="true" signature="2700:2829" ph="..." />
+                <marker date="1578011573612" expanded="true" signature="2909:3059" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap08lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <marker date="1578015427484" expanded="true" signature="94:99" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="94:242" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="538:588" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="538:658" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="695:867" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="1113:1306" ph="..." />
+                <marker date="1578015427484" expanded="true" signature="1113:1505" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chap8lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <marker date="1578018697574" expanded="true" signature="78:79" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="78:83" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="78:245" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="541:591" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="698:847" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="1093:1172" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="1405:1587" ph="..." />
+                <marker date="1578018697574" expanded="true" signature="1405:1630" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,16 +191,18 @@
       <list>
         <option value="$PROJECT_DIR$/chap06strings.py" />
         <option value="$PROJECT_DIR$/chap6strings.py" />
-        <option value="$PROJECT_DIR$/chap07lists.py" />
         <option value="$PROJECT_DIR$/chap7lists.py" />
+        <option value="$PROJECT_DIR$/chap07lists.py" />
+        <option value="$PROJECT_DIR$/chap08lists.py" />
+        <option value="$PROJECT_DIR$/chap8lists.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="23" />
-    <option name="width" value="1571" />
-    <option name="height" value="935" />
+    <option name="x" value="214" />
+    <option name="y" value="173" />
+    <option name="width" value="1662" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,28 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chap7lists">
-    <configuration name="chap06strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="12FinalExamReview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap06strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.chap8lists">
     <configuration name="chap07lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="12FinalExamReview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,6 +254,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chap08lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="12FinalExamReview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap08lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,18 +325,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chap8lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="12FinalExamReview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.chap06strings" />
       <item itemvalue="Python.chap6strings" />
       <item itemvalue="Python.chap7lists" />
       <item itemvalue="Python.chap07lists" />
+      <item itemvalue="Python.chap08lists" />
+      <item itemvalue="Python.chap8lists" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chap7lists" />
+        <item itemvalue="Python.chap8lists" />
+        <item itemvalue="Python.chap08lists" />
         <item itemvalue="Python.chap07lists" />
+        <item itemvalue="Python.chap7lists" />
         <item itemvalue="Python.chap6strings" />
-        <item itemvalue="Python.chap06strings" />
       </list>
     </recent_temporary>
   </component>
@@ -311,15 +377,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="38" width="1571" height="935" extended-state="0" />
+    <frame x="214" y="173" width="1662" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22186287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20952962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33497536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3029872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,29 +452,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap07lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4553">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <marker date="1576806012517" expanded="true" signature="2092:2228" ph="..." />
-            <marker date="1576806012517" expanded="true" signature="2318:2461" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap7lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+        <state relative-caret-position="6206">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
           <folding>
             <marker date="1577935580070" expanded="true" signature="1924:2060" ph="..." />
             <marker date="1577935580070" expanded="true" signature="2146:2299" ph="..." />
             <marker date="1577935580070" expanded="true" signature="2831:2911" ph="..." />
             <marker date="1577935580070" expanded="true" signature="3005:3158" ph="..." />
             <marker date="1577935580070" expanded="true" signature="3237:3398" ph="..." />
-            <marker date="1577935580070" expanded="true" signature="3539:3786" ph="..." />
-            <marker date="1577935580070" expanded="true" signature="3539:3836" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+          <folding>
+            <marker date="1578011573612" expanded="true" signature="2092:2228" ph="..." />
+            <marker date="1578011573612" expanded="true" signature="2318:2461" ph="..." />
+            <marker date="1578011573612" expanded="true" signature="2535:2602" ph="..." />
+            <marker date="1578011573612" expanded="true" signature="2700:2829" ph="..." />
+            <marker date="1578011573612" expanded="true" signature="2909:3059" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap08lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1578015427484" expanded="true" signature="94:99" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="94:242" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="538:588" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="538:658" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="695:867" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="1113:1306" ph="..." />
+            <marker date="1578015427484" expanded="true" signature="1113:1505" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap8lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <marker date="1578018697574" expanded="true" signature="78:79" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="78:83" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="78:245" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="541:591" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="698:847" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="1093:1172" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="1405:1587" ph="..." />
+            <marker date="1578018697574" expanded="true" signature="1405:1630" ph="..." />
           </folding>
         </state>
       </provider>

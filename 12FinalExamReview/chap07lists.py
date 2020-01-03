@@ -155,7 +155,48 @@ def factorize(num):
 result = factorize(21)
 print(result)
 
+# Question 10.
+def rotatelist(nums):
+    item = nums.pop(-1)
+    nums.insert(0, item)
+    return nums
+
+result = rotatelist([62,79,87,98,71,94,65,41])
+print(result)
 
 
+# Question 11.
+def separatezeros():
+    outcome = [1, 1]
+    for num in range(1, 11):
+        outcome.extend([0]*num)
+        outcome.append(1)
+    return outcome
 
+result = separatezeros()
+print(result)
 
+# Question 13.
+def removerepeated(nums):
+    for i in range(len(nums)-1,-1,-1):
+        amount = nums.count(nums[i])
+        if amount > 1:
+            nums.remove(nums[i])
+    return nums
+
+result = removerepeated([1,1,2,3,1,0,1,3,4,1,0,0,1,3,0,0])
+print(result)
+
+# Question 15.
+def onetimepad(plaintext):
+    ciphertext = ""
+    shifts = [1, 3, 2, 10, 8, 2]
+    for i in range(len(plaintext)):
+        code = ord(plaintext[i]) - 97
+        num = (code+shifts[i])%26
+        letter = chr(num+97)
+        ciphertext += letter
+    return ciphertext
+
+result = onetimepad("secret")
+print(result)
