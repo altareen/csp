@@ -50,7 +50,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
 5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 **CSP Exam 2:00PM**<br>**6F Library** | 11
-12     | 13 *Final Exams* | 14      | 15        | 16       | 17 *Winter Break Begins* | 18
+12     | 13 *Final Exams* | 14 *Final Exams* | 15        | 16       | 17 *Winter Break Begins* | 18
 19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
 
@@ -115,7 +115,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2      | 3       | 4         | 5        | 6      | 7 
 8      | 9      | 10      | 11        | 12       | 13     | 14
-15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20     | 21
+15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
 22     | 23     | 24      | 25        | 26       | 27     | 28
 29     | 30     | 31
 
@@ -123,31 +123,31 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4
-5      | 6 *Tomb Sweeping Holiday* | 7       | 8         | 9        | 10     | 11
+       |        |         | 1         | 2        | 3      | 4 
+5      | 6 *Tomb Sweeping Holiday* | 7  *Mock Exams* | 8 *Mock Exams* | 9 *Mock Exams* | 10 *Mock Exams* | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
-26 *Make-up Day* | 27     | 28      | 29        | 30 **Create & Explore<br>Deadline 11:59PM**
+26 *Make-up Day* | 27     | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
 
 ### May 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 *May Day Holiday* | 2 
-3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8      | 9 *Make-up Day*
+3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 *Make-up Day*
 10     | 11     | 12      | 13        | 14       | 15 **AP CSP Exam 8:00AM** | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
-24     | 25     | 26      | 27        | 28       | 29     | 30
+24     | 25     | 26      | 27        | 28       | 29 *G12 Final Exams* | 30
 31
 
 ### June 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       | 1      | 2       | 3         | 4        | 5      | 6
+       | 1 *G12 Final Exams* | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
-14     | 15     | 16      | 17        | 18       | 19     | 20
-21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
+14     | 15     | 16 *Graduation Ceremony* | 17 *G11 Final Exams* | 18 *G11 Final Exams* | 19 *G11 Final Exams* | 20
+21     | 22 *G11 Final Exams* | 23 *G11 Final Exams* | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
 28 *Make-up Day* | 29     | 30
 
 ### July 2020
@@ -155,7 +155,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1         | 2        | 3      | 4 
-5      | 6      | 7       | 8         | 9        | 10 *Summer Break Begins* | 11
+5      | 6      | 7       | 8 *Summer Break Begins* | 9        | 10      | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
