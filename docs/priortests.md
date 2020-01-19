@@ -1,5 +1,14 @@
 # Prior Tests
 
+## Semester 2
+
+### Test 3: The Internet and Algorithms
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Spring 2018 |  123KB | [cspTest03Spring2018.pdf](/csp/pdf/cspTest03Spring2018.pdf)
+Spring 2019 |  108KB | [cspTest03Spring2019.pdf](/csp/pdf/cspTest03Spring2019.pdf)
+
 ## Semester 1
 
 ### Test 1: `Python` Syntax and Strings
