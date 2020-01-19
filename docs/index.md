@@ -36,10 +36,11 @@
 + [Lab 10](lab10.md) is due on Friday, November 29th.
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
-+ **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th. -->
-+ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library.
++ **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
++ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
++ **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, February 17th.
 
-## Course Calendar: Semester One
+## Course Calendar: Semester Two
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
@@ -54,51 +55,6 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
 
-### September 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-1 *Opening Ceremony* | 2 *First Day of School* | 3       | 4         | 5        | 6 [**Lab 1 Due**](lab01.md) | 7 
-8      | 9 [**PSet 1 Due**](pset01.md) | 10 *Teachers' Day* | 11        | 12 [**Lab 2 Due**](lab02.md) | 13 *Mid-Autumn Holiday* | 14 
-15     | 16 [**PSet 2 Due**](pset02.md) | 17 [**Quiz 1 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 18        | 19       | 20 [**Lab 3 Due**](lab03.md) | 21 
-22     | 23 [**PSet 3 Due**](pset03.md) | 24      | 25 *Senior Week* | 26 *Senior Week* | 27 *Senior Week* | 28 
-29 *Make-up Day*<br>*Senior Week* | 30 *Senior Week* | | | | | 
-
-### October 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-       |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
-6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11      | 12 *Make-up Day*<br>[**Lab 4 Due**](lab04.md)
-13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 5 Due**](lab05.md) | 19
-20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Python Syntax & Strings** | 25 *Field Trip* | 26
-27     | 28     | 29      | 30      | 31 *Halloween* | | 
-
-### November 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
-3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
-10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
-17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
-24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
-
-### December 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
-8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
-15     | 16     | 17      | 18        | 19       | 20     | 21
-22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
-29     | 30     | 31 *NYE Carnival* | | | | 
-
-## Course Calendar: Semester Two
-
-!!! note ""
-    Academic dates are in *italics*, course assessment deadlines are in **bold**.
-
 ### February 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
@@ -106,7 +62,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         |           |          |        | 1 
 2      | 3      | 4       | 5         | 6        | 7      | 8 
 9      | 10     | 11      | 12        | 13       | 14     | 15
-16     | 17 *School Resumes* | 18      | 19        | 20       | 21     | 22
+16     | 17 *School Resumes*<br>[**Explore Task Due**](explore.md) | 18      | 19        | 20       | 21     | 22
 23     | 24  | 25      | 26        | 27       | 28     | 29 
 
 ### March 2020
@@ -159,4 +115,49 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
+
+## Course Calendar: Semester One
+
+!!! note ""
+    Academic dates are in *italics*, course assessment deadlines are in **bold**.
+
+### September 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+1 *Opening Ceremony* | 2 *First Day of School* | 3       | 4         | 5        | 6 [**Lab 1 Due**](lab01.md) | 7 
+8      | 9 [**PSet 1 Due**](pset01.md) | 10 *Teachers' Day* | 11        | 12 [**Lab 2 Due**](lab02.md) | 13 *Mid-Autumn Holiday* | 14 
+15     | 16 [**PSet 2 Due**](pset02.md) | 17 [**Quiz 1 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 18        | 19       | 20 [**Lab 3 Due**](lab03.md) | 21 
+22     | 23 [**PSet 3 Due**](pset03.md) | 24      | 25 *Senior Week* | 26 *Senior Week* | 27 *Senior Week* | 28 
+29 *Make-up Day*<br>*Senior Week* | 30 *Senior Week* | | | | | 
+
+### October 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+       |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
+6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11      | 12 *Make-up Day*<br>[**Lab 4 Due**](lab04.md)
+13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 5 Due**](lab05.md) | 19
+20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Python Syntax & Strings** | 25 *Field Trip* | 26
+27     | 28     | 29      | 30      | 31 *Halloween* | | 
+
+### November 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+       |        |         |           |          | 1 [**Lab 6 Due**](lab06.md) | 2 *SAT II*
+3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 7 Due**](lab07.md) | 9 
+10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 8 Due**](lab08.md) | 16
+17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 9 Due**](lab09.md) | 23
+24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 10 Due**](lab10.md) | 30
+
+### December 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
+8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
+15     | 16     | 17      | 18        | 19       | 20     | 21
+22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
+29     | 30     | 31 *NYE Carnival* | | | | 
 
