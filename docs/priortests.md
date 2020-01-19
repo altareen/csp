@@ -27,7 +27,7 @@ Fall 2019 |  145KB | [cspTest02Fall2019.pdf](/csp/pdf/cspTest02Fall2019.pdf)
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Fall 2017 | 164KB | [cspSemester1Exam.pdf](/csp/pdf/cspSemester1Exam.pdf)
-
-
+Fall 2017 | 164KB | [cspSemester1ExamFall2017.pdf](/csp/pdf/cspSemester1ExamFall2017.pdf)
+Fall 2018 | 190KB | [cspSemester1ExamFall2018.pdf](/csp/pdf/cspSemester1ExamFall2018.pdf)
+Fall 2019 | 238KB | [cspSemester1ExamFall2019.pdf](/csp/pdf/cspSemester1ExamFall2019.pdf)
 
