@@ -38,14 +38,14 @@
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 + **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
-+ **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, February 17th.
++ **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 2nd.
 
 ## Course Calendar: Semester Two
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
-### January 2020
+<!-- ### January 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
@@ -62,14 +62,14 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         |           |          |        | 1 
 2      | 3      | 4       | 5         | 6        | 7      | 8 
 9      | 10     | 11      | 12        | 13       | 14     | 15
-16     | 17 *School Resumes*<br>[**Explore Task Due**](explore.md) | 18      | 19        | 20       | 21     | 22
-23     | 24  | 25      | 26        | 27       | 28     | 29 
+16     | 17  | 18      | 19        | 20       | 21     | 22
+23     | 24  | 25      | 26        | 27       | 28     | 29 -->
 
 ### March 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2      | 3       | 4         | 5        | 6      | 7 
+1      | 2 *School Resumes*<br>[**Explore Task Due**](explore.md) | 3       | 4         | 5        | 6      | 7 
 8      | 9      | 10      | 11        | 12       | 13     | 14
 15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
 22     | 23     | 24      | 25        | 26       | 27     | 28

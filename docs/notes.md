@@ -1,5 +1,14 @@
 # Course Notes
 
+## Semester 2: Core Concepts
+
+Description | File Size | File Name
+----------- | --------- | ---------
+**Algorithms:** A precise sequence of instructions for problem solving. | 315KB | [cspNotes08Algorithms.pdf](/csp/pdf/cspNotes08Algorithms.pdf)
+**The Internet and Cybersecurity:** A system of interconnected networks. | 361KB | [cspNotes09TheInternet.pdf](/csp/pdf/cspNotes09TheInternet.pdf)
+**Global Impact:** The social aspects of technology. | 99KB | [cspNotes10GlobalImpact.pdf](/csp/pdf/cspNotes10GlobalImpact.pdf)
+**Compression:** Packing data into a smaller space. | 91KB | [cspNotes11Compression.pdf](/csp/pdf/cspNotes11Compression.pdf)
+
 ## Semester 1: `Python` Programming
 
 Description | File Size | File Name
@@ -11,15 +20,6 @@ Description | File Size | File Name
 **Strings:** Representing text data in `Python`. | 194KB | [cspNotes05Strings.pdf](/csp/pdf/cspNotes05Strings.pdf)
 **Lists:** A data structure consisting of a sequence of elements. | 213KB | [cspNotes06Lists.pdf](/csp/pdf/cspNotes06Lists.pdf)
 **Dictionaries, Tuples and Files:** Advanced data structures in `Python`. | 232KB | [cspNotes07Dictionaries.pdf](/csp/pdf/cspNotes07Dictionaries.pdf)
-
-## Semester 2: Core Concepts
-
-Description | File Size | File Name
------------ | --------- | ---------
-**Algorithms:** A precise sequence of instructions for problem solving. | 315KB | [cspNotes08Algorithms.pdf](/csp/pdf/cspNotes08Algorithms.pdf)
-**The Internet and Cybersecurity:** A system of interconnected networks. | 361KB | [cspNotes09TheInternet.pdf](/csp/pdf/cspNotes09TheInternet.pdf)
-**Global Impact:** The social aspects of technology. | 99KB | [cspNotes10GlobalImpact.pdf](/csp/pdf/cspNotes10GlobalImpact.pdf)
-**Compression:** Packing data into a smaller space. | 91KB | [cspNotes11Compression.pdf](/csp/pdf/cspNotes11Compression.pdf)
 
 <!--
 !!! note ""
