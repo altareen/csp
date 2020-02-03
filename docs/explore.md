@@ -64,7 +64,6 @@ Explore Task Comprehensive Guide | 318KB | [exploreTaskComprehensiveGuide.pdf](/
     + **[Must not exceed 250 words]**
 
 + **2e.** Provide a list of at least three online or print sources used to create your computational artifact and/or support your responses through in-text citation to the prompts provided in this performance task.
-\begin{itemize}
     + **At least two** of the sources must have been created after the end of the previous academic year. In other words, these two sources should be dated from **July 1st, 2019** onwards.
     + For each online source, include the complete and permanent URL. Identify the author, title, source, the date you retrieved the source, and, if possible, the date the reference was written or posted.
     + For each print source, include the author, title of excerpt/article and magazine or book, page number(s), publisher, and date of publication.
@@ -72,14 +71,13 @@ Explore Task Comprehensive Guide | 318KB | [exploreTaskComprehensiveGuide.pdf](/
     + Include in-text citations for the sources you used.
     + Each source must be relevant, credible, and easily accessed.
     + **[No word limit]**
-\end{itemize}
 
 ## Submission
-+ \item Submit your computational artifact file and written responses `.pdf` file by uploading it to the [AP Digital Porfolio](https://digitalportfolio.collegeboard.org/) platform.
-+ \item Click on the **Explore** tab on the left-hand navigation menu. Then, select the **Computational Artifact** link. You should see the following webpage appear, which contains the **Upload New** button. Click on this button, and select the file you wish to upload.
++ Submit your computational artifact file and written responses `.pdf` file by uploading it to the [AP Digital Porfolio](https://digitalportfolio.collegeboard.org/) platform.
++ Click on the **Explore** tab on the left-hand navigation menu. Then, select the **Computational Artifact** link. You should see the following webpage appear, which contains the **Upload New** button. Click on this button, and select the file you wish to upload.
 ![Upload New](/csp/img/uploadNew.png)
-+ \item At this point, the webpage indicates that your file has successfully uploaded. Repeat the above steps to upload your **Written Responses** file.
-+ \item **IMPORTANT: DO NOT CLICK ON THE `Submit Final` BUTTON.**
-+ \item I need to inspect your submissions and ensure that they are complete. Once I am satisfied that your Explore Task meets all of AP's requirements, then we can formally submit your work for official AP grading.
++ At this point, the webpage indicates that your file has successfully uploaded. Repeat the above steps to upload your **Written Responses** file.
++ **IMPORTANT: DO NOT CLICK ON THE `Submit Final` BUTTON.**
++ I need to inspect your submissions and ensure that they are complete. Once I am satisfied that your Explore Task meets all of AP's requirements, then we can formally submit your work for official AP grading.
 ![Upload Complete](/csp/img/uploadComplete.png)
 
