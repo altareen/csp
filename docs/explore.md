@@ -3,6 +3,9 @@
 !!! note ""
     [The AP Digital Portfolio:](https://digitalportfolio.collegeboard.org/) Submit your Explore Task to this platform.
 
+## Comprehensive Guide
++ The folloiwng is a comprehensive guide to aid you in this task. It contains a great deal of tips and hints that will help you complete this project.
+
 Description | File Size | File Name
 ----------- | --------- | ---------
 Explore Task Comprehensive Guide | 318KB | [exploreTaskComprehensiveGuide.pdf](/csp/pdf/exploreTaskComprehensiveGuide.pdf)
