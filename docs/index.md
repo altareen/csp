@@ -40,6 +40,10 @@
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
 + **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 2nd.
 + [Create Task 1](create01.md): **Proposal** is due on Monday, March 2nd.
++ [Create Task 2](create02.md): **Programming** is due later.
++ [Create Task 3](create03.md): **Video Production** is due later.
++ [Create Task 4](create04.md): **Written Responses** is due later.
++ [Create Task 5](create05.md): **Program Code** is due later.
 
 ## Course Calendar: Semester Two
 
