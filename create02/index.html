@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Problem Set 5: Water Meter - CSP</title>
+    <title>Create Task 2: Programming - CSP</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -106,8 +106,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Problem Set 5: Water Meter</a>
+<li >
+    <a href="../pset05/">Problem Set 5: Water Meter</a>
 </li>
 
                         
@@ -221,7 +221,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tasks <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -238,8 +238,8 @@
 
                         
                             
-<li >
-    <a href="../create02/">Create Task 2: Programming</a>
+<li class="active">
+    <a href="./">Create Task 2: Programming</a>
 </li>
 
                         
@@ -298,12 +298,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../pset04/">
+                        <a rel="prev" href="../create01/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../pset06/">
+                        <a rel="next" href="../create03/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -317,120 +317,12 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-5-water-meter">Problem Set 5: Water Meter</a></li>
-            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
-                
-            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
-                
-            <li class="second-level"><a href="#customer-categories">Customer Categories</a></li>
-                
-                <li class="third-level"><a href="#residential">residential</a></li>
-                <li class="third-level"><a href="#commercial">commercial</a></li>
-                <li class="third-level"><a href="#industrial">industrial</a></li>
-            <li class="second-level"><a href="#hints">Hints</a></li>
-                
-            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
-                
-            <li class="second-level"><a href="#specification">Specification</a></li>
-                
-            <li class="second-level"><a href="#testing">Testing</a></li>
-                
-            <li class="second-level"><a href="#submission">Submission</a></li>
-                
+        <li class="first-level active"><a href="#create-task-2-programming">Create Task 2: Programming</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-5-water-meter">Problem Set 5: Water Meter</h1>
-<div class="admonition note">
-<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
-</div>
-<h2 id="task-outline">Task Outline</h2>
-<ul>
-<li><strong>Due Date:</strong> Wednesday, October 16, 2019</li>
-<li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that calculates the amount of money that a customer
-will be billed, based on their water usage.</li>
-</ul>
-<h2 id="background-theory">Background Theory</h2>
-<ul>
-<li>A water utility is responsible for supplying clean, fresh water to its customers in a
-given geographical area.</li>
-<li>The water utility will typically charge different rates for each category of customer.
-Supplying water to individual households is relatively straightforward, so they are charged
-minimal rates. However, commercial and industrial factories may require massive amounts of
-water, so they are charged more for the necessary supporting infrastructure.</li>
-<li>A customer's water bill depends on how many gallons of water they consumed during a particular
-billing period.</li>
-<li>A water meter is used to determine a customer's water consumption. It consists of a dial that
-has nine digits. However, note that the <strong>final digit</strong> in the dial records <strong>one-tenth of a gallon</strong>.</li>
-<li>In other words, if the water meter reads <code>923874345</code> then this corresponds to 92387434.5 gallons.</li>
-<li>The water meter is read once at the beginning of the billing period, and then once and the end. A customer's water consumption, in gallons, is computed from the difference in these two meter readings.</li>
-</ul>
-<h2 id="customer-categories">Customer Categories</h2>
-<ul>
-<li>There are three categories of customer: <strong>residential</strong>, <strong>commercial</strong>, and <strong>industrial</strong>.
-The following is the fee schedule for each of these categories:</li>
-</ul>
-<h3 id="residential"><code>residential</code></h3>
-<ul>
-<li>A base rate of $5.00, plus $0.0005 per gallon used.</li>
-</ul>
-<h3 id="commercial"><code>commercial</code></h3>
-<ul>
-<li>A base rate $1000.00 for 40000 gallons or less, plus $0.00025 for each additional gallon used.</li>
-</ul>
-<h3 id="industrial"><code>industrial</code></h3>
-<ul>
-<li>A base rate of $1000.00 for 40000 gallons or less. A base rate of $2000.00 if usage exceeds 40000 gallons, but does not exceed 80000 gallons. A base rate of $3000.00 plus $0.00025 for each additional gallon if usage exceeds 80000 gallons.</li>
-</ul>
-<h2 id="hints">Hints</h2>
-<ul>
-<li>Note that the meter's dial has nine digits and records the tenths of a gallon. For example, if the beginning reading was <code>444400003</code> and the ending reading was <code>444400135</code>, then the customer used 13.2 gallons of water during that billing period.</li>
-<li>We won't consider the case where the water meter "flips over" from <code>999999999</code> to <code>000000000</code>.</li>
-</ul>
-<h2 id="code-distribution">Code Distribution</h2>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>File Size</th>
-<th>File Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Python</code> Source Code for Water Meter</td>
-<td>1.4KB</td>
-<td><a href="/csp/zip/pset05.zip">pset05.zip</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Contents of <code>pset05.zip</code>:</strong></p>
-<pre><code class="bash">PSet05WaterMeter/
-├── testwaterbilling.py
-└── waterbilling.py
-</code></pre>
-
-<h2 id="specification">Specification</h2>
-<ul>
-<li>Write a <code>Python</code> program in the file <code>watermeter.py</code> that determines the amount of money
-that a customer must pay for their water usage during a particular billing period.</li>
-<li>You will write your solution in a function called <code>calculatebill(customer, begin, end)</code>
-right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>calculatebill("residential", 444400003, 444400135)</code> is executed, the
-output of the program should be: <code>5.0066</code></li>
-</ul>
-<h2 id="testing">Testing</h2>
-<ul>
-<li>Run the file <code>testwatermeter.py</code> to execute the <code>PyUnit</code> test bench.
-<code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful
-test with a <code>FAIL</code> output.</li>
-</ul>
-<h2 id="submission">Submission</h2>
-<ul>
-<li>Upload the file <code>watermeter.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
-</ul></div>
+<h1 id="create-task-2-programming">Create Task 2: Programming</h1></div>
         
         
     </div>
