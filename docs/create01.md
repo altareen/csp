@@ -1,7 +1,6 @@
 # Create Task 1: Proposal
 
 !!! note ""
-    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.
     [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Submit assignments in `pdf` format to this grading platform.
 
 ## Task Outline
@@ -19,5 +18,6 @@
 + However, the final submitted document must be in `pdf` format(Portable Document Format).
 + For example, if you wrote your proposal using MS Word, then you will have to export that file to `pdf` format.
 + If you are unsure as to how to convert a document to `pdf`, please come see me for assistance.
-+ You must submit this proposal using the **Assignments** tab on the [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin)
++ You must submit this proposal using the **Assignments** tab on the [Sakai Learning Management System](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin).
+![Proposal screenshot](/csp/img/proposal.png)
 
