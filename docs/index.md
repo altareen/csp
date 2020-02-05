@@ -39,6 +39,7 @@
 + **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
 + **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 2nd.
++ [Create Task 1](create01.md): **Proposal** is due on Monday, March 2nd.
 
 ## Course Calendar: Semester Two
 
@@ -69,7 +70,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *School Resumes*<br>[**Explore Task Due**](explore.md) | 3       | 4         | 5        | 6      | 7 
+1      | 2 *School Resumes*<br>[**Explore Task Due**](explore.md)<br>[**Create Task 1 Due**](create01.md) | 3       | 4         | 5        | 6      | 7 
 8      | 9      | 10      | 11        | 12       | 13     | 14
 15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
 22     | 23     | 24      | 25        | 26       | 27     | 28
