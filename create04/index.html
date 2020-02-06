@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Problem Set 10: Credit Card - CSP</title>
+    <title>Create Task 4: Written Responses - CSP</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -136,8 +136,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Problem Set 10: Credit Card</a>
+<li >
+    <a href="../pset10/">Problem Set 10: Credit Card</a>
 </li>
 
                         
@@ -221,7 +221,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tasks <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -250,8 +250,8 @@
 
                         
                             
-<li >
-    <a href="../create04/">Create Task 4: Written Responses</a>
+<li class="active">
+    <a href="./">Create Task 4: Written Responses</a>
 </li>
 
                         
@@ -298,12 +298,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../pset09/">
+                        <a rel="prev" href="../create03/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../pset11/">
+                        <a rel="next" href="../notes/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -317,184 +317,82 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-10-credit-card">Problem Set 10: Credit Card</a></li>
+        <li class="first-level active"><a href="#create-task-4-written-responses">Create Task 4: Written Responses</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
-            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+            <li class="second-level"><a href="#write-the-written-responses-for-your-software-application">Write the Written Responses for your Software Application</a></li>
                 
-            <li class="second-level"><a href="#example-case">Example Case</a></li>
+            <li class="second-level"><a href="#written-response-prompts">Written Response Prompts</a></li>
                 
-            <li class="second-level"><a href="#hints">Hints</a></li>
-                
-            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
-                
-            <li class="second-level"><a href="#specification">Specification</a></li>
-                
-            <li class="second-level"><a href="#testing">Testing</a></li>
-                
+                <li class="third-level"><a href="#2a-provide-a-written-response-about-your-video-which-does-the-following">2a. Provide a written response about your video which does the following:</a></li>
+                <li class="third-level"><a href="#2b-describe-the-incremental-and-iterative-development-process-of-your-program-focusing-on-two-distinct-points-in-that-process">2b. Describe the incremental and iterative development process of your program, focusing on two distinct points in that process.</a></li>
+                <li class="third-level"><a href="#2c-capture-and-paste-a-program-code-segment-that-implements-an-algorithmmarked-with-an-oval-in-section-3-that-is-fundamental-for-your-program-to-achieve-its-intended-purpose">2c. Capture and paste a program code segment that implements an algorithm(marked with an oval in section 3), that is fundamental for your program to achieve its intended purpose.</a></li>
+                <li class="third-level"><a href="#2d-capture-and-paste-a-program-code-segment-that-contains-an-abstraction-that-you-developed-individually-on-your-ownmarked-with-a-rectangle-in-section-3-this-abstraction-must-implement-mathematical-and-logical-concepts">2d. Capture and paste a program code segment that contains an abstraction that you developed individually on your own(marked with a rectangle in section 3). This abstraction must implement mathematical and logical concepts.</a></li>
             <li class="second-level"><a href="#submission">Submission</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-10-credit-card">Problem Set 10: Credit Card</h1>
+<h1 id="create-task-4-written-responses">Create Task 4: Written Responses</h1>
 <div class="admonition note">
-<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Python</code> programs to this automated grading platform.</p>
+<p><a href="https://digitalportfolio.collegeboard.org/">AP Digital Portfolio:</a> Submit your video assignment to this grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Monday, November 25, 2019</li>
+<li><strong>Due Date:</strong> Monday, March 23, 2020</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Python</code> program that determines whether a provided credit card number is valid, according to Luhn's algorithm.</li>
+<li>Write the written responses which identifies the purpose of your program, and describes the various features of your program.</li>
 </ul>
-<h2 id="background-theory">Background Theory</h2>
+<h2 id="write-the-written-responses-for-your-software-application">Write the Written Responses for your Software Application</h2>
 <ul>
-<li>Every credit card has a number, both printed on its face, and embedded in the magnetic stripe on its back. That number is also stored in a database somewhere, so that when your card is used to buy something, the creditor knows whom to bill.</li>
-<li>There are many people with credit cards in this world, so those numbers are pretty long:<ul>
-<li>American Express: 15-digit numbers</li>
-<li>MasterCard: 16-digit numbers</li>
-<li>Visa: 13- and 16-digit numbers</li>
+<li>Provide answers to each of the following response prompts, starting at question <strong>2a</strong> and finishing with question <strong>2d</strong>. Make sure each of your responses are clearly labelled with the designators <strong>2a</strong> to <strong>2d</strong>, in order.</li>
+<li>Your written responses must be submitted in a <code>.pdf</code> file format.</li>
+<li>Note: I will be referring to <strong>section 3</strong>, which you will complete in <strong>Create Task 5</strong>. In <strong>section 3</strong>, you will capture and paste your entire program code. Also, in <strong>section 3</strong>, you will mark your algorithm code segment with an <strong>oval</strong>, and your abstraction code segment with a <strong>rectangle</strong>.</li>
+</ul>
+<h2 id="written-response-prompts">Written Response Prompts</h2>
+<h3 id="2a-provide-a-written-response-about-your-video-which-does-the-following"><strong>2a.</strong> Provide a written response about your video which does the following:</h3>
+<ul>
+<li>Identify the programming language.</li>
+<li>Identify the purpose of your program.</li>
+<li>Explain what the video illustrates.</li>
+<li><strong>[Must not exceed 150 words]</strong></li>
+</ul>
+<h3 id="2b-describe-the-incremental-and-iterative-development-process-of-your-program-focusing-on-two-distinct-points-in-that-process"><strong>2b.</strong> Describe the incremental and iterative development process of your program, focusing on two distinct points in that process.</h3>
+<ul>
+<li>Describe the difficulties and/or opportunities that you encountered, and how they were resolved, or incorporated.</li>
+<li>In your description, clearly indicate whether the development process you described was collaborative or independent.</li>
+<li>At least one of these points must refer to independent program development.</li>
+<li><strong>[Must not exceed 200 words]</strong></li>
+</ul>
+<h3 id="2c-capture-and-paste-a-program-code-segment-that-implements-an-algorithmmarked-with-an-oval-in-section-3-that-is-fundamental-for-your-program-to-achieve-its-intended-purpose"><strong>2c.</strong> Capture and paste a program code segment that implements an algorithm(marked with an <strong>oval</strong> in <strong>section 3</strong>), that is fundamental for your program to achieve its intended purpose.</h3>
+<ul>
+<li>You may use any standard <strong>screenshot</strong> software application to capture this code segment as an image, and then paste it into your file.</li>
+<li>This code segment must be an algorithm that:<ul>
+<li>You developed individually on your own.</li>
+<li>It must include two or more other algorithms.</li>
+<li>It must implement mathematical and/or logical concepts.</li>
 </ul>
 </li>
-<li>Credit cards companies don't just assign a random series of digits to compose
-    their credit card numbers. Rather, there is actually some structure to them:<ul>
-<li>American Express numbers must start with 34 or 37.</li>
-<li>MasterCard numbers must start with 51, 52, 53, 54 or 55.</li>
-<li>Visa numbers must start with 4.</li>
+<li>Describe how each algorithm within your selected algorithm functions independently, as well as in combination with others, to form a new algorithm that helps to achieve the intended purpose of the program.</li>
+<li><strong>[Must not exceed 200 words]</strong></li>
 </ul>
-</li>
-<li>Credit card numbers also have a <strong>checksum</strong> built into them, which is a mathematical relationship between at least one number, and the others. This checksum enables computers to detect errors and fraudulent credit card numbers, without having to query a database, which can be slow.</li>
-<li>Credit card companies use an algorithm developed by Hans Peter Luhn, a researcher from IBM.</li>
-<li>According to <strong>Luhn's algorithm</strong>, you can determine if a credit card is valid by executing the following steps:<ol>
-<li>Multiply every other digit by 2, starting with the number's <strong>second-to-last digit</strong>, and then add those products' digits together.</li>
-<li>Take this result, and add it to the sum of the digits that weren't multiplied by 2.</li>
-<li>If the total's last digit is 0, then that credit card number is valid.</li>
-</ol>
-</li>
-</ul>
-<h2 id="example-case">Example Case</h2>
+<h3 id="2d-capture-and-paste-a-program-code-segment-that-contains-an-abstraction-that-you-developed-individually-on-your-ownmarked-with-a-rectangle-in-section-3-this-abstraction-must-implement-mathematical-and-logical-concepts"><strong>2d.</strong> Capture and paste a program code segment that contains an abstraction that you developed individually on your own(marked with a <strong>rectangle</strong> in <strong>section 3</strong>). This abstraction must implement mathematical and logical concepts.</h3>
 <ul>
-<li>Consider an example of Luhn's algorithm with the following American Express number: 378282246310005</li>
-<li>For the sake of clarity, I have underlined every other digit, starting with the number's second-to-last digit:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
-</div>
-<script type="math/tex; mode=display">
-3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
-</script>
-</div>
-<ul>
-<li>Then, multiply each of the underlined digits(highlighted in bold) by 2:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-\textbf{7}\cdot{2} + \textbf{2}\cdot{2} + \textbf{2}\cdot{2} + \textbf{4}\cdot{2} + \textbf{3}\cdot{2} + \textbf{0}\cdot{2} + \textbf{0}\cdot{2}
-</div>
-<script type="math/tex; mode=display">
-\textbf{7}\cdot{2} + \textbf{2}\cdot{2} + \textbf{2}\cdot{2} + \textbf{4}\cdot{2} + \textbf{3}\cdot{2} + \textbf{0}\cdot{2} + \textbf{0}\cdot{2}
-</script>
-</div>
-<ul>
-<li>The partial products are as follows:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-14 + 4 + 4 + 8 + 6 + 0 + 0
-</div>
-<script type="math/tex; mode=display">
-14 + 4 + 4 + 8 + 6 + 0 + 0
-</script>
-</div>
-<ul>
-<li>Next, add those products' digits(<strong>Note:</strong> not the products themselves) together:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
-</div>
-<script type="math/tex; mode=display">
-1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
-</script>
-</div>
-<ul>
-<li>Now, add the result of 27 to the sum of the digits in the credit card number that <strong>weren't</strong> multiplied by 2:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 = 60
-</div>
-<script type="math/tex; mode=display">
-27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 = 60
-</script>
-</div>
-<ul>
-<li>Notice that the last digit in the result of 60 is a 0, so the credit card number is legitimate.</li>
-</ul>
-<h2 id="hints">Hints</h2>
-<ul>
-<li>Note that the credit card number is being brought into the function as a string. This means that you will have to perform string slicing throughout your program, and convert between string values and integers. Use <code>int()</code> and <code>str()</code> to perform these conversions.</li>
-<li>Luhn's algorithm clearly specifies that you must sum the digits starting from the <strong>second-to-last digit</strong>. Does this mean that you have to perform a reverse loop? Not necessarily. Think about what happens when a credit card has an <strong>odd</strong> quantity of digits, it means that we have to sum all of the elements located at the <strong>odd-numbered</strong> indexes:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
-</div>
-<script type="math/tex; mode=display">
-3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
-</script>
-</div>
-<ul>
-<li>Now, think about what happens when a credit card has an <strong>even</strong> quantity of digits. In this case, we have to sum all of the elements located at the <strong>even-numbered</strong> indexes:</li>
-</ul>
-<div>
-<div class="MathJax_Preview">
-\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}0
-</div>
-<script type="math/tex; mode=display">
-\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}0
-</script>
-</div>
-<h2 id="code-distribution">Code Distribution</h2>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>File Size</th>
-<th>File Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Python</code> Source Code for Credit Card</td>
-<td>1.4KB</td>
-<td><a href="/csp/zip/pset10.zip">pset10.zip</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Contents of <code>pset10.zip</code>:</strong></p>
-<pre><code class="bash">PSet10CreditCard/
-├── creditcard.py
-└── testcreditcard.py
-</code></pre>
-
-<h2 id="specification">Specification</h2>
-<ul>
-<li>Write a <code>Python</code> program in the file <code>creditcard.py</code> which calculates the amount of radiation exposure in a given time period.</li>
-<li>You will write your solution in a function called <code>validate(digits)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>If the credit card number is valid, then your <code>validate</code> function should return a string corresponding to the specific credit card brand. These return values should be <code>AMEX</code>, <code>MASTERCARD</code>, <code>VISA</code>, or <code>VALID</code>. Otherwise, if the credit card number is not valid, then your <code>validate</code> function should return the string <code>INVALID</code>.</li>
-<li>When the function call <code>validate("378282246310005")</code> is executed, the output of the program should be: <code>AMEX</code></li>
-</ul>
-<h2 id="testing">Testing</h2>
-<ul>
-<li>Run the file <code>testcreditcard.py</code> to execute the <code>PyUnit</code> test bench. <code>PyUnit</code> indicates a successful test with an <code>OK</code> output, and an unsuccessful test with a <code>FAIL</code> output.</li>
+<li>You may use any standard <strong>screenshot</strong> software application to capture this code segment as an image, and then paste it into your file.</li>
+<li>Explain how your abstraction helped manage the complexity of your program.</li>
+<li><strong>[Must not exceed 200 words]</strong></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>creditcard.py</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
-</ul></div>
+<li>Submit your <code>.pdf</code> file by uploading it to the <a href="https://digitalportfolio.collegeboard.org/"><strong>AP Digital Porfolio</strong></a> platform.</li>
+<li>Click on the <strong>Create</strong> tab on the left-hand navigation menu. Then, select the <strong>Individual Written Responses</strong> link. You should see the following webpage appear, which contains the <strong>Upload New</strong> button. Click on this button, and select the file you wish to upload.</li>
+<li>At this point, the webpage indicates that your file has successfully uploaded.</li>
+<li><strong>IMPORTANT: DO NOT CLICK ON THE <code>Submit Final</code> BUTTON.</strong></li>
+<li>I need to inspect your submissions and ensure that they are complete. Once I am satisfied that your Create Task meets all of AP's requirements, then we can formally submit your work for official AP grading.</li>
+</ul>
+<hr />
+<p><img alt="Written Responses" src="/csp/img/writtenresponses.png" /></p></div>
         
         
     </div>
