@@ -40,10 +40,10 @@
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
 + **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 2nd.
 + [Create Task 1](create01.md): **Proposal** is due on Monday, March 2nd.
-+ [Create Task 2](create02.md): **Programming** is due later.
-+ [Create Task 3](create03.md): **Video Production** is due later.
-+ [Create Task 4](create04.md): **Written Responses** is due later.
-+ [Create Task 5](create05.md): **Program Code** is due later.
++ [Create Task 2](create02.md): **Programming** is due on Monday, March 9th.
++ [Create Task 3](create03.md): **Video Production** is due on Monday, March 16th.
++ [Create Task 4](create04.md): **Written Responses** is due on Monday, March 23rd.
++ [Create Task 5](create05.md): **Program Code** is due on Monday, March 30th.
 
 ## Course Calendar: Semester Two
 
@@ -75,10 +75,10 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2 *School Resumes*<br>[**Explore Task Due**](explore.md)<br>[**Create Task 1 Due**](create01.md) | 3       | 4         | 5        | 6      | 7 
-8      | 9      | 10      | 11        | 12       | 13     | 14
-15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
-22     | 23     | 24      | 25        | 26       | 27     | 28
-29     | 30     | 31
+8      | 9 [**Create Task 2 Due**](create02.md) | 10      | 11        | 12       | 13     | 14
+15     | 16 [**Create Task 3 Due**](create03.md) | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
+22     | 23 [**Create Task 4 Due**](create04.md) | 24      | 25        | 26       | 27     | 28
+29     | 30 [**Create Task 5 Due**](create05.md) | 31
 
 ### April 2020
 
