@@ -15,19 +15,19 @@
 
 ## Written Response Prompts
 
-### **2a.** Provide a written response about your video which does the following:
+#### **2a.** Provide a written response about your video which does the following:
 + Identify the programming language.
 + Identify the purpose of your program.
 + Explain what the video illustrates.
 + **[Must not exceed 150 words]**
 
-### **2b.** Describe the incremental and iterative development process of your program, focusing on two distinct points in that process.
+#### **2b.** Describe the incremental and iterative development process of your program, focusing on two distinct points in that process.
 + Describe the difficulties and/or opportunities that you encountered, and how they were resolved, or incorporated.
 + In your description, clearly indicate whether the development process you described was collaborative or independent.
 + At least one of these points must refer to independent program development.
 + **[Must not exceed 200 words]**
 
-### **2c.** Capture and paste a program code segment that implements an algorithm(marked with an **oval** in **section 3**), that is fundamental for your program to achieve its intended purpose.
+#### **2c.** Capture and paste a program code segment that implements an algorithm(marked with an **oval** in **section 3**), that is fundamental for your program to achieve its intended purpose.
 + You may use any standard **screenshot** software application to capture this code segment as an image, and then paste it into your file.
 + This code segment must be an algorithm that:
     + You developed individually on your own.
@@ -36,7 +36,7 @@
 + Describe how each algorithm within your selected algorithm functions independently, as well as in combination with others, to form a new algorithm that helps to achieve the intended purpose of the program.
 + **[Must not exceed 200 words]**
 
-### **2d.** Capture and paste a program code segment that contains an abstraction that you developed individually on your own(marked with a **rectangle** in **section 3**). This abstraction must implement mathematical and logical concepts.
+#### **2d.** Capture and paste a program code segment that contains an abstraction that you developed individually on your own(marked with a **rectangle** in **section 3**). This abstraction must implement mathematical and logical concepts.
 + You may use any standard **screenshot** software application to capture this code segment as an image, and then paste it into your file.
 + Explain how your abstraction helped manage the complexity of your program.
 + **[Must not exceed 200 words]**
