@@ -19,5 +19,8 @@
 + For example, if you wrote your proposal using MS Word, then you will have to export that file to `pdf` format.
 + If you are unsure as to how to convert a document to `pdf`, please come see me for assistance.
 + You must submit this proposal using the **Assignments** tab on the [Sakai Learning Management System](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin).
+
+---
+
 ![Proposal screenshot](/csp/img/proposal.png)
 
