@@ -10,7 +10,7 @@ Description | File Size | File Name
 Installing PyCharm for `Python` development | 297KB | [installingPyCharm.pdf](/csp/pdf/installingPyCharm.pdf)
 Setting up the `KeePass` password manager | 3.1MB | [keePassManager.pdf](/csp/pdf/keePassManager.pdf)
 
-# Reference Material
+# Resource Material
 
 Description | File Size | File Name
 ----------- | --------- | ---------

@@ -24,8 +24,6 @@
 + You may compose the content of your program using any mainstream Integrated Development Environment(IDE) that you wish. For example, if you are writing a Python 3 program, then you should use PyCharm.
 + However, the final submitted code listing must be in `pdf` format(Portable Document Format).
 + If you are unsure as to how to convert a document to `pdf`, please come see me for assistance.
-+ You must submit this code listing using the Turn-In tab on EngradePro.
-
 + You must submit this proposal using the **Assignments** tab on the [Sakai Learning Management System](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin).
 
 ---

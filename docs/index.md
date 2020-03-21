@@ -37,20 +37,23 @@
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Python Dictionaries](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 + **Test 2: Python Lists and Dictionaries** will be held on Friday, December 13th.
-+ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
-+ **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 2nd.
-+ [Create Task 1](create01.md): **Proposal** is due on Monday, March 2nd.
-+ [Create Task 2](create02.md): **Programming** is due on Monday, March 9th.
-+ [Create Task 3](create03.md): **Video Production** is due on Monday, March 16th.
++ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library.
+---
++ **Winter Break Assignment:** [Explore Task](explore.md) is due on Monday, March 16nd.
++ [Create Task 1](create01.md): **Proposal** is due on Wednesday, March 18th.
++ [Create Task 2](create02.md): **Programming** is due on Thursday, March 19th.
++ [Create Task 3](create03.md): **Video Production** is due on Friday, March 20th.
 + [Create Task 4](create04.md): **Written Responses** is due on Monday, March 23rd.
 + [Create Task 5](create05.md): **Program Code** is due on Monday, March 30th.
 ---
-+ [Quiz 6: The Internet](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 18th.
++ [Quiz 6: The Internet](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 25th.
 + [Quiz 7: Algorithms](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 25th.
 + [Quiz 8: Global Impact](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, April 1st.
 ---
 + [Test 3: The Internet](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
-+ [Test 4: Global Impact](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.**
++ [Test 4: Global Impact](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.** -->
++ All Tasks and Quizzes are due on Tuesday, March 31st.
++ Tests 3 and 4 are postponed until further notice.
 
 ## Course Calendar: Semester Two
 
@@ -81,21 +84,21 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *School Resumes*<br>[**Explore Task Due**](explore.md)<br>[**Create Task 1 Due**](create01.md) | 3       | 4         | 5        | 6      | 7 
-8      | 9 [**Create Task 2 Due**](create02.md) | 10      | 11        | 12       | 13     | 14
-15     | 16 [**Create Task 3 Due**](create03.md) | 17 *St. Patrick's Day* | 18 [**Quiz 6 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 19       | 20 *Adult Ceremony* | 21
-22     | 23 [**Create Task 4 Due**](create04.md) | 24      | 25 [**Quiz 7 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 26       | 27 [**Test 3 Posted**](test03.md) | 28
-29     | 30 [**Create Task 5 Due**](create05.md)<br>[**Test 3 Due**](test03.md) | 31
+1      | 2  | 3 [CS50 Video: Internet Primer](https://www.youtube.com/watch?v=04GztBlVo_s&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=31&t=0s) | 4 [CS50 Video: Internet Protocol(IP)](https://www.youtube.com/watch?v=A1g9SokDJSU&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=32&t=0s) | 5 [CS50 Video: TCP](https://www.youtube.com/watch?v=GP7uvI_6uas&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=49&t=0s) | 6 [CS50 Video: HTTP](https://www.youtube.com/watch?v=4axL8Gfw2nI&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=28&t=0s) | 7 
+8      | 9  | 10 [Crash Course Video: Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&feature=emb_logo) | 11 [Crash Course Video: The Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&feature=emb_logo) | 12 [Crash Course Video: World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE&feature=emb_logo) | 13 [Crash Course Video: Cybersecurity](https://www.youtube.com/watch?v=bPVaOlJ6ln0&feature=emb_logo) | 14
+15     | 16  | 17 [Crash Course Video: Cryptography](https://www.youtube.com/watch?v=jhXCTbFnK8o&feature=emb_logo) | 18  | 19  | 20  | 21
+22     | 23  | 24      | 25  | 26       | 27  | 28
+29     | 30  | 31 **Tasks and Quizzes Due**
 
 ### April 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1 [**Quiz 8 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 2        | 3      | 4 
+       |        |         | 1  | 2        | 3      | 4 
 5      | 6 *Tomb Sweeping Holiday* | 7  *Mock Exams* | 8 *Mock Exams* | 9 *Mock Exams* | 10 *Mock Exams* | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24 [**Test 4 Posted**](test04.md) | 25
-26 *Make-up Day* | 27 [**Test 4 Due**](test04.md) | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
+19     | 20     | 21      | 22        | 23       | 24  | 25
+26 *Make-up Day* | 27  | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
 
 ### May 2020
 
