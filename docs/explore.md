@@ -11,7 +11,7 @@ Description | File Size | File Name
 Explore Task Comprehensive Guide | 318KB | [exploreTaskComprehensiveGuide.pdf](/csp/pdf/exploreTaskComprehensiveGuide.pdf)
 
 ## Task Outline
-+ **Due Date:** Monday, March 2nd, 2020
++ **Due Date:** Monday, March 30th, 2020
 + **Total Points:** 30
 + In this project, you will be expected to conduct an investigation on a **computing innovation** that can potentially have significant effects on our society, economy, or culture. Those effects may be beneficial, but they can also be harmful.
 + You will submit your Explore Task as two separate parts: the **computational artifact** and the **written response.**

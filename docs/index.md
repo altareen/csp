@@ -51,9 +51,19 @@
 + [Quiz 8: Global Impact](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, April 1st.
 ---
 + [Test 3: The Internet](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
-+ [Test 4: Global Impact](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.** -->
-+ All Tasks and Quizzes are due on Tuesday, March 31st.
-+ Tests 3 and 4 are postponed until further notice.
++ [Test 4: Global Impact](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.**
++ All quizzes have been **discontinued**, since that material is no longer part of the assessment curriculum. -->
++ The [AP Computer Science Principles Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be assesssed only on the **Explore Task** and the **Create Task** components. The multiple-choice section has been **removed**.
++ There will be **no CSP Mock Exam** held for this course.
+
+## Performance Tasks
+
++ [Explore Task](explore.md): **Computational Artifact** and **Written Responses**
++ [Create Task 1](create01.md): **Proposal**
++ [Create Task 2](create02.md): **Programming**
++ [Create Task 3](create03.md): **Video Production**
++ [Create Task 4](create04.md): **Written Responses**
++ [Create Task 5](create05.md): **Program Code**
 
 ## Course Calendar: Semester Two
 
@@ -78,7 +88,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 2      | 3      | 4       | 5         | 6        | 7      | 8 
 9      | 10     | 11      | 12        | 13       | 14     | 15
 16     | 17  | 18      | 19        | 20       | 21     | 22
-23     | 24  | 25      | 26        | 27       | 28     | 29 -->
+23     | 24  | 25      | 26        | 27       | 28     | 29 
 
 ### March 2020
 
@@ -88,38 +98,38 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9  | 10 [Crash Course Video: Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&feature=emb_logo) | 11 [Crash Course Video: The Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&feature=emb_logo) | 12 [Crash Course Video: World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE&feature=emb_logo) | 13 [Crash Course Video: Cybersecurity](https://www.youtube.com/watch?v=bPVaOlJ6ln0&feature=emb_logo) | 14
 15     | 16  | 17 [Crash Course Video: Cryptography](https://www.youtube.com/watch?v=jhXCTbFnK8o&feature=emb_logo) | 18  | 19  | 20  | 21
 22     | 23  | 24      | 25  | 26       | 27  | 28
-29     | 30  | 31 **Tasks and Quizzes Due**
+29     | 30  | 31 -->
 
 ### April 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1  | 2        | 3      | 4 
-5      | 6 *Tomb Sweeping Holiday* | 7  *Mock Exams* | 8 *Mock Exams* | 9 *Mock Exams* | 10 *Mock Exams* | 11
+       |        |         | 1 **Draft Version of Explore Task Due** | 2        | 3      | 4 
+5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24  | 25
-26 *Make-up Day* | 27  | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
+19     | 20 **Draft Version of Create Task Due** | 21      | 22        | 23       | 24  | 25
+26     | 27  | 28      | 29        | 30 
 
 ### May 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 *May Day Holiday* | 2 
-3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 *Make-up Day*
-10     | 11     | 12      | 13        | 14       | 15 **AP CSP Exam 8:00AM** | 16
+3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 
+10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
-24     | 25     | 26      | 27        | 28       | 29 *G12 Final Exams* | 30
+24     | 25     | 26 **Explore & Create Task Submission Deadline** | 27        | 28       | 29     | 30
 31
 
 ### June 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       | 1 *G12 Final Exams* | 2       | 3         | 4        | 5      | 6
+       | 1      | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
-14     | 15     | 16 *Graduation Ceremony* | 17 *G11 Final Exams* | 18 *G11 Final Exams* | 19 *G11 Final Exams* | 20
-21     | 22 *G11 Final Exams* | 23 *G11 Final Exams* | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
-28 *Make-up Day* | 29     | 30
+14     | 15     | 16      | 17  | 18     | 19  | 20
+21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
+28     | 29     | 30
 
 ### July 2020
 
@@ -131,7 +141,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
 
-## Course Calendar: Semester One
+<!-- ## Course Calendar: Semester One
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
@@ -174,5 +184,5 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13 **Test 2: Lists & Dictionaries** | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
-29     | 30     | 31 *NYE Carnival* | | | | 
+29     | 30     | 31 *NYE Carnival* | | | | -->
 

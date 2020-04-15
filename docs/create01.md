@@ -4,7 +4,7 @@
     [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Submit assignments in `pdf` format to this grading platform.
 
 ## Task Outline
-+ **Due Date:** Monday, March 2, 2020
++ **Due Date:** Monday, March 30th, 2020
 + **Total Points:** 10
 + Write a proposal for the software application that you will design and implement for your **Create Task**.
 

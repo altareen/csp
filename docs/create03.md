@@ -4,7 +4,7 @@
     [AP Digital Portfolio:](https://digitalportfolio.collegeboard.org/) Submit your video assignment to this grading platform.
 
 ## Task Outline
-+ **Due Date:** Monday, March 16, 2020
++ **Due Date:** To be announced.
 + **Total Points:** 10
 + Make a video that demonstrates the running of at least one significant feature of your program.
 
