@@ -3,6 +3,13 @@
 !!! note ""
     [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Submit assignments in `pdf` format to this grading platform.
 
+## Comprehensive Guide
++ The folloiwng is a comprehensive guide to aid you in this task. It contains a great deal of tips and hints that will help you complete this project.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Create Task Comprehensive Guide | 369KB | [createTaskComprehensiveGuide.pdf](/csp/pdf/createTaskComprehensiveGuide.pdf)
+
 ## Task Outline
 + **Due Date:** To be announced.
 + **Total Points:** 10

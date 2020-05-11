@@ -98,7 +98,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9  | 10 [Crash Course Video: Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&feature=emb_logo) | 11 [Crash Course Video: The Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&feature=emb_logo) | 12 [Crash Course Video: World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE&feature=emb_logo) | 13 [Crash Course Video: Cybersecurity](https://www.youtube.com/watch?v=bPVaOlJ6ln0&feature=emb_logo) | 14
 15     | 16  | 17 [Crash Course Video: Cryptography](https://www.youtube.com/watch?v=jhXCTbFnK8o&feature=emb_logo) | 18  | 19  | 20  | 21
 22     | 23  | 24      | 25  | 26       | 27  | 28
-29     | 30  | 31 -->
+29     | 30  | 31 
 
 ### April 2020
 
@@ -108,7 +108,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20 **Draft Version of Create Task Due** | 21      | 22        | 23       | 24  | 25
-26     | 27  | 28      | 29        | 30 
+26     | 27  | 28      | 29        | 30 -->
 
 ### May 2020
 
