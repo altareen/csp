@@ -3,6 +3,13 @@
 !!! note ""
     [AP Digital Portfolio:](https://digitalportfolio.collegeboard.org/) Submit your video assignment to this grading platform.
 
+## Comprehensive Guide
++ The folloiwng is a comprehensive guide to aid you in this task. It contains a great deal of tips and hints that will help you complete this project.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Create Task Comprehensive Guide | 369KB | [createTaskComprehensiveGuide.pdf](/csp/pdf/createTaskComprehensiveGuide.pdf)
+
 ## Task Outline
 + **Due Date:** To be announced.
 + **Total Points:** 10

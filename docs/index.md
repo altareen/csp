@@ -52,18 +52,16 @@
 ---
 + [Test 3: The Internet](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
 + [Test 4: Global Impact](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.**
-+ All quizzes have been **discontinued**, since that material is no longer part of the assessment curriculum. -->
++ All quizzes have been **discontinued**, since that material is no longer part of the assessment curriculum.
 + The [AP Computer Science Principles Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be assesssed only on the **Explore Task** and the **Create Task** components. The multiple-choice section has been **removed**.
-+ There will be **no CSP Mock Exam** held for this course.
++ There will be **no CSP Mock Exam** held for this course. -->
++ Students are assigned an [Individual Project](/csp/pdf/apCSPrinciplesIndividualProject.pdf) to work on for the remainder of this semester.
++ There will be no **Final Semester Exam** held for this course.
 
 ## Performance Tasks
 
-+ [Explore Task](explore.md): **Computational Artifact** and **Written Responses**
 + [Create Task 1](create01.md): **Proposal**
 + [Create Task 2](create02.md): **Programming**
-+ [Create Task 3](create03.md): **Video Production**
-+ [Create Task 4](create04.md): **Written Responses**
-+ [Create Task 5](create05.md): **Program Code**
 
 ## Course Calendar: Semester Two
 
@@ -108,7 +106,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20 **Draft Version of Create Task Due** | 21      | 22        | 23       | 24  | 25
-26     | 27  | 28      | 29        | 30 -->
+26     | 27  | 28      | 29        | 30 
 
 ### May 2020
 
@@ -119,7 +117,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26 **Explore & Create Task Submission Deadline** | 27        | 28       | 29     | 30
-31
+31 -->
 
 ### June 2020
 
@@ -127,7 +125,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        | 1      | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
-14     | 15     | 16      | 17  | 18     | 19  | 20
+14     | 15     | 16      | 17        | 18       | 19     | 20
 21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
 28     | 29     | 30
 
@@ -135,8 +133,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4 
-5      | 6      | 7       | 8 *Summer Break Begins* | 9        | 10      | 11
+       |        |         | 1         | 2        | 3 *Summer Break Begins* | 4 
+5      | 6      | 7       | 8         | 9        | 10      | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
