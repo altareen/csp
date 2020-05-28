@@ -55,8 +55,9 @@
 + All quizzes have been **discontinued**, since that material is no longer part of the assessment curriculum.
 + The [AP Computer Science Principles Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be assesssed only on the **Explore Task** and the **Create Task** components. The multiple-choice section has been **removed**.
 + There will be **no CSP Mock Exam** held for this course. -->
-+ Students are assigned an [Individual Project](/csp/pdf/apCSPrinciplesIndividualProject.pdf) to work on for the remainder of this semester.
-+ There will be no **Final Semester Exam** held for this course.
++ Students are assigned an **Individual Project** to work on for the remainder of this semester. Download the following document:
++ Individual Project Specification(PDF/60KB): [cspIndividualProject.pdf](/csp/pdf/cspIndividualProject.pdf)
++ Note that there will be no **Final Semester Exam** held for this course.
 
 ## Performance Tasks
 
