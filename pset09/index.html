@@ -8,20 +8,26 @@
     
     
     
-    <link rel="../img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
     
     <title>Problem Set 9: Radiation Exposure - CSP</title>
     
 
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
-    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="../css/base.min.css" rel="stylesheet">
     <link href="../css/cinder.min.css" rel="stylesheet">
-    <link href="../css/highlight.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
     <link href="../css/tablefont.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,15 +35,6 @@
             <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
         <![endif]-->
-
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-    WebFont.load({
-        google: {
-            families: ['Open Sans', 'PT Sans']
-        }
-    });
-    </script>
 
     
 
@@ -62,7 +59,9 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href="..">CSP</a>
+            
+              <a class="navbar-brand" href="..">CSP</a>
+            
         </div>
 
         <!-- Expanded navigation -->
@@ -374,9 +373,8 @@
 <ul>
 <li>Once we've done that, we can figure out the area of each rectangle pretty easily. Recall that the area of a rectangle is determined by multiplying the height of a rectangle by its width. The height of this rectangle is the value of the curve at <code>5.0</code>. If the curve is described by a function, <code>f(x)</code>, then we can obtain the value of the curve by calculating <code>f(5.0)</code>.</li>
 </ul>
-<pre><code class="python">f(5.0) = 5.181
+<pre><code class="language-python">f(5.0) = 5.181
 </code></pre>
-
 <p><img alt="Area of rectangle" src="/csp/img/decayFigure5.png" title="Area of rectangle" /></p>
 <ul>
 <li>The width of this rectangle is <code>1.0</code>. So, the area of this single rectangle is: <code>1.0 * 5.181 = 5.181</code>. To approximate how much radiation Sarina was exposed to, we then calculate the area of each successive rectangle, and then sum up the areas of each rectangle to get the total. When we do this, we find that Sarina was exposed to <code>22.94241041057671 MBq</code> of radiation.</li>
@@ -389,21 +387,18 @@
 <li>Therefore, you will need to seek another approach that can handle decimal-valued rectangle widths.</li>
 <li>You should find out the number of rectangles that are within the defined region. How would you calculate this number? Perhaps the following equation would work:</li>
 </ul>
-<pre><code class="python">gaps = (stop-start)/step
+<pre><code class="language-python">gaps = (stop-start)/step
 </code></pre>
-
 <ul>
 <li>Then, you should create a list which has the same size as the number of rectangles, with all of its elements initialized to <code>0</code>. Recall that the multiplication operator can perform this task:</li>
 </ul>
-<pre><code class="python">timeposts = [0] * gaps
+<pre><code class="language-python">timeposts = [0] * gaps
 </code></pre>
-
 <ul>
 <li>Next, you should loop across the <code>timeposts</code> list, and fill it with <code>time</code> values that correspond to the position of each rectangle. For the example described in the Background section, the <code>timeposts</code> list would be as follows:</li>
 </ul>
-<pre><code class="python">timeposts = [5, 6, 7, 8, 9, 10]
+<pre><code class="language-python">timeposts = [5, 6, 7, 8, 9, 10]
 </code></pre>
-
 <ul>
 <li>Then, it is simply a matter of looping across the <code>timeposts</code> list, calculating the product of <code>f(x)*step</code>, and summing each of these products to result in the area under the curve.</li>
 </ul>
@@ -425,11 +420,10 @@
 </tbody>
 </table>
 <p><strong>Contents of <code>pset09.zip</code>:</strong></p>
-<pre><code class="bash">PSet09RadiationExposure/
+<pre><code class="language-bash">PSet09RadiationExposure/
 ├── radiationexposure.py
 └── testradiationexposure.py
 </code></pre>
-
 <h2 id="specification">Specification</h2>
 <ul>
 <li>Write a <code>Python</code> program in the file <code>radiationexposure.py</code> which calculates the amount of radiation exposure in a given time period.</li>
@@ -448,19 +442,29 @@
         
     </div>
 
-    <footer class="col-md-12 text-center">
-        
-        <hr>
-        <p>
-        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
 
-        
-        
-    </footer>
+          
+          
+      </footer>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap-3.0.3.min.js"></script>
-    <script src="../js/highlight.pack.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
     <script>hljs.initHighlightingOnLoad();</script>
+    
+
     <script>var base_url = ".."</script>
     
     <script src="../js/base.js"></script>
@@ -471,8 +475,11 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
                 <p>
