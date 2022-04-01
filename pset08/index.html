@@ -37,23 +37,6 @@
         <![endif]-->
 
     
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', '258329470', 'altareen.github.io/csp');
-    ga('send', 'pageview');
-    </script>
-    
 
      
 </head>
@@ -372,9 +355,9 @@
 </ul>
 <h3 id="calculating-the-check-digit">Calculating the Check Digit</h3>
 <ul>
-<li>The check digit of an <code>ISBN-10</code> number can be defined as follows. If <span><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span> represents an <code>ISBN-10</code>'s first digit, and <span><span class="MathJax_Preview">x_{10}</span><script type="math/tex">x_{10}</script></span> represents its last digit, then we have the following:</li>
+<li>The check digit of an <code>ISBN-10</code> number can be defined as follows. If <span class="arithmatex"><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span> represents an <code>ISBN-10</code>'s first digit, and <span class="arithmatex"><span class="MathJax_Preview">x_{10}</span><script type="math/tex">x_{10}</script></span> represents its last digit, then we have the following:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 6 \cdot x_6 + 7 \cdot x_7 + 8 \cdot x_8 + 9 \cdot x_9)\, \mbox{modulus}\, 11
 </div>
@@ -389,7 +372,7 @@ x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 
 <ul>
 <li>For example, the <code>ISBN-10</code> for the textbook <em>Absolute Beginner's Guide to C</em>, is <code>0-789-75198-4</code>, the tenth digit of which is <code>4</code>. Let's take the sum of the products of the<code>ISBN-10</code>'s first nine digits:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 (1 \cdot \texttt{0}) + (2 \cdot \texttt{7}) + (3 \cdot \texttt{8}) + (4 \cdot \texttt{9}) + (5 \cdot \texttt{7}) + (6 \cdot \texttt{5}) + (7 \cdot \texttt{1}) + (8 \cdot \texttt{9}) + (9 \cdot \texttt{8}) = 290
 </div>

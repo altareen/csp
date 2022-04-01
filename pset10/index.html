@@ -37,23 +37,6 @@
         <![endif]-->
 
     
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', '258329470', 'altareen.github.io/csp');
-    ga('send', 'pageview');
-    </script>
-    
 
      
 </head>
@@ -394,7 +377,7 @@
 <li>Consider an example of Luhn's algorithm with the following American Express number: 378282246310005</li>
 <li>For the sake of clarity, I have underlined every other digit, starting with the number's second-to-last digit:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
 </div>
@@ -405,7 +388,7 @@
 <ul>
 <li>Then, multiply each of the underlined digits(highlighted in bold) by 2:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 \textbf{7}\cdot{2} + \textbf{2}\cdot{2} + \textbf{2}\cdot{2} + \textbf{4}\cdot{2} + \textbf{3}\cdot{2} + \textbf{0}\cdot{2} + \textbf{0}\cdot{2}
 </div>
@@ -416,7 +399,7 @@
 <ul>
 <li>The partial products are as follows:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 14 + 4 + 4 + 8 + 6 + 0 + 0
 </div>
@@ -427,7 +410,7 @@
 <ul>
 <li>Next, add those products' digits(<strong>Note:</strong> not the products themselves) together:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
 </div>
@@ -438,7 +421,7 @@
 <ul>
 <li>Now, add the result of 27 to the sum of the digits in the credit card number that <strong>weren't</strong> multiplied by 2:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 = 60
 </div>
@@ -454,7 +437,7 @@
 <li>Note that the credit card number is being brought into the function as a string. This means that you will have to perform string slicing throughout your program, and convert between string values and integers. Use <code>int()</code> and <code>str()</code> to perform these conversions.</li>
 <li>Luhn's algorithm clearly specifies that you must sum the digits starting from the <strong>second-to-last digit</strong>. Does this mean that you have to perform a reverse loop? Not necessarily. Think about what happens when a credit card has an <strong>odd</strong> quantity of digits, it means that we have to sum all of the elements located at the <strong>odd-numbered</strong> indexes:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 3\underline{7}8\underline{2}8\underline{2}2\underline{4}6\underline{3}1\underline{0}0\underline{0}5
 </div>
@@ -465,7 +448,7 @@
 <ul>
 <li>Now, think about what happens when a credit card has an <strong>even</strong> quantity of digits. In this case, we have to sum all of the elements located at the <strong>even-numbered</strong> indexes:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 \underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}5\underline{1}0\underline{5}1\underline{0}0
 </div>
